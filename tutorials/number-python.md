@@ -1,7 +1,7 @@
 ---
 layout: tutorial
-title: Pendahuluan Python
-permalink: /tutorial/apa-itu-python
+title: Number Python
+permalink: /tutorial/number-python
 ---
 
 ---
@@ -18,7 +18,7 @@ asdf
 asdf
 
 
-### Python Case Sensitivitys
+### Python Case Sensitivity
 asdf
 
 
@@ -26,9 +26,9 @@ asdf
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
-        
+        <a href="/tutorial/loop-python"><i class="fas fa-arrow-circle-left"></i>Loop Python</a>
     </div>
     <div class="col-md-6 next-tutorial">
-        <a href="/tutorial/instalasi-python" class="hoverable">Instalasi Python<i class="fas fa-arrow-circle-right"></i></a>
+        <a href="/tutorial/string-python" class="hoverable">String Python<i class="fas fa-arrow-circle-right"></i></a>
     </div>
 </div>
