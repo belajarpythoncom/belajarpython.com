@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+
+<div class="page-content container">
+  <div class="entry">
+    <div class="row">
+      <div class="col-3">
+        <div class="tutorial-menu">
+          <ul>
+            <li class="{% if(page.title == 'Pendahuluan Python' ) %}active{% endif%}"><a href="">Pendahuluan</a></li>
+            <li class="{% if(page.title == 'Instalasi Python' ) %}active{% endif%}"><a href="">Instalasi</a></li>
+            <li class="{% if(page.title == 'Menjalankan Python' ) %}active{% endif%}"><a href="">Menjalankan</a></li>
+            <li class="{% if(page.title == 'Hello World Python' ) %}active{% endif%}"><a href="">Hello World</a></li>
+            <li class="{% if(page.title == 'Komentar Python' ) %}active{% endif%}"><a href="">Komentar</a></li>
+            <li class="{% if(page.title == 'Tipe Data Python' ) %}active{% endif%}"><a href="">Tipe Data</a></li>
+            <li class="{% if(page.title == 'Variabal Python' ) %}active{% endif%}"><a href="">Variabel</a></li>
+            <li class="{% if(page.title == 'Operator Python' ) %}active{% endif%}"><a href="">Operator</a></li>
+            <li class="{% if(page.title == 'Kondisi Python' ) %}active{% endif%}"><a href="">Kondisi</a></li>
+            <li class="{% if(page.title == 'Loop Python' ) %}active{% endif%}"><a href="">Loop</a></li>
+            <li class="{% if(page.title == 'Number Python' ) %}active{% endif%}"><a href="">Number</a></li>
+            <li class="{% if(page.title == 'String Python' ) %}active{% endif%}"><a href="">String</a></li>
+            <li class="{% if(page.title == 'List Python' ) %}active{% endif%}"><a href="">List</a></li>
+            <li class="{% if(page.title == 'Tuple Python' ) %}active{% endif%}"><a href="">Tuple</a></li>
+            <li class="{% if(page.title == 'Dictionary Python' ) %}active{% endif%}"><a href="">Dictionary</a></li>
+            <li class="{% if(page.title == 'Tanggal & Waktu Python' ) %}active{% endif%}"><a href="">Tanggal & Waktu</a></li>
+            <li class="{% if(page.title == 'Fungsi Python' ) %}active{% endif%}"><a href="">Fungsi</a></li>
+            <li class="{% if(page.title == 'Modul Python' ) %}active{% endif%}"><a href="">Modul</a></li>
+            <li class="{% if(page.title == 'File I/O Python' ) %}active{% endif%}"><a href="">File I/O</a></li>
+            <li class="{% if(page.title == 'Exception Python' ) %}active{% endif%}"><a href="">Exception</a></li>
+            <li class="{% if(page.title == 'Object & ClassPython' ) %}active{% endif%}"><a href="">Object & Class</a></li>
+            <li class="{% if(page.title == 'Akses Database Python' ) %}active{% endif%}"><a href="">Akses Database</a></li>
+            <li class="{% if(page.title == 'Networking Python' ) %}active{% endif%}"><a href="">Networking</a></li>
+            <li class="{% if(page.title == 'Pengembangan Web Python' ) %}active{% endif%}"><a href="">Pengembangan Web</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-9">
+        <article class="post">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+          {% include disqus.html %}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

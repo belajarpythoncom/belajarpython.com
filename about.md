@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: About
 permalink: /about/
 ---
