@@ -1,8 +1,8 @@
 ---
 layout: tutorial
-title:  "Memulai Python"
+title:  "Pendahuluan Python"
 date:   2015-05-01 11:23:30 +0000
-categories:
+permalink: /2015/05/memulai-python_24.html
 ---
 
 ---
@@ -27,6 +27,6 @@ Hanya dengan menuliskan kode print seperti yang diatas, anda sudah bisa mencetak
         
     </div>
     <div class="col-md-6 next-tutorial">
-        <a href="/2015/05/instalasi-python.html" class="hoverable">Instalasi Python<i class="fas fa-arrow-circle-right"></i></a>
+        <a href="/tutorial/instalasi-python" class="hoverable">Instalasi Python<i class="fas fa-arrow-circle-right"></i></a>
     </div>
 </div>

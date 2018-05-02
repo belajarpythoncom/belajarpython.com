@@ -6,22 +6,39 @@ permalink: /tutorial/komentar-python
 
 ---
 
-asdf
+Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau tidak dijalankan mesin. Komentar hanya digunakan untuk menandai atau memberikan keterangan tertulis pada script.
 
-### Syntax Dasar
-asdf
+Komentar biasa digunakan untuk membiarkan orang lain memahami apa yang dilakukan script. atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.
+
+Untuk menggunakan komentar anda cukup menulis tanda pagar `#`, diikuti dengan komentar Anda.
+
+Dibawah ini adalah contoh penggunaan komentar pada Python
 
 {% highlight python %}
-asdf
+#Ini adalah komentar
+# Tulisan ini tidak akan dieksekusi
+
+#komentar dengan tanda pagar hanya bisa digunakan
+#untuk
+#satu
+#baris
+
+print("Hello World") #ini juga komentar
+
+#print("Welcome")
+
+# komentar bisa berisi spesial karakter !@#$%^&*(),./;'[]\
+
+#mencetak nama
+print("Budi")
+
+#mencetak angka/integer
+print(123)
 {% endhighlight %}
 
-asdf
+Saat anda menjalankan script diatas, Anda akan melihat output berupa `Hello World`, `Budi` dan `123`, karena tulisan/komentar yang ditulis tidak dieksekusi.
 
-
-### Python Case Sensitivity
-asdf
-
-
+---
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/komentar-python.md)
 
 <div class="row navigation-tutorial">

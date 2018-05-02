@@ -1,10 +1,12 @@
 ---
 layout: tutorial
-title: Loop Python
-permalink: /tutorial/loop-python
+title:  "Pengulangan (Loop) Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/pengulangan-for-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/loop-python) untuk membaca versi terbaru tutorial ini.
 
 Secara umum, pernyataan pada bahasa pemrograman akan dieksekusi secara berurutan. Pernyataan pertama dalam sebuah fungsi dijalankan pertama, diikuti oleh yang kedua, dan seterusnya. Tetapi akan ada situasi dimana Anda harus menulis banyak kode, dimana kode tersebut sangat banyak. Jika dilakukan secara manual maka Anda hanya akan membuang-buang tenaga dengan menulis beratus-ratus bahkan beribu-ribu kode. Untuk itu Anda perlu menggunakan pengulangan di dalam bahasa pemrograman Python.
 
@@ -67,8 +69,6 @@ while(i < 100):
 print "Good bye!"
 {% endhighlight %}
 
----
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/loop-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

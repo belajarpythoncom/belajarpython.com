@@ -1,10 +1,14 @@
 ---
 layout: tutorial
-title: Fungsi Python
-permalink: /tutorial/fungsi-python
+title:  "Fungsi Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/fungsi-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/fungsi-python) untuk membaca versi terbaru tutorial ini.
+
+
 
 Fungsi adalah blok kode terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan sebuah tindakan/action. Fungsi memberikan modularitas yang lebih baik untuk aplikasi Anda dan tingkat penggunaan kode yang tinggi.
 
@@ -27,9 +31,6 @@ def printme( str ):
    return
 {% endhighlight %}
 
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/fungsi-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

@@ -1,10 +1,12 @@
 ---
 layout: tutorial
-title: List Python
-permalink: /tutorial/list-python
+title:  "List Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/list-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/list-python) untuk membaca versi terbaru tutorial ini.
 
 Dalam bahasa pemrograman Python, struktur data yang paling dasar adalah urutan atau lists. Setiap elemen-elemen berurutan akan diberi nomor posisi atau indeksnya. Indeks pertama dalam list adalah nol, indeks kedua adalah satu dan seterusnya.
 
@@ -127,9 +129,6 @@ Python menyertakan methods built-in sebagai berikut
  | list.sort([func])	 | Urutkan objek list, gunakan compare func jika diberikan | 
 
 
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/list-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

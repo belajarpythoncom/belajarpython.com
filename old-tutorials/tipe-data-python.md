@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: Tipe Data Python
-permalink: /tutorial/tipe-data-python
+title:  "Tipe Data Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/tipe-data-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/tipe-data-python) untuk membaca versi terbaru tutorial ini.
+
 
 Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi.
 
@@ -62,10 +65,6 @@ print(biodata) #proses pencetakan variabel biodata yang berisi tipe data Diction
 type(biodata) #fungsi untuk mengecek jenis tipe data. akan tampil <class 'dict'> yang berarti dict adalah tipe data dictionary
 {% endhighlight %}
 
-
----
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/tipe-data-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

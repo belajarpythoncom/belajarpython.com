@@ -1,10 +1,15 @@
 ---
 layout: tutorial
-title: Tuple Python
-permalink: /tutorial/tuple-python
+title:  "Tuple Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/tuples-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/tuple-python) untuk membaca versi terbaru tutorial ini.
+
+
+
 
 Sebuah tupel adalah urutan objek Python yang tidak berubah. Tupel adalah urutan, seperti daftar. Perbedaan utama antara tupel dan daftarnya adalah bahwa tupel tidak dapat diubah tidak seperti List Python. Tupel menggunakan tanda kurung, sedangkan List Python menggunakan tanda kurung siku.
 
@@ -117,8 +122,6 @@ Python menyertakan fungsi built-in sebagai berikut
 | `max(tuple)` |		Mengembalikan item dari tuple dengan nilai maks. |	
 | `min(tuple)` |		Mengembalikan item dari tuple dengan nilai min. |	
 | `tuple(seq)` |		Mengubah tuple menjadi tuple. |	
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/tuple-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

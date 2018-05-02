@@ -1,10 +1,15 @@
 ---
 layout: tutorial
-title: Akses Database Python
-permalink: /tutorial/akses-database-python
+title:  "Akses Database Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/akses-database-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/akses-database-python) untuk membaca versi terbaru tutorial ini.
+
+
+
 Standar Interface Python untuk database adalah Python DB-API. Kebanyakan Interface database Python mematuhi standar ini.
 
 Anda bisa memilih database yang tepat untuk aplikasi Anda. API Database Python mendukung berbagai macam server database seperti.
@@ -297,8 +302,6 @@ Selain itu masih ada beberapa operasi sebagai berikut :
 - Disconnect Operation db.close()
 
 Jika Anda menginginkan dokumentasi yang lebih lengkap dari bahasa pemrograman python, silahkan buka dokumentasi resmi dari Python - [Dokumentasi Lengkap Python](https://docs.python.org/3/)
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/akses-database-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

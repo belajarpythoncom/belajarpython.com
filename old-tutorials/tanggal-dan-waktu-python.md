@@ -1,10 +1,14 @@
 ---
 layout: tutorial
-title: Tanggal & Waktu Python
-permalink: /tutorial/tanggal-waktu-python
+title:  "Tanggal & Waktu Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/tanggal-dan-waktu-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/tanggal-waktu-python) untuk membaca versi terbaru tutorial ini.
+
+
 
 Program Python dapat menangani tanggal dan waktu dengan beberapa cara. Konversi antara format tanggal adalah tugas umum untuk komputer. Modul waktu dan kalender Python melacak tanggal dan waktu.
 
@@ -137,8 +141,6 @@ Berikut adalah daftar fungsi yang tersedia dengan modul kalender:
  | calendar.setfirstweekday(weekday) | 	Mengatur hari pertama setiap minggu sampai hari kerja kode hari kerja. Kode hari kerja adalah 0 (Senin) sampai 6 (Minggu). | 
  | calendar.timegm(tupletime) | 	Kebalikan dari time.gmtime: menerima waktu instan dalam bentuk tupel waktu dan mengembalikan detik yang sama seperti jumlah floating-point dalam hitungan detik sejak zaman. | 
  | calendar.weekday(year,month,day)	 | Mengembalikan kode hari kerja untuk tanggal yang ditentukan. Kode hari kerja adalah 0 (Senin) sampai 6 (Minggu); Bulan adalah 1 (Januari) sampai 12 (Desember). | 
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/tanggal-waktu-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

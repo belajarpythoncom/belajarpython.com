@@ -1,10 +1,14 @@
 ---
 layout: tutorial
-title: File I/O Python
-permalink: /tutorial/file-io-python
+title:  "File I/O Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/input-output-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/file-io-python) untuk membaca versi terbaru tutorial ini.
+
+
 
 Disini kita akan belajar semua fungsi dasar I/O yang tersedia pada Python 3. Jika Anda ingin mempelajari lebih detail, lihat dokumentasi standar Python.
 
@@ -43,10 +47,6 @@ something:'10' #entered data treated as string with or without ''
 
 
 
-
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/file-io-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

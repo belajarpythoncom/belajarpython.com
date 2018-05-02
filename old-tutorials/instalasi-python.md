@@ -2,7 +2,7 @@
 layout: tutorial
 title:  "Instalasi Python"
 date:   2015-05-01 11:23:30 +0000
-categories:
+permalink: /2015/05/instalasi-python.html
 ---
 
 ---
@@ -38,12 +38,11 @@ Langkah ini akan menginstal Python di lokasi standar `/usr/local/bin` dan librar
 4. Ikuti langkah instalasi sampai selesai
 
 
-
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
-        <a href="/2015/05/memulai-python_24.html"><i class="fas fa-arrow-circle-left"></i>Pengertian Python</a>
+        <a href="/tutorial/apa-itu-python"><i class="fas fa-arrow-circle-left"></i>Pengertian Python</a>
     </div>
     <div class="col-md-6 next-tutorial">
-        <a href="/2015/05/menjalankan-python.html" class="hoverable">Menjalankan Python<i class="fas fa-arrow-circle-right"></i></a>
+        <a href="/tutorial/menjalankan-python" class="hoverable">Menjalankan Python<i class="fas fa-arrow-circle-right"></i></a>
     </div>
 </div>

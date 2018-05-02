@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: Modul Python
-permalink: /tutorial/modul-python
+title:  "Modul Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/modul-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/modul-python) untuk membaca versi terbaru tutorial ini.
+
 
 Modul memungkinkan Anda mengatur kode Python secara logis. Mengelompokkan kode terkait ke dalam modul membuat kode lebih mudah dipahami dan digunakan. Modul adalah objek Python dengan atribut yang diberi nama yang bisa Anda bind dan dijadikan referensi.
 
@@ -33,8 +36,6 @@ import support
 support.print_func("Andy")
 {% endhighlight %}
 
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/modul-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

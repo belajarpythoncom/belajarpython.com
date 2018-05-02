@@ -1,10 +1,12 @@
 ---
 layout: tutorial
-title: Variabel Python
-permalink: /tutorial/variabel-python
+title:  "Variabel Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/variabel-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/variabel-python) untuk membaca versi terbaru tutorial ini.
 
 Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. Ini berarti bahwa ketika Anda membuat sebuah variabel Anda memesan beberapa ruang di memori. Variabel menyimpan data yang dilakukan selama program dieksekusi, yang natinya isi dari variabel tersebut dapat diubah oleh operasi - operasi tertentu pada program yang menggunakan variabel.
 
@@ -55,8 +57,6 @@ luas = panjang * lebar
 print(luas)
 {% endhighlight %}
 
----
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/variabel-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

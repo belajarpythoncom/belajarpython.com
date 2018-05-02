@@ -2,11 +2,11 @@
 layout: tutorial
 title:  "Menjalankan Python"
 date:   2015-05-01 11:23:30 +0000
-categories:
+permalink: /2015/05/menjalankan-python.html
 ---
 
 ---
-> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/instalasi-python) untuk membaca versi terbaru tutorial ini.
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/menjalankan-python) untuk membaca versi terbaru tutorial ini.
 
 Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan sheel, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
 
@@ -49,11 +49,13 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 7. Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: `python cetak.py`).
 8. Script Python Anda akan dieksekusi/dijalankan.
 
+
+
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
-        <a href="/2015/05/instalasi-python.html"><i class="fas fa-arrow-circle-left"></i>Instalasi Python</a>
+        <a href="/tutorial/instalasi-python"><i class="fas fa-arrow-circle-left"></i>Instalasi Python</a>
     </div>
     <div class="col-md-6 next-tutorial">
-        <a href="/2015/05/ide-python.html" class="hoverable">IDE Python<i class="fas fa-arrow-circle-right"></i></a>
+        <a href="/tutorial/hello-world-python" class="hoverable">Hello World Python<i class="fas fa-arrow-circle-right"></i></a>
     </div>
 </div>

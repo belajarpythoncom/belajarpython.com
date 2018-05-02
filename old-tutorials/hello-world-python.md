@@ -2,12 +2,11 @@
 layout: tutorial
 title:  "Hello World Python"
 date:   2015-05-01 11:23:30 +0000
-categories:
+permalink: /2015/05/hello-world-python.html
 ---
 
 ---
-> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/instalasi-python) untuk membaca versi terbaru tutorial ini.
-
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/hello-world-python) untuk membaca versi terbaru tutorial ini.
 
 Syntax bahasa Python hampir sama dengan bahasa pemrograman pada umumnya seperti Java atau PHP.
 
@@ -29,15 +28,12 @@ Python bersifat case sensitif, ini artinya huruf besar dan huruf kecil memiliki 
 
 Aturan ini berlaku untuk nama variabel ataupun fungsi-fungsi lainnya.
 
-Selanjutnya kita akan mempelajari Komentar pada Python
-
-
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
-        <a href="/2015/05/integrated-development-environtment-ide.html"><i class="fas fa-arrow-circle-left"></i>IDE Python</a>
+        <a href="/tutorial/menjalankan-python"><i class="fas fa-arrow-circle-left"></i>Menjalankan Python</a>
     </div>
     <div class="col-md-6 next-tutorial">
-        <a href="/2015/05/komentar-python.html" class="hoverable">Komentar Python<i class="fas fa-arrow-circle-right"></i></a>
+        <a href="/tutorial/komentar-python" class="hoverable">Komentar Python<i class="fas fa-arrow-circle-right"></i></a>
     </div>
 </div>

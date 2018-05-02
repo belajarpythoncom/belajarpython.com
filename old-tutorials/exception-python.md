@@ -1,10 +1,14 @@
 ---
 layout: tutorial
-title: Exception Python
-permalink: /tutorial/exception-python
+title:  "Exception Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/exception-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/exception-python) untuk membaca versi terbaru tutorial ini.
+
+
 
 Python menyediakan dua fitur yang sangat penting untuk menangani kesalahan tak terduga dalam program Python Anda dan menambahkan kemampuan debugging di dalamnya.
 
@@ -48,7 +52,6 @@ Ketika skrip Python menimbulkan Exception, ia harus menangani Exception begitu s
 | RuntimeError	| 	Dibesarkan saat kesalahan yang dihasilkan tidak termasuk dalam kategori apa pun.	| 
 | NotImplementedError		| Dibesarkan ketika metode abstrak yang perlu diimplementasikan di kelas warisan sebenarnya tidak dilaksanakan.	| 
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/exception-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

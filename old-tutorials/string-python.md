@@ -1,10 +1,12 @@
 ---
 layout: tutorial
-title: String Python
-permalink: /tutorial/string-python
+title:  "String Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/string-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/string-python) untuk membaca versi terbaru tutorial ini.
 
 String adalah jenis yang paling populer di bahasa pemrograman. Kita bisa membuatnya hanya dengan melampirkan karakter dalam tanda kutip. Python memperlakukan tanda kutip tunggal sama dengan tanda kutip ganda. Membuat string semudah memberi nilai pada sebuah variabel.
 
@@ -177,8 +179,6 @@ Python menyertakan metode built-in berikut untuk memanipulasi string
 | `upper()`	 | 	Mengonversi huruf kecil dalam bentuk string ke huruf besar. | 
 | `zfill (width)`	 | 	Mengembalikan string asli yang tertinggal dengan angka nol ke total karakter lebar; Dimaksudkan untuk angka, zfill () mempertahankan tanda apapun yang diberikan (kurang satu nol). | 
 | `isdecimal()`	 | 	Mengembalikan nilai true jika string unicode hanya berisi karakter desimal dan false sebaliknya. | 
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/string-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

@@ -1,10 +1,15 @@
 ---
 layout: tutorial
-title: Object & Class Python
-permalink: /tutorial/object-class-python
+title:  "Objek & Class Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/objek-dan-class-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/object-class-python) untuk membaca versi terbaru tutorial ini.
+
+
+
 Python telah menjadi bahasa berorientasi objek sejak bahasa Python sendiri dibuat. Untuk membuat dan menggunakan kelas dan objek pada Python benar-benar mudah. Pada tutorial ini Anda akan dibantu untuk menjadi ahli dalam penggunaan pemrograman berorientasi objek Python.
 
 Jika Anda tidak memiliki pengalaman sebelumnya dengan pemrograman berorientasi objek (OOP), Anda mempelajarinya terlebih dahulu agar Anda dapat memahami konsep dasarnya.
@@ -103,9 +108,6 @@ emp2.displayEmployee()
 print ("Total Employee %d" % Employee.empCount)
 {% endhighlight %}
 
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/object-class-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

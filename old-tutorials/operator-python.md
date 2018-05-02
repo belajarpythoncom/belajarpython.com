@@ -1,10 +1,12 @@
 ---
 layout: tutorial
-title: Operator Python
-permalink: /tutorial/operator-python
+title:  "Operator Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/operator-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/operator-python) untuk membaca versi terbaru tutorial ini.
 
 Operator adalah konstruksi yang dapan memanipulasi nilai dari operan. 
 
@@ -128,9 +130,6 @@ Dari semua operator diatas, masing-masing mempunyai urutan prioritas yang nantin
 | `in, not in` |	Membership (Keanggotaan) |
 | `not, or, and` |	Logika |
 
-
----
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/operator-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

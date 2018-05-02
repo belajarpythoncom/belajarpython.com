@@ -1,10 +1,14 @@
 ---
 layout: tutorial
-title: Dictionary Python
-permalink: /tutorial/dictionary-python
+title:  "Dictionary Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/dictionary-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/dictionary-python) untuk membaca versi terbaru tutorial ini.
+
+
 
 Dictionary Python berbeda dengan List ataupun Tuple. Karena setiap urutanya berisi key dan value. Setiap key dipisahkan dari value-nya oleh titik dua (:), item dipisahkan oleh koma, dan semuanya tertutup dalam kurung kurawal. Dictionary kosong tanpa barang ditulis hanya dengan dua kurung kurawal, seperti ini: {}.
 
@@ -89,8 +93,6 @@ Python menyertakan method built-in sebagai berikut :
  | dict.update(dict2) | 	Menambahkan pasangan kunci kata kunci dict2 ke dict | 
  | dict.values() | 	Mengembalikan daftar nilai dictionary | 
 
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/dictionary-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

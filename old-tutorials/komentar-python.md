@@ -2,11 +2,11 @@
 layout: tutorial
 title:  "Komentar Python"
 date:   2015-05-01 11:23:30 +0000
-categories:
+permalink: /2015/05/komentar-python.html
 ---
 
 ---
-> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/instalasi-python) untuk membaca versi terbaru tutorial ini.
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/komentar-python) untuk membaca versi terbaru tutorial ini.
 
 Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau tidak dijalankan mesin. Komentar hanya digunakan untuk menandai atau memberikan keterangan tertulis pada script.
 
@@ -41,12 +41,11 @@ print(123)
 Saat anda menjalankan script diatas, Anda akan melihat output berupa `Hello World`, `Budi` dan `123`, karena tulisan/komentar yang ditulis tidak dieksekusi.
 
 
-
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
-        <a href="/2015/05/hello-world.html"><i class="fas fa-arrow-circle-left"></i>Hello World Python</a>
+        <a href="/tutorial/hello-world-python"><i class="fas fa-arrow-circle-left"></i>Hello World Python</a>
     </div>
     <div class="col-md-6 next-tutorial">
-        <a href="/2015/05/tipe-data-python.html" class="hoverable">Tipe Data Python<i class="fas fa-arrow-circle-right"></i></a>
+        <a href="/tutorial/tipe-data-python" class="hoverable">Tipe Data Python<i class="fas fa-arrow-circle-right"></i></a>
     </div>
 </div>

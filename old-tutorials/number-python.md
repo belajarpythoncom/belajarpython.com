@@ -1,10 +1,12 @@
 ---
 layout: tutorial
-title: Number Python
-permalink: /tutorial/number-python
+title:  "Number Python"
+date:   2015-05-01 11:23:30 +0000
+permalink: /2015/05/number-python.html
 ---
 
 ---
+> Anda sedang membaca tutorial versi lama, klik [disini](/tutorial/number-python) untuk membaca versi terbaru tutorial ini.
 
 Number adalah tipe data Python yang menyimpan nilai numerik. Number adalah tipe data yang tidak berubah. Ini berarti, mengubah nilai dari sejumlah tipe data akan menghasilkan objek yang baru dialokasikan.
 
@@ -105,9 +107,6 @@ Modul ini juga mendefinisikan dua konstanta matematika. Berikut adalah daftarnya
 
 
 
-
----
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/number-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
