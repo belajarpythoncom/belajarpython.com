@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+
+<div class="page-content container">
+  <div class="entry">
+    <div class="row">
+      <div class="col-12">
+        <article class="post">
+          <h1>{{ page.title }}</h1>
+          <div class="date">
+            Diterbitkan pada {{ page.date | date: "%e %B %Y" }}
+          </div>
+          {{ content }}
+        </article>
+        {% include disqus.html %}
+      </div>
+    </div>
+  </div>
+</div>
