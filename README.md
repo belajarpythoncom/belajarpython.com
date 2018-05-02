@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://belajarpythoncom.github.io/images/logo-belajarpython-ds.png"><br><br>
+  <img src="https://belajarpythoncom.github.io/images/logo-belajarpython-for-github.png"><br><br>
 </div>
 
 -----------------
