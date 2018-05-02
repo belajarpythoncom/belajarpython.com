@@ -4,7 +4,7 @@
 
 -----------------
 
-# [Belajarpython](https://www.belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpythoncom.github.io/docs/how-to-contribute.html)
+# [Belajarpython](https://www.belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpython.com/docs/how-to-contribute.html)
 
 Belajarpython adalah situs kolaboratif tutorial pemrograman Python bahasa Indonesia 
 
@@ -23,7 +23,7 @@ It is divided into several sections:
 * [Where to Get Support](https://belajarpython.org/community/support.html)
 * [Contributing Guide](https://belajarpython.org/docs/how-to-contribute.html)
 
-You can improve it by sending pull requests to [this repository](https://github.com/belajarpythoncom/belajarpythoncom.github.io).
+You can improve it by sending pull requests to [this repository](https://github.com/belajarpythoncom/belajarpython.com).
 
 ## Examples
 
@@ -48,7 +48,7 @@ Read our [contributing guide](https://belajarpython.org/contributing/how-to-cont
 
 ### Good First Issues
 
-To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/belajarpythoncom/belajarpythoncom.github.io/issues) that contain bugs which have a relatively limited scope. This is a great place to get started.
+To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/belajarpythoncom/belajarpythoncom.com/issues) that contain bugs which have a relatively limited scope. This is a great place to get started.
 
 ### License
 
