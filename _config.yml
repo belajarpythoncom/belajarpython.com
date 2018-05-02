@@ -36,7 +36,7 @@ permalink: /:year/:month/:title:output_ext
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-2110908-2
+google_analytics: UA-118615030-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
