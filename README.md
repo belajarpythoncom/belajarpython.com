@@ -4,7 +4,7 @@
 
 -----------------
 
-# [Belajarpython](https://www.belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpython.com/docs/how-to-contribute.html)
+# [Belajarpython](https://www.belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/belajarpythoncom/belajarpython.com/blob/master/LICENSE)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpython.com/docs/how-to-contribute.html)
 
 Belajarpython adalah situs kolaboratif tutorial pemrograman Python bahasa Indonesia 
 
