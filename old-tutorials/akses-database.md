@@ -1,8 +1,7 @@
 ---
 layout: tutorial
 title:  "Akses Database Python"
-date:   2015-05-01 11:23:30 +0000
-permalink: /2015/05/akses-database-python.html
+date:   2015-07-01 11:23:30 +0000
 ---
 
 ---
