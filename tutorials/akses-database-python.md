@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: Akses Database Python
-permalink: /tutorial/akses-database-python
+permalink: /tutorial/akses-database-python.html
 ---
 
 ---
