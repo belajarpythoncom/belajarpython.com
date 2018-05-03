@@ -1,1 +1,2 @@
+Running development in c9 online IDE
 bundle exec jekyll serve --host $IP --port $PORT
