@@ -5,7 +5,7 @@ permalink: /tutorial/pengembangan-web-python
 ---
 
 ---
-Pengembangan web adalah istilah umum untuk membuat konsep, membuat, menyebarkan, dan mengoperasikan aplikasi web dan antarmuka pemrograman aplikasi untuk Website.
+Pengembangan web adalah istilah umum untuk membuat konsep, membuat, menyebarkan, dan mengoperasikan aplikasi website dan antarmuka pemrograman aplikasi untuk Website.
 
 
 ### Penggunaan Python dalam Pengembangan Web
