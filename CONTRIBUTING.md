@@ -19,21 +19,14 @@ Dibawah ini adalah panduan untuk berkontribusi di Belajarpython, dimana website-
   * [Tutorial](#tutorial)
   * [Artikel](#artikel)
 
-[How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Your First Code Contribution](#your-first-code-contribution)
-  * [Pull Requests](#pull-requests)
+[Bagaimana cara berkontribusi?](#bagaimana-cara-berkontribusi?)
+  * [Meyempurnakan Tutorial](#menyempurnakan-tutorial)
+  * [Menulis Artikel](#menulis-artikel)
+  * [Melaporkan Bugs](#melaporkan-bugs)
 
 [Styleguides](#styleguides)
-  * [Git Commit Messages](#git-commit-messages)
-  * [JavaScript Styleguide](#javascript-styleguide)
-  * [CoffeeScript Styleguide](#coffeescript-styleguide)
-  * [Specs Styleguide](#specs-styleguide)
-  * [Documentation Styleguide](#documentation-styleguide)
+  * [Starterkit Artikel](#starterkit-artikel)
 
-[Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
 ---
 
 ## Code of Conduct
@@ -45,18 +38,24 @@ Proyek ini dan semua orang yang berpartisipasi di dalamnya diatur oleh [Code of 
 Belajarpython adalah situs terbuka sederhana untuk mempelajari bahasa pemrograman python, untuk saat ini situs terdiri dari dua bagian dasar, yaitu **Tutorial** dan **Artikel**. Setiap konten dari masing-masing bagian tersebut bebas untuk dimodifikasi oleh semua orang. 
 
 Konten artikel dan tutorial dapat diakses melalui menu navigasi di bagian kanan atas pada setiap halaman.
+
 ![atom-packages](/images/kontribusi-pengenalan-1.jpg)
 
 ### Tutorial
 Pada bagian tutorial menjelaskan tentang bagaimana cara memulai belajar bahasa pemrograman python untuk pemula, mulai dari bagian pengenalan, instalasi, dasar-dasar sampai ke bagian pembuatan website sederhana dengan menggunakan python.
+
 ![atom-packages](/images/kontribusi-pengenalan-2.jpg)
 
 ### Artikel
 Pada bagian artikel, dibahas semua hal tentang tips trik, tutorial penggunaan python untuk membuat berbagai aplikasi, berita tentang python dan hal-hal menarik lainya tentang bahasa pemrograman python. Setiap artikel/posting dibuat oleh satu orang dan bisa diperbaiki (improve) oleh semua orang. 
 ![atom-packages](/images/kontribusi-pengenalan-3.jpg)
 
+## Bagaimana cara berkontribusi?
 
+Untuk mulai berkontribusi di belajarpython Anda harus menggunakan akun Github. Jika anda belum mempunyai akun Github, silahkan untuk membuatnya terlebih dahulu.
 
+### Meyempurnakan Tutorial
+Setiap tutorial yang ada di website belajarpython belum sepenuhnya mudah dipahami oleh setiap pembaca. Anda bisa menyempurnakan setiap tutorial.
 Steps for creating good issues or pull requests.
 Links to external documentation, mailing lists, or a code of conduct.
 Community and behavioral expectations
