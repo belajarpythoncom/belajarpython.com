@@ -30,3 +30,7 @@ Kami hanya akan menyimpan informasi pribadi selama diperlukan untuk pemenuhan tu
 Kami berkomitmen untuk menjalankan bisnis kami sesuai dengan prinsip-prinsip ini dalam rangka untuk memastikan bahwa kerahasiaan informasi pribadi yang dilindungi dan dipelihara. Belajarpython dapat mengubah kebijakan privasi ini dari waktu ke waktu atas kebijakannya sendiri Belajarpython ini.
 
 Lihat halaman syarat dan ketentuan kami. [Syarat dan Ketentuan](/terms/)
+Pertanyaan seputar privasi di belajarpython.com. [support@belajarpython.com](mailto:support@belajarpython.com) 
+Kami akan segera menjawab setiap pertanyaan anda.
+
+Tanggal Efektif: 5 Mei 2018
