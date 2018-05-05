@@ -30,7 +30,7 @@ Belajarpython mungkin merevisi persyaratan layanan untuk situs web setiap saat t
 ##### Peraturan Pemerintah
 Syarat dan ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum Indonesia dan Anda tidak dapat ditarik kembali tunduk pada yurisdiksi eksklusif pengadilan di Negara itu atau lokasi.
 
-Lihat halaman kebijakan privasi kami. [Kebijakan Privasi](/privacy-policy/)
+Lihat halaman kebijakan privasi kami. [Kebijakan Privasi](https://belajarpython.com/privacy-policy/)
 
 Pertanyaan seputar syarat dan ketentuan di belajarpython.com. [support@belajarpython.com](mailto:support@belajarpython.com)
 
