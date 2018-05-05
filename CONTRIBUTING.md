@@ -4,7 +4,6 @@ title: Kontribusi di Belajarpython
 permalink: /contribute/
 ---
 
-# Kontribusi di Belajarpython
 
 :+1::tada: Sebelumnya, terimakasih banyak karena telah meluangkan waktu Anda untuk ikut berkontribusi! :tada::+1:
 
