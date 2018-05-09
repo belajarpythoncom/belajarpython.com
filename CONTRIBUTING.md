@@ -19,7 +19,7 @@ Dibawah ini adalah panduan untuk berkontribusi di Belajarpython, dimana website-
   * [Tutorial](#tutorial)
   * [Artikel](#artikel)
 
-[Bagaimana cara berkontribusi?](#bagaimana-cara-berkontribusi?)
+[Bagaimana cara berkontribusi?](#bagaimana-cara-berkontribusi)
   * [Meyempurnakan Tutorial](#menyempurnakan-tutorial)
   * [Menulis Artikel](#menulis-artikel)
   * [Melaporkan Bugs](#melaporkan-bugs)
@@ -48,7 +48,7 @@ Pada bagian artikel, dibahas semua hal tentang tips trik, tutorial penggunaan py
 
 ![edit-tutorial](/images/kontribusi-pengenalan-3.jpg)
 
-## Bagaimana cara berkontribusi?
+## Bagaimana cara berkontribusi
 
 Untuk mulai berkontribusi di belajarpython Anda harus menggunakan akun Github. Jika anda belum mempunyai akun Github, silahkan untuk membuatnya terlebih dahulu.
 
@@ -96,5 +96,8 @@ Tulis konten artikel disini...
 
 5. Klik tombol **Create pull request**
 ![tulis-artikel](/images/tulis-artikel-step-4.jpg)
+
+### Melaporkan Bugs
+Anda bisa melaporkan bug dan masalah website Belajarpython di Issue github.
 
 Jika ada pertanyaan terkait 'Kontribusi di Belajarpython' Silahkan kirim email ke [mailto:master@belajarpython.com](master@belajarpython.com)
