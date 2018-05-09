@@ -24,9 +24,6 @@ Dibawah ini adalah panduan untuk berkontribusi di Belajarpython, dimana website-
   * [Menulis Artikel](#menulis-artikel)
   * [Melaporkan Bugs](#melaporkan-bugs)
 
-[Styleguides](#styleguides)
-  * [Starterkit Artikel](#starterkit-artikel)
-
 ---
 
 ## Code of Conduct
@@ -39,16 +36,17 @@ Belajarpython adalah situs terbuka sederhana untuk mempelajari bahasa pemrograma
 
 Konten artikel dan tutorial dapat diakses melalui menu navigasi di bagian kanan atas pada setiap halaman.
 
-![atom-packages](/images/kontribusi-pengenalan-1.jpg)
+![edit-tutorial](/images/kontribusi-pengenalan-1.jpg)
 
 ### Tutorial
 Pada bagian tutorial menjelaskan tentang bagaimana cara memulai belajar bahasa pemrograman python untuk pemula, mulai dari bagian pengenalan, instalasi, dasar-dasar sampai ke bagian pembuatan website sederhana dengan menggunakan python.
 
-![atom-packages](/images/kontribusi-pengenalan-2.jpg)
+![edit-tutorial](/images/kontribusi-pengenalan-2.jpg)
 
 ### Artikel
 Pada bagian artikel, dibahas semua hal tentang tips trik, tutorial penggunaan python untuk membuat berbagai aplikasi, berita tentang python dan hal-hal menarik lainya tentang bahasa pemrograman python. Setiap artikel/posting dibuat oleh satu orang dan bisa diperbaiki (improve) oleh semua orang. 
-![atom-packages](/images/kontribusi-pengenalan-3.jpg)
+
+![edit-tutorial](/images/kontribusi-pengenalan-3.jpg)
 
 ## Bagaimana cara berkontribusi?
 
@@ -56,6 +54,47 @@ Untuk mulai berkontribusi di belajarpython Anda harus menggunakan akun Github. J
 
 ### Meyempurnakan Tutorial
 Setiap tutorial yang ada di website belajarpython belum sepenuhnya mudah dipahami oleh setiap pembaca. Anda bisa menyempurnakan setiap tutorial.
-Steps for creating good issues or pull requests.
-Links to external documentation, mailing lists, or a code of conduct.
-Community and behavioral expectations
+1. Klik link **Edit tutorial ini** yang berada di bagian bawah setiap tutorial.
+![edit-tutorial](/images/edit-tutorial-step-1.jpg)
+
+2. Klik tombol hijau **Fork this repository and propose changes**
+![edit-tutorial](/images/edit-tutorial-step-2.jpg)
+
+3. Edit bagian tutorial yang ingin anda sempurnakan. Jika sudah Klik tombol hijai **Propose file change**
+![edit-tutorial](/images/edit-tutorial-step-3.jpg)
+
+4. Berikan keterangan perubahan file dan Klik tombol **Create pull request**
+![edit-tutorial](/images/edit-tutorial-step-4.jpg)
+
+5. Klik **Create pull request**
+![edit-tutorial](/images/edit-tutorial-step-5.jpg)
+
+### Menulis Artikel
+Setiap orang bisa menulis artikel apapun yang berhubungan dengan bahasa pemrograman python. Setiap artikel yang Anda sumbangkan akan sangat berguna bagi orang lain yang ingin mempelajari bahasa pemrograman python. 
+1. Masuk ke repositori Belajarpython di github, klik folder **_posts**,  klik tombol **Create new file** atau klik link ini [https://github.com/belajarpythoncom/belajarpython.com/new/master/_posts](https://github.com/belajarpythoncom/belajarpython.com/new/master/_posts)
+
+![tulis-artikel](/images/tulis-artikel-step-1.jpg)
+
+2. Tuliskan nama file dengan format *tahun-bulan-tanggal-judul.md* 
+![tulis-artikel](/images/tulis-artikel-step-2.jpg)
+
+3. Tulis artikel dengan template dibawah ini.
+```
+---
+layout: article
+title: Tulis judul artikel disini
+date:   2018-05-09 16:16:01 -0600
+categories: tulis kategori disini
+---
+
+---
+Tulis konten artikel disini...
+
+```
+4. Klik tombol **Propose new file**
+![tulis-artikel](/images/tulis-artikel-step-3.jpg)
+
+5. Klik tombol **Create pull request**
+![tulis-artikel](/images/tulis-artikel-step-4.jpg)
+
+Jika ada pertanyaan terkait 'Kontribusi di Belajarpython' Silahkan kirim email ke [mailto:master@belajarpython.com](master@belajarpython.com)
