@@ -20,7 +20,7 @@ Dibawah ini adalah panduan untuk berkontribusi di Belajarpython, dimana website-
   * [Artikel](#artikel)
 
 [Bagaimana cara berkontribusi?](#bagaimana-cara-berkontribusi)
-  * [Meyempurnakan Tutorial](#menyempurnakan-tutorial)
+  * [Meyempurnakan Tutorial](#meyempurnakan-tutorial)
   * [Menulis Artikel](#menulis-artikel)
   * [Melaporkan Bugs](#melaporkan-bugs)
 
@@ -55,6 +55,7 @@ Untuk mulai berkontribusi di belajarpython Anda harus menggunakan akun Github. J
 ### Meyempurnakan Tutorial
 Setiap tutorial yang ada di website belajarpython belum sepenuhnya mudah dipahami oleh setiap pembaca. Anda bisa menyempurnakan setiap tutorial.
 1. Klik link **Edit tutorial ini** yang berada di bagian bawah setiap tutorial.
+
 ![edit-tutorial](/images/edit-tutorial-step-1.jpg)
 
 2. Klik tombol hijau **Fork this repository and propose changes**
@@ -92,9 +93,11 @@ Tulis konten artikel disini...
 
 ```
 4. Klik tombol **Propose new file**
+
 ![tulis-artikel](/images/tulis-artikel-step-3.jpg)
 
 5. Klik tombol **Create pull request**
+
 ![tulis-artikel](/images/tulis-artikel-step-4.jpg)
 
 ### Melaporkan Bugs
