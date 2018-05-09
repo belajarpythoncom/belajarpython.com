@@ -6,7 +6,7 @@ permalink: /tutorial/operator-python
 
 ---
 
-Operator adalah konstruksi yang dapan memanipulasi nilai dari operan. 
+Operator adalah konstruksi yang dapat memanipulasi nilai dari operan. 
 
 Sebagai contoh operasi 3 + 2 = 5. Disini `3` dan `2` adalah operan dan `+` adalah operator.
 
