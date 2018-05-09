@@ -6,7 +6,7 @@ layout: default
 <div class="page-content container">
   <div class="entry">
     <div class="row">
-      <div class="col-3">
+      <div class="col-3 hide-mobile">
         <div class="tutorial-menu">
           <ul>
             <li class="{% if(page.title == 'Pendahuluan Python' ) %}active{% endif%}"><a href="/tutorial/apa-itu-python">Pendahuluan</a></li>
@@ -36,7 +36,7 @@ layout: default
           </ul>
         </div>
       </div>
-      <div class="col-9">
+      <div class="col-12 col-md-9">
         <article class="post">
           <h1>{{ page.title }}</h1>
           {{ content }}

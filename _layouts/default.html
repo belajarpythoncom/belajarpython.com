@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS Fontawesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Roboto:100,200,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
     <!-- Structure content implementation -->
@@ -29,7 +30,8 @@
         <a id="navbar-brand-white" class="navbar-brand" href="/"><img src="/images/logo-belajarpython-140.png" alt="logo-groovy" width="140px"/></a>
         <a id="navbar-brand-grad" class="navbar-brand" href="/"><img src="/images/logo-belajarpython-140.png" alt="logo-groovy" width="140px"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon navbar-toggler-menu"><i class="material-icons" style="color:#fff;font-size:25px;padding-top:2px;">menu</i></i></span>
+          <span class="navbar-toggler-icon navbar-toggler-close"><i class="material-icons" style="color:#fff;font-size:25px;padding-top:2px;">close</i></i></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -65,7 +67,7 @@
           <div class="row">
             <div class="col-md-6">
               <h2>Mulai Belajar Python</h2>
-              <p>Python adalah bahasa pemrograman yang memungkinkan Anda bekerja lebih cepat dan mengintegrasikan sistem Anda dengan lebih efektif.</p>
+              <p>Python adalah bahasa pemrograman yang memungkinkan Anda bekerja lebih cepat dan mengintegrasikan sistem Anda lebih efektif.</p>
               <a href="/tutorial/apa-itu-python" class="button-white hoverable">Pelajari Sekarang</a>
             </div>
             <div class="col-md-6">
@@ -108,7 +110,8 @@
         <div class="container latest-article-content">
           <div class="row">
             
-            <div class="col-md-4">
+            
+             <div class="col-md-4 col-6 article-item">
               <div class="latest-article-card">
                 <a href="/2018/05/sastrawi-natural-language-processing-bahasa-indonesia.html">
                   <div class="card hoverable">
@@ -121,6 +124,9 @@
                 </a>
               </div>
             </div>
+            
+            
+            
             
             <!--
             <div class="col-md-4">
@@ -311,6 +317,18 @@
        * could be load with scroll down set.
        */
       offSetManager();
+      
+      
+      //Navbar Toggler
+      $(".navbar-toggler-menu").click(function(){
+          $(".navbar-toggler-menu").hide();
+          $(".navbar-toggler-close").show();
+      });
+      $(".navbar-toggler-close").hide();
+      $(".navbar-toggler-close").click(function(){
+          $(".navbar-toggler-close").hide();
+          $(".navbar-toggler-menu").show();
+      });
     </script>
   </body>
 </html>

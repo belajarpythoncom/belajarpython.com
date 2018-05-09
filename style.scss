@@ -1,9 +1,10 @@
 ---
 ---
 
-// Layout for mobile (mobile first)
+// Layout for desktop and above)
 body {
   background-color:#f1f3f4 !important;
+  overflow-x:hidden;
 }
 
 // Navigation
@@ -17,6 +18,7 @@ nav img {
 .navbar-dark .navbar-toggler {
   border-color: rgba(255,255,255,0) !important;
 }
+
 
 ///////////////
 //Homepage
@@ -251,9 +253,12 @@ footer {
   margin-right: 16px;
   font-size: 14px;
 }
+.footer-menu a:visited{
+  color: rgba(0,0,0,0.35);
+}
 .footer-menu a:hover{
   text-decoration:none;
-  color:#264c71;
+  color: rgba(0,0,0,0.8);
 }
 .footer-social {
   text-align:right !important;
@@ -263,6 +268,9 @@ footer {
   font-weight: 700;
   margin-right: 16px;
   font-size: 14px;
+}
+.footer-social a:visited{
+  color: rgba(0,0,0,0.35);
 }
 .footer-social .fa-instagram:hover {
   color:#000;
@@ -314,17 +322,117 @@ footer {
 }
 
 
-// Layout for laptop
-@media (min-width:992px) {
-  
+// Layout for mobile
+@media (max-width:768px) {
+  .navbar-collapse, .show {
+      background-color: rgb(255, 255, 255) !important;
+      margin: -1px -17px 0px -17px;
+      padding: 17px;
+      text-align: center;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 25px;
+      color: rgb(51, 51, 51) !important;
+  }
+  .navbar-bp .nav-item a{
+      color: rgba(0, 0, 0, 0.7) !important;
+      font-weight:500;
+  }
+  .navbar-bp.animation .nav-item a{
+      color: rgba(0, 0, 0, 0.7) !important;
+      font-weight:500;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+    border:0 !important;
+  }
+  .main-wall {
+    text-align: center;
+    margin-top: -60px;
+    padding: 178px 15px 4px 15px;
+  }
+  .main-wall h2 {
+    font-size:28px !important;
+  }
+  .main-wall p {
+    font-size:14px !important;
+    margin-bottom: 30px;
+  }
+  .main-wall-companies-using-python {
+    background-size: 150%;
+    margin-top: 5px;
+    height: 90px;
+  }
+  .three-step-python {
+    display:none;
+  }
+  .latest-article {
+    padding: 1px 0 28px 0;
+    margin-bottom:0;
+  }
+  .latest-article h3{
+    font-size:20px;
+  }
+  .latest-article-head {
+    margin-bottom: 16px;
+  }
+  .latest-article-content {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+  .latest-article-card h4 {
+    font-size: 16px;
+  }
+  .latest-article-card h6 {
+    font-size: 11px;
+    color: rgb(50, 106, 148) !important;
+  }
+  .latest-article-card .card-body {
+      padding: 14px 13px 6px 9px;
+      text-align:center;
+  }
+  .article-item {
+    padding:2px !important;
+  }
+  .latest-article-card {
+    margin: 5px 5px 5px 5px;
+  }
+  .latest-article-button {
+    margin-top: 25px;
+  }
+  .footer-menu a {
+    margin-right: 9px;
+  }
+  footer {
+    padding: 23px 10px 23px 10px;
+    text-align: center;
+  }
+  .footer-social {
+    text-align: center !important;
+    margin-top: 13px;
+  }
+  .footer-social a {
+    margin-right: 9px;
+  }
+  .page-content {
+    padding-right: 28px !important;
+    padding-left: 28px !important;
+    margin-top:0 !important;
+  }
+  .page-wrapper {
+    padding: 88px 0 5px 0;
+  }
+  .navigation-tutorial {
+    margin-top:38px;
+  }
+  .prev-tutorial {
+    text-align:center;
+    order:2;
+    margin-top: 34px;
+  }
+  .next-tutorial {
+    text-align:center;
+    order:1;
+  }
 }
-
-
-// Layout for widescreen
-@media (min-width:1200px) {
-  
-}
-
 
 
 /*------------------------Navbar----------------------------*/
