@@ -103,4 +103,4 @@ Tulis konten artikel disini...
 ### Melaporkan Bugs
 Anda bisa melaporkan bug dan masalah website Belajarpython di Issue github.
 
-Jika ada pertanyaan terkait 'Kontribusi di Belajarpython' Silahkan kirim email ke [mailto:master@belajarpython.com](master@belajarpython.com)
+Jika ada pertanyaan terkait 'Kontribusi di Belajarpython' Silahkan kirim email ke [master@belajarpython.com](master@belajarpython.com)
