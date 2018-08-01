@@ -225,7 +225,7 @@ try:
 except:
    print ("Error: unable to fetch data")
 
-# disconnect from server
+# menutup koneksi ke server
 db.close()
 {% endhighlight %}
 
