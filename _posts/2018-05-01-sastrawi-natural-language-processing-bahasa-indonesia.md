@@ -8,7 +8,7 @@ title: Sastrawi, Natural Language Processing Mudah Dengan Python
 
 Sastrawi adalah perpustakaan PHP sederhana yang memungkinkan Anda untuk mengurangi kata-kata yang terinfleksi dalam Bahasa Indonesia (Bahasa Indonesia) ke bentuk dasarnya (batang)
 
-Stemming adalah proses mengubah kata berimbuhan menjadi kata dasar. Contohnya:
+Stemming adalah proses mengubah kata berimbuhan menjadi kata dasar. Contoh:
 
 `menahan => tahan`
 `berbalas-balasan => balas`
