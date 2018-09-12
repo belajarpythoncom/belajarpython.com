@@ -432,7 +432,14 @@ footer {
     order:1;
   }
 }
-
+.container-bp{
+  width:1400px;margin:0 auto;
+}
+@media only screen and (max-width: 1400px) {
+    .container-bp{
+        width:100%;
+    }
+}
 
 /*------------------------Navbar----------------------------*/
 .navbar-bp{
