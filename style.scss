@@ -440,7 +440,13 @@ footer {
     font-size: 13px;
     margin:0 auto;
     margin-top:13px;
-    max-width:1400px;
+    width:1400px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .navbar-bp{
+        width:100%;
+    }
 }
 
 .navbar-brand{
@@ -515,8 +521,14 @@ footer {
 .navbar-bp.animation{
     background-color:#264c71;
     box-shadow: 0 3px 8px rgba(0,0,0,.1);
-    max-width:1400px;
+    width:1400px;
     margin:0 auto;
+}
+
+@media only screen and (max-width: 1400px) {
+    .navbar-bp.animation{
+        width:100%;
+    }
 }
 
 #navbar-brand-white{
