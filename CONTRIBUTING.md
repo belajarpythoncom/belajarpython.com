@@ -5,7 +5,7 @@ permalink: /contribute/
 ---
 
 
-:+1::tada: Sebelumnya, terimakasih banyak karena telah meluangkan waktu Anda untuk ikut berkontribusi! :tada::+1:
+Sebelumnya, terimakasih banyak karena telah meluangkan waktu Anda untuk ikut berkontribusi!
 
 Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan :trollface: developer, :man: mahasiswa, :older_woman: pengajar, bahkan :baby: anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan :heart: kontribusinya disini.
 
