@@ -4,7 +4,6 @@ title: Python Melesat di Daftar Bahasa Pemrograman Yang Paling Populer
 ---
 
 ---
-![Python Bahasa Pemrograman Populer](/images/posts/python-bahasa-pemrograman-populer.png "Python")
 
 Menurut Indeks Tiobe untuk September 2018, Java, C, dan Python adalah bahasa pemrograman paling populer di dunia.
 
