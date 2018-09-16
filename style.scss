@@ -63,7 +63,8 @@ nav img {
   margin-bottom:40px;
 }
 .latest-article-content {
-  max-width:900px !important;
+  max-width:1140px;
+  margin:0 auto;
 }
 .latest-article-card {
     background-color:#fff;
@@ -101,6 +102,26 @@ nav img {
 }
 .latest-article-button a:hover{
   text-decoration:none;
+}
+.article-card {
+  display: block !important;
+}
+.article-item {
+  margin-bottom:21px;
+}
+.article-image {
+  width:100%;
+  border-top-left-radius:calc(.25rem - 1px);
+  border-top-right-radius:calc(.25rem - 1px);
+}
+.article-title-wrapper {
+  width: 100%;
+  text-align: left !important;
+  padding-top: 28px !important;
+  padding-left: 35px !important;
+  padding-right: 30px !important;
+  float: left;
+  background-color: #fff;
 }
 
 
@@ -225,6 +246,9 @@ h3 {
 .mobile-only {
   display: inline;
 }
+.desktop-only {
+  display: none;
+}
 .hoverable{transition:box-shadow .2s;box-shadow: 6px 5px 16px 0px rgba(46,61,73,0.15)}.hoverable:hover{transition:box-shadow .2s;box-shadow:2px 2px 8px 0 rgba(46,61,73,.4)}.hoverable:active{transition:box-shadow .2s;box-shadow:0 0 0 0 transparent}
 kbd {
   display: inline-block !important;
@@ -318,6 +342,9 @@ footer {
   .mobile-only {
     display: none;
   }
+  .desktop-only {
+    display: inline;
+  }
 }
 
 
@@ -374,11 +401,11 @@ footer {
     margin-bottom: 16px;
   }
   .latest-article-content {
-    padding-right: 30px !important;
-    padding-left: 30px !important;
+    max-width:1140px;
+    margin: 0 auto;
   }
   .latest-article-card h4 {
-    font-size: 16px;
+    font-size: 15px;
   }
   .latest-article-card h6 {
     font-size: 11px;
@@ -389,13 +416,28 @@ footer {
       text-align:center;
   }
   .article-item {
-    padding:2px !important;
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 0px 0px !important;
+  }
+  .article-title-wrapper {
+    padding-top: 16px !important;
+    padding-left: 15px !important;
+    padding-right: 20px !important;
   }
   .latest-article-card {
-    margin: 5px 5px 5px 5px;
+    margin: 0px 15px;
   }
   .latest-article-button {
     margin-top: 25px;
+  }
+  .article-title-wrapper {
+    width: 70%;
+  }
+  .article-image {
+    width: 30% !important;
+    float: left !important;
   }
   .footer-menu a {
     margin-right: 9px;
