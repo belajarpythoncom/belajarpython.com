@@ -15,7 +15,7 @@ Belajarpython adalah situs kolaboratif tutorial pemrograman Python bahasa Indone
 
 ## Kontribusi
 
-Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan :trollface: developer, :man: mahasiswa, :older_woman: pengajar, bahkan :baby: anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan :heart: kontribusinya disini. [Kontribusi] (https://github.com/belajarpythoncom/belajarpython.com/blob/master/CONTRIBUTING.md)
+Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan :trollface: developer, :man: mahasiswa, :older_woman: pengajar, bahkan :baby: anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan :heart: kontribusinya [disini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/CONTRIBUTING.md)
 
 ### [Code of Conduct](https://belajarpython.com/docs/codeofconduct)
 
