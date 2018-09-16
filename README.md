@@ -8,47 +8,26 @@
 
 Belajarpython adalah situs kolaboratif tutorial pemrograman Python bahasa Indonesia 
 
-* **Ikuti Tutorial:** Belajarpython makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.
-* **Baca Artikel:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
-* **Ajukan Pertanyaan:** We don't make assumptions about the rest of your technology stack, so you can develop new features in Belajarpython without rewriting existing code.
-
-## Syllabus
-
-You can find the Belajarpython documentation [on the website](https://www.belajarpython.com/docs).  
-It is divided into several sections:
-
-* [Quick Start](https://belajarpython.org/docs/)
-* [Advanced Guides](https://belajarpython.org/docs/advanced.html)
-* [Tutorial](https://belajarpython.org/tutorial/tutorial.html)
-* [Where to Get Support](https://belajarpython.org/community/support.html)
-* [Contributing Guide](https://belajarpython.org/docs/how-to-contribute.html)
-
-You can improve it by sending pull requests to [this repository](https://github.com/belajarpythoncom/belajarpython.com).
-
-## Examples
-
-We have several examples [on the website](https://belajarpython.com/). Here is the first one to get you started:
-
-`print("Hello World")`
-
-This example will render "Hello John" into a container on the page.
+* **Ikuti Tutorial:** Mulai belajar bahasa pemrograman python dari tingkat dasar dengan tutorial yang dikhususkan untuk pemula agar lebih cepat mempelajari bahasa pemrograman python.
+* **Baca Artikel:** Baca artikel terbaru dan terpopuler tentang bahasa pemrograman python dengan beragam topik. Artikel dibuat oleh komunitas dan ditujukan untuk komunitas.
+* **Ajukan Pertanyaan:** Ajukan setiap pertanyaan yang anda temui tentang bahasa pemrograman python. Setiap orang di komunitas akan segera menyelesaikan setiap pertanyaan pengguna.
 
 
-## Contributing
+## Kontribusi
 
-The main purpose of this repository is to continue to evolve React core, making it faster and easier to use. Development of React happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. Read below to learn how you can take part in improving React.
+Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan :trollface: developer, :man: mahasiswa, :older_woman: pengajar, bahkan :baby: anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan :heart: kontribusinya disini. [Kontribusi] (https://github.com/belajarpythoncom/belajarpython.com/blob/master/CONTRIBUTING.md)
 
 ### [Code of Conduct](https://belajarpython.com/docs/codeofconduct)
 
-Belajarpython has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](https://code.facebook.com/codeofconduct) so that you can understand what actions will and will not be tolerated.
+Belajarpython telah mengadopsi Kode Etik yang kami harapkan akan diikuti oleh peserta proyek terbuka ini. Mohon baca [full text](https://github.com/belajarpythoncom/belajarpython.com/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
-### [Contributing Guide](https://belajarpython.com/contributing/how-to-contribute.html)
+### [Panduan Kontribusi](https://belajarpython.com/contributing/how-to-contribute.html)
 
-Read our [contributing guide](https://belajarpython.org/contributing/how-to-contribute.html) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to React.
+Baca [panduan kontribusi](https://belajarpython.org/contributing/how-to-contribute.html) dari kami untuk mempelajari tentang proses pengembangan konten disini.
 
 ### Good First Issues
 
-To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/belajarpythoncom/belajarpythoncom.com/issues) that contain bugs which have a relatively limited scope. This is a great place to get started.
+Untuk membantu Anda membuat kaki Anda basah dan membuat Anda terbiasa dengan proses kontribusi kami, kami memiliki daftar [good first issues](https://github.com/belajarpythoncom/belajarpythoncom.com/issues) yang mengandung bug yang memiliki lingkup yang relatif terbatas. Ini adalah tempat yang bagus untuk memulai.
 
 ### License
 
