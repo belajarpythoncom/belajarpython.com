@@ -277,6 +277,9 @@ footer {
   background-color: #d4dde6;
   padding: 27px 35px 28px 35px;
 }
+.footer-menu {
+  text-align: right !important
+}
 .footer-menu a {
   color: rgba(0,0,0,0.35);
   font-weight: 700;
@@ -291,7 +294,7 @@ footer {
   color: rgba(0,0,0,0.8);
 }
 .footer-social {
-  text-align:right !important;
+  text-align:left !important;
 }
 .footer-social a{
   color: rgba(0,0,0,0.2);
@@ -402,7 +405,14 @@ footer {
     margin-bottom:0;
   }
   .latest-article h3{
-    font-size:20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.35);
+  }
+  .card-img-top {
+    border-radius: 0px !important;
   }
   .latest-article-head {
     margin-bottom: 16px;
@@ -416,7 +426,7 @@ footer {
   }
   .latest-article-card h6 {
     font-size: 11px;
-    color: rgb(50, 106, 148) !important;
+    color: #acb4bb !important;
   }
   .latest-article-card .card-body {
       padding: 14px 13px 6px 9px;
@@ -449,6 +459,9 @@ footer {
   .page-content h1 {
     font-size: 1.5rem !important;
   }
+  .footer-menu {
+    text-align: center !important
+  }
   .footer-menu a {
     margin-right: 9px;
   }
@@ -458,7 +471,8 @@ footer {
   }
   .footer-social {
     text-align: center !important;
-    margin-top: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
   }
   .footer-social a {
     margin-right: 9px;

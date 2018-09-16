@@ -1,0 +1,15 @@
+{
+    "short_name": "Belajarpython",
+    "name": "Belajarpython - Tutorial Pemrograman Python",
+    "icons": [
+      {
+        "src": "https://belajarpython.com/images/favicon.png",
+        "type": "image/png",
+        "sizes": "100x100"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#fff",
+    "display": "standalone",
+    "theme_color": "#1f415f"
+  }
