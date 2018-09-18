@@ -23,7 +23,7 @@ Notebook Jupyter sebagai dokumen Markdown, Julia, Python atau R skrip.
 Jupytext dapat mengonversi notebook ke dan dari Julia, Python dan R skrip (ekstensi .jl, .py dan .R), Dokumen markdown (ekstensi .md), Dokumen Markdown R (ekstensi .Rmd).
 Jupytext tersedia dari dalam Jupyter. Anda dapat bekerja seperti biasa di notebook Anda di Jupyter, dan simpan dan baca dalam format yang Anda pilih.
 
-]GitHub - mwouts/jupytext: Jupyter notebooks sebagai dokumen Markdown, Julia, Python or R scripts](https://github.com/mwouts/jupytext)
+[GitHub - mwouts/jupytext: Jupyter notebooks sebagai dokumen Markdown, Julia, Python or R scripts](https://github.com/mwouts/jupytext)
 
 ### donnemartin/system-design-primer
 
