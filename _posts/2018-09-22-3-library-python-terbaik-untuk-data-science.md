@@ -215,6 +215,8 @@ plt.bar(x,y)
 plt.show()
 {% endhighlight %}
 
+#### Kesimpulan
+
 Bahasa pemrograman Python selalu melakukan pekerjaan yang baik dalam hal data dan persiapan, tetapi kurang untuk analisis dan pemodelan data ilmiah yang rumit. Untuk itulah munculnya library Python sangat membantu untuk mengisi celah ini. Dengan adanya library ini akan memungkinkan Anda untuk melakukan perhitungan matematis yang kompleks dan membuat model canggih yang membuat data Anda masuk akal.
 
 Selain dari 3 library diatas, adakah libary Python lainnya yang Anda tahu? Apa pengalamanmu dengan library tersebut? Silakan bagikan komentar Anda di bawah ini. Terimakasih.
