@@ -191,7 +191,7 @@ Selanjutnya kita tampilkan plot nya.
 plt.show()
 {% endhighlight %}
 
-Berikut adalah bagan batang:
+Berikut adalah tampilan chart bar:
 
 ![diagram batang matplotlib](https://opensource.com/sites/default/files/uploads/matplotlib_barchart.png)
 
