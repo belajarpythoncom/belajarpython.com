@@ -1,5 +1,6 @@
 ---
 layout: article
+comments: true
 title: Sastrawi, Natural Language Processing Mudah Dengan Python
 ---
 
