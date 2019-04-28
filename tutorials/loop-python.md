@@ -33,7 +33,7 @@ print ("Good bye!")
 ### For Loop
 Pengulangan `for` pada Python memiliki kemampuan untuk mengulangi item dari urutan apapun, seperti `list` atau `string`.
 
-Dibawah ini adalah contoh penggunaan pengulangan While Loop.
+Dibawah ini adalah contoh penggunaan pengulangan For Loop.
 
 {% highlight python %}
 #Contoh pengulangan for sederhana
