@@ -52,3 +52,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - note.txt
+
+# Post configuration
+future: true
