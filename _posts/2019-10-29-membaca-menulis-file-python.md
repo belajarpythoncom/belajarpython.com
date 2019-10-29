@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Membaca dan Menulis File dengan Python
-date:   2019-10-29
 ---
 
 ---
@@ -171,4 +170,6 @@ for item in nama:
 fwrite.close()
 ```
 
+
+> *penulis: Emmanuella Rumanti [https://github.com/amuritna](https://github.com/amuritna)*
 
