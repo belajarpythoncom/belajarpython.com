@@ -1,0 +1,232 @@
+I"J.<hr />
+<blockquote>
+  <p>Anda sedang membaca tutorial versi lama, klik <a href="/tutorial/list-python">disini</a> untuk membaca versi terbaru tutorial ini.</p>
+</blockquote>
+
+<p>Dalam bahasa pemrograman Python, struktur data yang paling dasar adalah urutan atau lists. Setiap elemen-elemen berurutan akan diberi nomor posisi atau indeksnya. Indeks pertama dalam list adalah nol, indeks kedua adalah satu dan seterusnya.</p>
+
+<p>Python memiliki enam jenis urutan built-in, namun yang paling umum adalah list dan tuple. Ada beberapa hal yang dapat Anda lakukan dengan semua jenis list. Operasi ini meliputi pengindeksan, pengiris, penambahan, perbanyak, dan pengecekan keanggotaan. Selain itu, Python memiliki fungsi built-in untuk menemukan panjang list dan untuk menemukan elemen terbesar dan terkecilnya.</p>
+
+<h3 id="membuat-list-python">Membuat List Python</h3>
+
+<p>List adalah tipe data yang paling serbaguna yang tersedia dalam bahasa Python, yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting tentang daftar adalah item dalam list tidak boleh sama jenisnya.</p>
+
+<p>Membuat list sangat sederhana, tinggal memasukkan berbagai nilai yang dipisahkan koma di antara tanda kurung siku. Dibawah ini adalah contoh sederhana pembuatan list dalam bahasa Python.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#Contoh sederhana pembuatan list pada bahasa pemrograman python
+</span><span class="n">list1</span> <span class="o">=</span> <span class="p">[</span><span class="s">'kimia'</span><span class="p">,</span> <span class="s">'fisika'</span><span class="p">,</span> <span class="mi">1993</span><span class="p">,</span> <span class="mi">2017</span><span class="p">]</span>
+<span class="n">list2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span> <span class="p">]</span>
+<span class="n">list3</span> <span class="o">=</span> <span class="p">[</span><span class="s">"a"</span><span class="p">,</span> <span class="s">"b"</span><span class="p">,</span> <span class="s">"c"</span><span class="p">,</span> <span class="s">"d"</span><span class="p">]</span></code></pre></figure>
+
+<h3 id="akses-nilai-dalam-list-python">Akses Nilai Dalam List Python</h3>
+
+<p>Untuk mengakses nilai dalam list python, gunakan tanda kurung siku untuk mengiris beserta indeks atau indeks untuk mendapatkan nilai yang tersedia pada indeks tersebut.</p>
+
+<p>Berikut adalah contoh cara mengakses nilai di dalam list python :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#Cara mengakses nilai di dalam list Python
+</span>
+<span class="n">list1</span> <span class="o">=</span> <span class="p">[</span><span class="s">'fisika'</span><span class="p">,</span> <span class="s">'kimia'</span><span class="p">,</span> <span class="mi">1993</span><span class="p">,</span> <span class="mi">2017</span><span class="p">]</span>
+<span class="n">list2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span> <span class="p">]</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="s">"list1[0]: "</span><span class="p">,</span> <span class="n">list1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"list2[1:5]: "</span><span class="p">,</span> <span class="n">list2</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">5</span><span class="p">])</span></code></pre></figure>
+
+<p>Setelah Anda mengeksekusi kode diatas, hasilnya akan seperti dibawah ini :</p>
+
+<p><code class="highlighter-rouge">list1[0]: fisika</code>
+<code class="highlighter-rouge">list2[1:5]: [2, 3, 4, 5]</code></p>
+
+<h3 id="update-nilai-dalam-list-python">Update Nilai Dalam List Python</h3>
+
+<p>Anda dapat memperbarui satu atau beberapa nilai di dalam list dengan memberikan potongan di sisi kiri operator penugasan, dan Anda dapat menambahkan nilai ke dalam list dengan metode append (). Sebagai contoh :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="s">'fisika'</span><span class="p">,</span> <span class="s">'kimia'</span><span class="p">,</span> <span class="mi">1993</span><span class="p">,</span> <span class="mi">2017</span><span class="p">]</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"Nilai ada pada index 2 : "</span><span class="p">,</span> <span class="nb">list</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+<span class="nb">list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2001</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"Nilai baru ada pada index 2 : "</span><span class="p">,</span> <span class="nb">list</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span></code></pre></figure>
+
+<h3 id="hapus-nilai-dalam-list-python">Hapus Nilai Dalam List Python</h3>
+
+<p>Untuk menghapus nilai di dalam list python, Anda dapat menggunakan salah satu pernyataan del jika Anda tahu persis elemen yang Anda hapus. Anda dapat menggunakan metode remove() jika Anda tidak tahu persis item mana yang akan dihapus. Sebagai contoh :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#Contoh cara menghapus nilai pada list python
+</span>
+<span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="s">'fisika'</span><span class="p">,</span> <span class="s">'kimia'</span><span class="p">,</span> <span class="mi">1993</span><span class="p">,</span> <span class="mi">2017</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="k">del</span> <span class="nb">list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"Setelah dihapus nilai pada index 2 : "</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="operasi-dasar-pada-list-python">Operasi Dasar Pada List Python</h3>
+
+<p>List Python merespons operator + dan * seperti string; Itu artinya penggabungan dan pengulangan di sini juga berlaku, kecuali hasilnya adalah list baru, bukan sebuah String.</p>
+
+<p>Sebenarnya, list merespons semua operasi urutan umum yang kami gunakan pada String di bab sebelumnya. Dibawah ini adalah tabel daftar operasi dasar pada list python.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Python Expression</th>
+      <th>Hasil</th>
+      <th>Penjelasan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">len([1, 2, 3, 4])</code></td>
+      <td><code class="highlighter-rouge">4</code></td>
+      <td>Length</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">[1, 2, 3] + [4, 5, 6]</code></td>
+      <td><code class="highlighter-rouge">[1, 2, 3, 4, 5, 6]</code></td>
+      <td>Concatenation</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">['Halo!'] * 4</code></td>
+      <td><code class="highlighter-rouge">['Halo!', 'Halo!', 'Halo!', 'Halo!']</code></td>
+      <td>Repetition</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">2 in [1, 2, 3]</code></td>
+      <td><code class="highlighter-rouge">	True</code></td>
+      <td>Membership</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">for x in [1,2,3] : print (x,end = ' ')</code></td>
+      <td><code class="highlighter-rouge">1 2 3</code></td>
+      <td>Iteration</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="indexing-slicing-dan-matrix-pada-list-python">Indexing, Slicing dan Matrix Pada List Python</h3>
+
+<p>Karena list adalah urutan, pengindeksan dan pengiris bekerja dengan cara yang sama untuk list seperti yang mereka lakukan untuk String.</p>
+
+<p>Dengan asumsi input berikut :</p>
+
+<p><code class="highlighter-rouge">L = ['C++'', 'Java', 'Python']</code></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Python Expression</th>
+      <th>Hasil</th>
+      <th>Penjelasan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">L[2]</code></td>
+      <td><code class="highlighter-rouge">'Python'</code></td>
+      <td>Offset mulai dari nol</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">L[-2]</code></td>
+      <td><code class="highlighter-rouge">'Java'</code></td>
+      <td>Negatif: hitung dari kanan</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">[1:]</code></td>
+      <td><code class="highlighter-rouge">['Java', 'Python']</code></td>
+      <td>Slicing mengambil bagian</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="method-dan-fungsi-build-in-pada-list-python">Method dan Fungsi Build-in Pada List Python</h3>
+
+<p>Python menyertakan fungsi built-in sebagai berikut :</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Python Function</th>
+      <th>Penjelasan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cmp(list1, list2)	#</td>
+      <td>Tidak lagi tersedia dengan Python 3</td>
+    </tr>
+    <tr>
+      <td>len(list)</td>
+      <td>Memberikan total panjang list.</td>
+    </tr>
+    <tr>
+      <td>max(list)</td>
+      <td>Mengembalikan item dari list dengan nilai maks.</td>
+    </tr>
+    <tr>
+      <td>min(list)</td>
+      <td>Mengembalikan item dari list dengan nilai min.</td>
+    </tr>
+    <tr>
+      <td>list(seq)</td>
+      <td>Mengubah tuple menjadi list.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Python menyertakan methods built-in sebagai berikut</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Python Methods</th>
+      <th>Penjelasan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>list.append(obj)</td>
+      <td>Menambahkan objek obj ke list</td>
+    </tr>
+    <tr>
+      <td>list.count(obj)</td>
+      <td>Jumlah pengembalian berapa kali obj terjadi dalam list</td>
+    </tr>
+    <tr>
+      <td>list.extend(seq)</td>
+      <td>Tambahkan isi seq ke list</td>
+    </tr>
+    <tr>
+      <td>list.index(obj)</td>
+      <td>Mengembalikan indeks terendah dalam list yang muncul obj</td>
+    </tr>
+    <tr>
+      <td>list.insert(index, obj)</td>
+      <td>Sisipkan objek obj ke dalam list di indeks offset</td>
+    </tr>
+    <tr>
+      <td>list.pop(obj = list[-1])</td>
+      <td>Menghapus dan mengembalikan objek atau obj terakhir dari list</td>
+    </tr>
+    <tr>
+      <td>list.remove(obj)</td>
+      <td>Removes object obj from list</td>
+    </tr>
+    <tr>
+      <td>list.reverse()</td>
+      <td>Membalik list objek di tempat</td>
+    </tr>
+    <tr>
+      <td>list.sort([func])</td>
+      <td>Urutkan objek list, gunakan compare func jika diberikan</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="row navigation-tutorial">
+    <div class="col-md-6 prev-tutorial">
+        <a href="/tutorial/string-python"><i class="fas fa-arrow-circle-left"></i>String Python</a>
+    </div>
+    <div class="col-md-6 next-tutorial">
+        <a href="/tutorial/tuple-python" class="hoverable">Tuple Python<i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+</div>
+:ET

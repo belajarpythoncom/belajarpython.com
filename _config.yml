@@ -23,14 +23,13 @@ twitter_username: belajarpython
 github_username:  belajarpythoncom
 
 # Build settings
-markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 
 #Permalink
 permalink: /:year/:month/:title:output_ext
-  
+
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
@@ -52,6 +51,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - note.txt
-
-# Post configuration
-future: true

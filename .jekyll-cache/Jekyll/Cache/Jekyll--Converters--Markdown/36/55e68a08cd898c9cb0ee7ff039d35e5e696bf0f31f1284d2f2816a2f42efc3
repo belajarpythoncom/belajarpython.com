@@ -1,0 +1,48 @@
+I"‚
+<hr />
+<blockquote>
+  <p>Anda sedang membaca tutorial versi lama, klik <a href="/tutorial/instalasi-python">disini</a> untuk membaca versi terbaru tutorial ini.</p>
+</blockquote>
+
+<p>Sebelum Anda menggunakan Python, Anda harus menginstalnya terlebih dahulu di sistem operasi komputer Anda. Saat ini Python memiliki 2 versi yang berbeda, yaitu Python versi <strong>3.4.3</strong> dan Python versi <strong>2.7.10</strong>. Disini kita akan belajar bahasa pemrograman Python menggunakan versi terbaru <strong>3.4.3</strong>.</p>
+
+<p>Cara menginstal python sangat mudah, ikuti panduan dibawah ini. Dibawah adalah panduan cara instal python di platform Linux, Windows dan Mac OS.</p>
+
+<h3 id="linux">Linux</h3>
+<ol>
+  <li>Buka browser, kunjungi <a href="http://www.python.org/downloads/source/">http://www.python.org/downloads/source/</a></li>
+  <li>Download versi terbaru Python berbentuk file zip untuk Unix/Linux</li>
+  <li>Ekstrak file zip yang baru saja di download</li>
+  <li>Edit file Modules/Setup jika Anda ingin kostumisasi Python</li>
+  <li>Jalankan <code class="highlighter-rouge">./configure</code> script</li>
+  <li><code class="highlighter-rouge">make</code></li>
+  <li><code class="highlighter-rouge">make install</code></li>
+</ol>
+
+<p>Langkah ini akan menginstal Python di lokasi standar <code class="highlighter-rouge">/usr/local/bin</code> dan library di <code class="highlighter-rouge">/usr/local/lib/pythonXX</code> dimana <code class="highlighter-rouge">XX</code> adalah versi terbaru Python yang anda gunakan.</p>
+
+<h3 id="windows">Windows</h3>
+<ol>
+  <li>Buka browser, kunjungi <a href="http://www.python.org/downloads/windows/">http://www.python.org/downloads/windows/</a></li>
+  <li>ATAU, klik direct link <a href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi">https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi</a></li>
+  <li>Buka (klik 2x) file installer python yang baru saja di download</li>
+  <li>Ikuti langkah instalasi sampai selesai</li>
+</ol>
+
+<h3 id="mac-os">Mac OS</h3>
+<ol>
+  <li>Buka browser, kunjungi <a href="http://www.python.org/download/mac/">http://www.python.org/download/mac/</a></li>
+  <li>Download versi terbaru Python untuk Macintosh</li>
+  <li>Buka file yang baru saja di download</li>
+  <li>Ikuti langkah instalasi sampai selesai</li>
+</ol>
+
+<div class="row navigation-tutorial">
+    <div class="col-md-6 prev-tutorial">
+        <a href="/tutorial/apa-itu-python"><i class="fas fa-arrow-circle-left"></i>Pengertian Python</a>
+    </div>
+    <div class="col-md-6 next-tutorial">
+        <a href="/tutorial/menjalankan-python" class="hoverable">Menjalankan Python<i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+</div>
+:ET

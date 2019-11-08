@@ -1,0 +1,190 @@
+I"CZ<hr />
+<p>Banyaknya kelebihan pada pemrograman pythno seperti efisiensei, keterbacaan kode dan kecepatan telah membuat python menjadi bahasa pemrograman yang banyak digunakan oleh para data scientist. Pyton menjadi pilihan untuk pada data scientist dan machine learning engineer untuk mengembangkan model dan berbagai aplikasi terkait data science.</p>
+
+<p>Karena penggunaannya yang luas, Python memiliki banyak library yang memudahkan para ilmuwan data / data scientist untuk menyelesaikan tugas-tugas rumit tanpa banyak gangguan pengkodean. Berikut adalah 3 library Python yang paling banyak digunakan untuk data science.</p>
+
+<h3 id="1-numpy">1. NumPy</h3>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/1200px-NumPy_logo.svg.png" alt="logo numpy" /></p>
+
+<p>NumPy (kependekan dari Numerical Python) adalah salah satu library teratas yang dilengkapi dengan sumber daya yang berguna untuk membantu para data scientist mengubah Python menjadi alat analisis dan pemodelan ilmiah yang kuat. Libary Open source terpopuler ini tersedia di bawah lisensi BSD. Ini adalah pustaka Python dasar untuk melakukan tugas dalam komputasi ilmiah. NumPy adalah bagian dari ekosistem berbasis Python yang lebih besar dari tool open source yang disebut SciPy.</p>
+
+<p>Perpustakaan memberdayakan Python dengan struktur data substansial untuk mudah melakukan perhitungan multi-dimensi (multi-dimensional arrays) dan perhitungan matrik. Selain penggunaannya dalam menyelesaikan persamaan aljabar linier (linear algebra equations) dan perhitungan matematis lainnya, NumPy juga digunakan sebagai wadah multi-dimensi serbaguna untuk berbagai jenis data generik.</p>
+
+<p>Lebih hebatnya, NumPy terintegrasi dengan bahasa pemrograman lain seperti C / C ++ dan Fortran. Fleksibilitas perpustakaan NumPy memungkinkannya untuk dengan mudah dan cepat bergabung dengan berbagai database dan tools. Sebagai contoh, mari kita lihat bagaimana NumPy (disingkat np) dapat digunakan untuk mengalikan dua matriks.</p>
+
+<p>Mari memulainya dengan meng-import library ini terlebih dahulu ( disini kita menggunakan Jupyter notebook untuk contoh)</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span></code></pre></figure>
+
+<p>Selanjutnya, kita akan menggunakan fungsi <code class="highlighter-rouge">eye()</code> untuk menghasilkan matriks identitas dengan dimensi yang ditetapkan.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">matrix_one</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">matrix_one</span></code></pre></figure>
+
+<p>Outputnya akan seperti dibawah ini :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">array</span><span class="p">([[</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">],</span>
+       <span class="p">[</span><span class="mf">0.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">],</span>
+       <span class="p">[</span><span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">]])</span></code></pre></figure>
+
+<p>Mari hasilkan matriks 3x3 lainnya.</p>
+
+<p>Kita akan menggunakan fungsi <code class="highlighter-rouge">arange([starting number], [stopping number])</code> untuk mengatur nomor. Perhatikan bahwa parameter pertama dalam fungsi adalah nomor awal yang akan didaftar dan nomor terakhir tidak termasuk dalam hasil yang dihasilkan.</p>
+
+<p>Juga, <code class="highlighter-rouge">fungsi reshape()</code> diterapkan untuk memodifikasi dimensi dari matriks yang dihasilkan secara original ke dimensi yang diinginkan. Agar matrik bisa “multiply-able”, mereka harus memiliki dimensi yang sama.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">matrix_two</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">matrix_two</span></code></pre></figure>
+
+<p>Outputnya akan seperti dibawah ini :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]])</span></code></pre></figure>
+
+<p>Mari gunakan fungsi <code class="highlighter-rouge">dot()</code> untuk mengalikan dua matriks.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">matrix_multiply</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">matrix_one</span><span class="p">,</span> <span class="n">matrix_two</span><span class="p">)</span>
+<span class="n">matrix_multiply</span></code></pre></figure>
+<p>Outputnya akan seperti dibawah ini :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">array</span><span class="p">([[</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">2.</span><span class="p">,</span> <span class="mf">3.</span><span class="p">],</span>
+       <span class="p">[</span><span class="mf">4.</span><span class="p">,</span> <span class="mf">5.</span><span class="p">,</span> <span class="mf">6.</span><span class="p">],</span>
+       <span class="p">[</span><span class="mf">7.</span><span class="p">,</span> <span class="mf">8.</span><span class="p">,</span> <span class="mf">9.</span><span class="p">]])</span></code></pre></figure>
+
+<p>Kita telah berhasil melipatgandakan dua matriks tanpa menggunakan vanilla Python.</p>
+
+<p>Berikut ini seluruh kode untuk contoh ini:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="c1">#menghasilkan a 3 by 3 identity matrix
+</span><span class="n">matrix_one</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">matrix_one</span>
+<span class="c1">#menghasilkan 3 by 3 matrix lainya for perkalian
+</span><span class="n">matrix_two</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">matrix_two</span>
+<span class="c1">#mengkalikan dua array
+</span><span class="n">matrix_multiply</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">matrix_one</span><span class="p">,</span> <span class="n">matrix_two</span><span class="p">)</span>
+<span class="n">matrix_multiply</span></code></pre></figure>
+
+<h3 id="2-pandas">2. Pandas</h3>
+
+<p><img src="https://pandas.pydata.org/_static/pandas_logo.png" alt="logo pandas" /></p>
+
+<p>Pandas adalah library hebat lain yang dapat meningkatkan keterampilan Python Anda untuk data science. Sama seperti NumPy, Pandas milik keluarga perangkat lunak open source SciPy dan tersedia di bawah lisensi perangkat lunak bebas BSD.</p>
+
+<p>Pandas menawarkan alat serbaguna dan kuat untuk struktur data dan melakukan analisis data yang luas. Library ini berfungsi dengan baik dengan data dunia nyata yang tidak lengkap, tidak terstruktur, dan tidak teratur — dan dilengkapi dengan tool untuk membentuk, menggabungkan, menganalisis, dan memvisualisasikan datasets.</p>
+
+<p>Ada tiga jenis struktur data di library ini:</p>
+
+<ul>
+  <li>Series: single-dimensional, array homogen</li>
+  <li>DataFrame: two-dimensional dengan kolom yang diketik secara heterogen</li>
+  <li>Panel: three-dimensional, array size-mutable</li>
+</ul>
+
+<p>Sebagai contoh, mari kita lihat bagaimana library Panda Python (disingkat pd) dapat digunakan untuk melakukan beberapa perhitungan statistik deskriptif.</p>
+
+<p>Mari mulai dengan mengimport library pandas ini.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span></code></pre></figure>
+
+<p>Selanjutnya kita buat dictionary yang seri.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Name'</span><span class="p">:</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="s">'Alfrick'</span><span class="p">,</span><span class="s">'Michael'</span><span class="p">,</span><span class="s">'Wendy'</span><span class="p">,</span><span class="s">'Paul'</span><span class="p">,</span><span class="s">'Dusan'</span><span class="p">,</span><span class="s">'George'</span><span class="p">,</span><span class="s">'Andreas'</span><span class="p">,</span>
+   <span class="s">'Irene'</span><span class="p">,</span><span class="s">'Sagar'</span><span class="p">,</span><span class="s">'Simon'</span><span class="p">,</span><span class="s">'James'</span><span class="p">,</span><span class="s">'Rose'</span><span class="p">]),</span>
+   <span class="s">'Years of Experience'</span><span class="p">:</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">]),</span>
+   <span class="s">'Programming Language'</span><span class="p">:</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="s">'Python'</span><span class="p">,</span><span class="s">'JavaScript'</span><span class="p">,</span><span class="s">'PHP'</span><span class="p">,</span><span class="s">'C++'</span><span class="p">,</span><span class="s">'Java'</span><span class="p">,</span><span class="s">'Scala'</span><span class="p">,</span><span class="s">'React'</span><span class="p">,</span><span class="s">'Ruby'</span><span class="p">,</span><span class="s">'Angular'</span><span class="p">,</span><span class="s">'PHP'</span><span class="p">,</span><span class="s">'Python'</span><span class="p">,</span><span class="s">'JavaScript'</span><span class="p">])</span>
+    <span class="p">}</span></code></pre></figure>
+
+<p>Selanjutnya buat Data Frame.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">d</span><span class="p">)</span></code></pre></figure>
+
+<p>Output nya akan seperti dibawah ini :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">      <span class="n">Name</span> <span class="n">Programming</span> <span class="n">Language</span>  <span class="n">Years</span> <span class="n">of</span> <span class="n">Experience</span>
+<span class="mi">0</span>   <span class="n">Alfrick</span>               <span class="n">Python</span>                    <span class="mi">5</span>
+<span class="mi">1</span>   <span class="n">Michael</span>           <span class="n">JavaScript</span>                    <span class="mi">9</span>
+<span class="mi">2</span>     <span class="n">Wendy</span>                  <span class="n">PHP</span>                    <span class="mi">1</span>
+<span class="mi">3</span>      <span class="n">Paul</span>                  <span class="n">C</span><span class="o">++</span>                    <span class="mi">4</span>
+<span class="mi">4</span>     <span class="n">Dusan</span>                 <span class="n">Java</span>                    <span class="mi">3</span>
+<span class="mi">5</span>    <span class="n">George</span>                <span class="n">Scala</span>                    <span class="mi">4</span>
+<span class="mi">6</span>   <span class="n">Andreas</span>                <span class="n">React</span>                    <span class="mi">7</span>
+<span class="mi">7</span>     <span class="n">Irene</span>                 <span class="n">Ruby</span>                    <span class="mi">9</span>
+<span class="mi">8</span>     <span class="n">Sagar</span>              <span class="n">Angular</span>                    <span class="mi">6</span>
+<span class="mi">9</span>     <span class="n">Simon</span>                  <span class="n">PHP</span>                    <span class="mi">8</span>
+<span class="mi">10</span>    <span class="n">James</span>               <span class="n">Python</span>                    <span class="mi">3</span>
+<span class="mi">11</span>     <span class="n">Rose</span>           <span class="n">JavaScript</span>                    <span class="mi">1</span></code></pre></figure>
+
+<p>Berikut ini seluruh kode untuk contoh ini:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="c1">#creating a dictionary of series
+</span><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Name'</span><span class="p">:</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="s">'Alfrick'</span><span class="p">,</span><span class="s">'Michael'</span><span class="p">,</span><span class="s">'Wendy'</span><span class="p">,</span><span class="s">'Paul'</span><span class="p">,</span><span class="s">'Dusan'</span><span class="p">,</span><span class="s">'George'</span><span class="p">,</span><span class="s">'Andreas'</span><span class="p">,</span>
+   <span class="s">'Irene'</span><span class="p">,</span><span class="s">'Sagar'</span><span class="p">,</span><span class="s">'Simon'</span><span class="p">,</span><span class="s">'James'</span><span class="p">,</span><span class="s">'Rose'</span><span class="p">]),</span>
+   <span class="s">'Years of Experience'</span><span class="p">:</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">]),</span>
+   <span class="s">'Programming Language'</span><span class="p">:</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="s">'Python'</span><span class="p">,</span><span class="s">'JavaScript'</span><span class="p">,</span><span class="s">'PHP'</span><span class="p">,</span><span class="s">'C++'</span><span class="p">,</span><span class="s">'Java'</span><span class="p">,</span><span class="s">'Scala'</span><span class="p">,</span><span class="s">'React'</span><span class="p">,</span><span class="s">'Ruby'</span><span class="p">,</span><span class="s">'Angular'</span><span class="p">,</span><span class="s">'PHP'</span><span class="p">,</span><span class="s">'Python'</span><span class="p">,</span><span class="s">'JavaScript'</span><span class="p">])</span>
+    <span class="p">}</span>
+
+<span class="c1">#Create a DataFrame
+</span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="3-matplotlib">3. Matplotlib</h3>
+
+<p><img src="https://matplotlib.org/_static/logo2.png" alt="logo matplotlib" /></p>
+
+<p>Matplotlib juga merupakan bagian dari paket inti SciPy dan ditawarkan di bawah lisensi BSD. Ini adalah library ilmiah Python populer yang digunakan untuk menghasilkan visualisasi yang sederhana dan kuat. Anda dapat menggunakan kerangka kerja Python untuk ilmu data untuk menghasilkan grafik, chart, histogram, dan bentuk dan gambar lain yang kreatif — tanpa perlu khawatir menulis banyak baris kode. Sebagai contoh, mari kita lihat bagaimana perpustakaan Matplotlib dapat digunakan untuk membuat bar chart sederhana.</p>
+
+<p>Mari memulainya dengan mengimport library</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span></code></pre></figure>
+
+<p>Mari hasilkan nilai untuk sumbu x dan sumbu y.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span></code></pre></figure>
+
+<p>Mari kita sebut fungsi untuk mem-plot diagram batang.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span></code></pre></figure>
+
+<p>Selanjutnya kita tampilkan plot nya.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></code></pre></figure>
+
+<p>Berikut adalah tampilan chart bar:</p>
+
+<p><img src="https://opensource.com/sites/default/files/uploads/matplotlib_barchart.png" alt="diagram batang matplotlib" /></p>
+
+<p>Berikut ini seluruh kode untuk contoh ini:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#mengimport library Matplotlib Python  
+</span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="c1">#same as import matplotlib.pyplot as plt
+</span> 
+<span class="c1">#menghasilkan nilai untuk x-axis 
+</span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+ 
+<span class="c1">#menghasilkan nilai untuk y-axis 
+</span><span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+ 
+<span class="c1">#memanggil function untuk plotting the bar chart
+</span><span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+ 
+<span class="c1">#menampilkan the plot
+</span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></code></pre></figure>
+
+<h4 id="kesimpulan">Kesimpulan</h4>
+
+<p>Bahasa pemrograman Python selalu melakukan pekerjaan yang baik dalam hal data dan persiapan, tetapi kurang untuk analisis dan pemodelan data ilmiah yang rumit. Untuk itulah munculnya library Python sangat membantu untuk mengisi celah ini. Dengan adanya library ini akan memungkinkan Anda untuk melakukan perhitungan matematis yang kompleks dan membuat model canggih yang membuat data Anda masuk akal.</p>
+
+<p>Selain dari 3 library diatas, adakah libary Python lainnya yang Anda tahu? Apa pengalamanmu dengan library tersebut? Silakan bagikan komentar Anda di bawah ini. Terimakasih.</p>
+
+<blockquote>
+  <p><em>penulis: Purwanto <a href="https://github.com/purwnt">https://github.com/purwnt</a></em>
+*referensi: <a href="https://opensource.com">https://opensource.com</a></p>
+</blockquote>
+:ET

@@ -1,0 +1,292 @@
+I"�U<hr />
+<blockquote>
+  <p>Anda sedang membaca tutorial versi lama, klik <a href="/tutorial/akses-database-python">disini</a> untuk membaca versi terbaru tutorial ini.</p>
+</blockquote>
+
+<p>Standar Interface Python untuk database adalah Python DB-API. Kebanyakan Interface database Python mematuhi standar ini.</p>
+
+<p>Anda bisa memilih database yang tepat untuk aplikasi Anda. API Database Python mendukung berbagai macam server database seperti.</p>
+<ul>
+  <li>GadFly</li>
+  <li>mSQL</li>
+  <li>MySQL</li>
+  <li>PostgreSQL</li>
+  <li>Microsoft SQL Server 2000</li>
+  <li>Informix</li>
+  <li>Interbase</li>
+  <li>Oracle</li>
+  <li>Sybase</li>
+  <li>SQLite</li>
+</ul>
+
+<p>Berikut adalah link untuk mempelajari lebih lengkap daftar antarmuka/interface database Python - Antarmuka dan API Database Python. Anda harus mendownload modul DB API terpisah untuk setiap database yang perlu Anda akses. Sebagai contoh, jika Anda perlu mengakses database Oracle dan juga database MySQL, Anda harus mendownload kedua modul database Oracle dan MySQL.</p>
+
+<p>API DB menyediakan standar minimal untuk bekerja dengan database menggunakan struktur dan sintaks Python sedapat mungkin. API ini meliputi:</p>
+
+<ul>
+  <li>Mengimpor modul API.</li>
+  <li>Mendapatkan koneksi dengan database.</li>
+  <li>Menerbitkan pernyataan SQL dan prosedur tersimpan.</li>
+  <li>Menutup koneksi</li>
+</ul>
+
+<p>Python memiliki dukungan built-in untuk SQLite. Pada bagian ini, kita akan mempelajari semua konsep menggunakan MySQL. Modul MySQLdb, antarmuka yang populer dengan MySQL tidak kompatibel dengan Python 3. Sebagai gantinya, kita akan menggunakan modul PyMySQL.</p>
+
+<h3 id="apa-itu-pymysql-">Apa itu PyMySQL ?</h3>
+
+<p>PyMySQL adalah sebuah antarmuka untuk menghubungkan ke server database MySQL dari Python. Ini mengimplementasikan API Database Python v2.0 dan berisi perpustakaan klien MySQL murni-Python. Tujuan PyMySQL adalah penggantian drop-in untuk MySQLdb.</p>
+
+<h3 id="cara-instal-pymysql">Cara Instal PyMySQL</h3>
+
+<p>Sebelum melanjutka, pastikan Anda telah menginstal PyMySQL di komputer Anda. Cukup ketik berikut ini di skrip Python Anda dan jalankan.</p>
+
+<p><code class="highlighter-rouge">import PyMySQL</code></p>
+
+<p>Jika menghasilkan hasil berikut, berarti modul MySQLdb tidak terpasang:</p>
+
+<p><code class="highlighter-rouge">Traceback (most recent call last):</code>
+    <code class="highlighter-rouge">File "test.py", line 3, in </code>
+        <code class="highlighter-rouge">Import PyMySQL</code>
+<code class="highlighter-rouge">ImportError: No module named PyMySQL</code></p>
+
+<p>Untuk menginstal modul PyMySQL silahkan gunakan command/perintah berikut di command prompt:</p>
+
+<p><code class="highlighter-rouge">pip install PyMySQL</code></p>
+
+<h3 id="database-connection">Database Connection</h3>
+
+<p>Sebelum terhubung ke database MySQL, pastikan beberapa hal dibawah ini :</p>
+
+<ul>
+  <li>Anda telah membuat database TESTDB.</li>
+  <li>Anda telah membuat tabel EMPLOYEE di TESTDB.</li>
+  <li>Tabel ini memiliki bidang FIRST_NAME, LAST_NAME, AGE, SEX, dan INCOME.</li>
+  <li>User ID “testuser” dan password “test123” diatur untuk mengakses TESTDB.</li>
+  <li>Python modul PyMySQL terinstal dengan benar pada mesin Anda.</li>
+  <li>Anda telah melalui tutorial MySQL untuk memahami Dasar-Dasar MySQL</li>
+</ul>
+
+<p>Berikut ini adalah contoh koneksi dengan database MySQL “TESTDB”</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">PyMySQL</span>
+
+<span class="c1"># Open database connection
+</span><span class="n">db</span> <span class="o">=</span> <span class="n">PyMySQL</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">"localhost"</span><span class="p">,</span><span class="s">"testuser"</span><span class="p">,</span><span class="s">"test123"</span><span class="p">,</span><span class="s">"TESTDB"</span> <span class="p">)</span>
+
+<span class="c1"># prepare a cursor object using cursor() method
+</span><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># execute SQL query using execute() method.
+</span><span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">"SELECT VERSION()"</span><span class="p">)</span>
+
+<span class="c1"># Fetch a single row using fetchone() method.
+</span><span class="n">data</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="s">"Database version : </span><span class="si">%</span><span class="s">s "</span> <span class="o">%</span> <span class="n">data</span><span class="p">)</span>
+
+<span class="c1"># disconnect from server
+</span><span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></figure>
+
+<h3 id="membuat-tabel-database">Membuat Tabel Database</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">PyMySQL</span>
+
+<span class="c1"># Open database connection
+</span><span class="n">db</span> <span class="o">=</span> <span class="n">PyMySQL</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">"localhost"</span><span class="p">,</span><span class="s">"testuser"</span><span class="p">,</span><span class="s">"test123"</span><span class="p">,</span><span class="s">"TESTDB"</span> <span class="p">)</span>
+
+<span class="c1"># prepare a cursor object using cursor() method
+</span><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># Drop table if it already exist using execute() method.
+</span><span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">"DROP TABLE IF EXISTS EMPLOYEE"</span><span class="p">)</span>
+
+<span class="c1"># Create table as per requirement
+</span><span class="n">sql</span> <span class="o">=</span> <span class="s">"""CREATE TABLE EMPLOYEE (
+   FIRST_NAME  CHAR(20) NOT NULL,
+   LAST_NAME  CHAR(20),
+   AGE INT,  
+   SEX CHAR(1),
+   INCOME FLOAT )"""</span>
+
+<span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+
+<span class="c1"># disconnect from server
+</span><span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></figure>
+
+<h3 id="operasi-insert">Operasi Insert</h3>
+
+<p>Contoh berikut, mengeksekusi pernyataan SQL INSERT untuk membuat catatan di tabel EMPLOYEE</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">PyMySQL</span>
+
+<span class="c1"># Open database connection
+</span><span class="n">db</span> <span class="o">=</span> <span class="n">PyMySQL</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">"localhost"</span><span class="p">,</span><span class="s">"testuser"</span><span class="p">,</span><span class="s">"test123"</span><span class="p">,</span><span class="s">"TESTDB"</span> <span class="p">)</span>
+
+<span class="c1"># prepare a cursor object using cursor() method
+</span><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># Prepare SQL query to INSERT a record into the database.
+</span><span class="n">sql</span> <span class="o">=</span> <span class="s">"""INSERT INTO EMPLOYEE(FIRST_NAME,
+   LAST_NAME, AGE, SEX, INCOME)
+   VALUES ('Mac', 'Mohan', 20, 'M', 2000)"""</span>
+<span class="k">try</span><span class="p">:</span>
+   <span class="c1"># Execute the SQL command
+</span>   <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+   <span class="c1"># Commit your changes in the database
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+<span class="k">except</span><span class="p">:</span>
+   <span class="c1"># Rollback in case there is any error
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">rollback</span><span class="p">()</span>
+
+<span class="c1"># disconnect from server
+</span><span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></figure>
+
+<p>Contoh di atas bisa dituliskan sebagai berikut untuk membuat query SQL secara dinamis</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">PyMySQL</span>
+
+<span class="c1"># Open database connection
+</span><span class="n">db</span> <span class="o">=</span> <span class="n">PyMySQL</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">"localhost"</span><span class="p">,</span><span class="s">"testuser"</span><span class="p">,</span><span class="s">"test123"</span><span class="p">,</span><span class="s">"TESTDB"</span> <span class="p">)</span>
+
+<span class="c1"># prepare a cursor object using cursor() method
+</span><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># Prepare SQL query to INSERT a record into the database.
+</span><span class="n">sql</span> <span class="o">=</span> <span class="s">"INSERT INTO EMPLOYEE(FIRST_NAME, </span><span class="se">\
+</span><span class="s">   LAST_NAME, AGE, SEX, INCOME) </span><span class="se">\
+</span><span class="s">   VALUES ('</span><span class="si">%</span><span class="s">s', '</span><span class="si">%</span><span class="s">s', '</span><span class="si">%</span><span class="s">d', '</span><span class="si">%</span><span class="s">c', '</span><span class="si">%</span><span class="s">d' )"</span> <span class="o">%</span> \
+   <span class="p">(</span><span class="s">'Mac'</span><span class="p">,</span> <span class="s">'Mohan'</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="s">'M'</span><span class="p">,</span> <span class="mi">2000</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span>
+   <span class="c1"># Execute the SQL command
+</span>   <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+   <span class="c1"># Commit your changes in the database
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+<span class="k">except</span><span class="p">:</span>
+   <span class="c1"># Rollback in case there is any error
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">rollback</span><span class="p">()</span>
+
+<span class="c1"># disconnect from server
+</span><span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></figure>
+
+<h3 id="read-operation">Read Operation</h3>
+
+<p>READ Operation pada database apapun berarti mengambil beberapa informasi berguna dari database.</p>
+
+<p>Setelah koneksi database terbentuk, Anda siap untuk membuat query ke dalam database ini. Anda bisa menggunakan metode fetchone()
+untuk mengambil satu record atau fetchall() metode untuk mengambil beberapa nilai dari tabel database.</p>
+
+<p>Fetchone () - Ini mengambil baris berikut dari kumpulan hasil query. Set hasil adalah objek yang dikembalikan saat objek kursor digunakan untuk query tabel.</p>
+
+<p>Fetchall () - Ini menjemput semua baris dalam kumpulan hasil. Jika beberapa baris telah diekstraksi dari himpunan hasil, maka akan diambil baris yang tersisa dari kumpulan hasil.</p>
+
+<p>Rowcount - Ini adalah atribut read-only dan mengembalikan jumlah baris yang dipengaruhi oleh metode execute ().</p>
+
+<p>Prosedur berikut menanyakan semua catatan dari tabel EMPLOYEE yang memiliki gaji lebih dari 1000</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">PyMySQL</span>
+
+<span class="c1"># Open database connection
+</span><span class="n">db</span> <span class="o">=</span> <span class="n">PyMySQL</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">"localhost"</span><span class="p">,</span><span class="s">"testuser"</span><span class="p">,</span><span class="s">"test123"</span><span class="p">,</span><span class="s">"TESTDB"</span> <span class="p">)</span>
+
+<span class="c1"># prepare a cursor object using cursor() method
+</span><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># Prepare SQL query to INSERT a record into the database.
+</span><span class="n">sql</span> <span class="o">=</span> <span class="s">"SELECT * FROM EMPLOYEE </span><span class="se">\
+</span><span class="s">       WHERE INCOME &gt; '</span><span class="si">%</span><span class="s">d'"</span> <span class="o">%</span> <span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span>
+   <span class="c1"># Execute the SQL command
+</span>   <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+   <span class="c1"># Fetch all the rows in a list of lists.
+</span>   <span class="n">results</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+   <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+      <span class="n">fname</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+      <span class="n">lname</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+      <span class="n">age</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+      <span class="n">sex</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+      <span class="n">income</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+      <span class="c1"># Now print fetched result
+</span>      <span class="k">print</span> <span class="p">(</span><span class="s">"fname = </span><span class="si">%</span><span class="s">s,lname = </span><span class="si">%</span><span class="s">s,age = </span><span class="si">%</span><span class="s">d,sex = </span><span class="si">%</span><span class="s">s,income = </span><span class="si">%</span><span class="s">d"</span> <span class="o">%</span> \
+             <span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="n">lname</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">sex</span><span class="p">,</span> <span class="n">income</span> <span class="p">))</span>
+<span class="k">except</span><span class="p">:</span>
+   <span class="k">print</span> <span class="p">(</span><span class="s">"Error: unable to fetch data"</span><span class="p">)</span>
+
+<span class="c1"># disconnect from server
+</span><span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></figure>
+
+<p>Setelah Anda eksekusi kode diatas, akan muncul hasil seperti dibawah ini :
+<code class="highlighter-rouge">fname = Mac, lname = Mohan, age = 20, sex = M, income = 2000</code></p>
+
+<h3 id="update-operation">Update Operation</h3>
+
+<p>Operasi UPDATE pada database apapun berarti mengupdate satu atau lebih catatan, yang sudah tersedia di database.
+Prosedur berikut memperbarui semua catatan yang memiliki SEX sebagai ‘M’. Di sini, kita meningkatkan UMUR semua laki-laki satu tahun.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">PyMySQL</span>
+
+<span class="c1"># Open database connection
+</span><span class="n">db</span> <span class="o">=</span> <span class="n">PyMySQL</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">"localhost"</span><span class="p">,</span><span class="s">"testuser"</span><span class="p">,</span><span class="s">"test123"</span><span class="p">,</span><span class="s">"TESTDB"</span> <span class="p">)</span>
+
+<span class="c1"># prepare a cursor object using cursor() method
+</span><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># Prepare SQL query to UPDATE required records
+</span><span class="n">sql</span> <span class="o">=</span> <span class="s">"UPDATE EMPLOYEE SET AGE = AGE + 1</span><span class="err">
+</span><span class="s">                          WHERE SEX = '</span><span class="si">%</span><span class="s">c'"</span> <span class="o">%</span> <span class="p">(</span><span class="s">'M'</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span>
+   <span class="c1"># Execute the SQL command
+</span>   <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+   <span class="c1"># Commit your changes in the database
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+<span class="k">except</span><span class="p">:</span>
+   <span class="c1"># Rollback in case there is any error
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">rollback</span><span class="p">()</span>
+
+<span class="c1"># disconnect from server
+</span><span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></figure>
+
+<h3 id="delete-operation">Delete Operation</h3>
+
+<p>Operasi DELETE diperlukan bila Anda ingin menghapus beberapa catatan dari database Anda. Berikut ini adalah prosedur untuk menghapus semua catatan dari EMPLOYEE dimana AGE lebih dari 20</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">PyMySQL</span>
+
+<span class="c1"># Open database connection
+</span><span class="n">db</span> <span class="o">=</span> <span class="n">PyMySQL</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">"localhost"</span><span class="p">,</span><span class="s">"testuser"</span><span class="p">,</span><span class="s">"test123"</span><span class="p">,</span><span class="s">"TESTDB"</span> <span class="p">)</span>
+
+<span class="c1"># prepare a cursor object using cursor() method
+</span><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># Prepare SQL query to DELETE required records
+</span><span class="n">sql</span> <span class="o">=</span> <span class="s">"DELETE FROM EMPLOYEE WHERE AGE &gt; '</span><span class="si">%</span><span class="s">d'"</span> <span class="o">%</span> <span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span>
+   <span class="c1"># Execute the SQL command
+</span>   <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+   <span class="c1"># Commit your changes in the database
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+<span class="k">except</span><span class="p">:</span>
+   <span class="c1"># Rollback in case there is any error
+</span>   <span class="n">db</span><span class="o">.</span><span class="n">rollback</span><span class="p">()</span>
+
+<span class="c1"># disconnect from server
+</span><span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></figure>
+
+<p>Selain itu masih ada beberapa operasi sebagai berikut :</p>
+
+<ul>
+  <li>Commit Operation db.commit()</li>
+  <li>Rollback Operation db.rollback()</li>
+  <li>Disconnect Operation db.close()</li>
+</ul>
+
+<p>Jika Anda menginginkan dokumentasi yang lebih lengkap dari bahasa pemrograman python, silahkan buka dokumentasi resmi dari Python - <a href="https://docs.python.org/3/">Dokumentasi Lengkap Python</a></p>
+
+<div class="row navigation-tutorial">
+    <div class="col-md-6 prev-tutorial">
+        <a href="/tutorial/object-class-python"><i class="fas fa-arrow-circle-left"></i>Object &amp; Class Python</a>
+    </div>
+    <div class="col-md-6 next-tutorial">
+        <a href="/tutorial/networking-python" class="hoverable">Networking Python<i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+</div>
+:ET

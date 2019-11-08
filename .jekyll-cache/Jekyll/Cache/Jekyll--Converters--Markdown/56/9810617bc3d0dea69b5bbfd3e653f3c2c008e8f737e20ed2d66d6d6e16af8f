@@ -1,0 +1,49 @@
+I"—<hr />
+<p><img src="/images/sastrawi.jpg" alt="Sastrawi NLP Bahasa Indonesia" title="NLP Bahasa Indonesia" /></p>
+
+<p>Sastrawi adalah perpustakaan PHP sederhana yang memungkinkan Anda untuk mengurangi kata-kata yang terinfleksi dalam Bahasa Indonesia (Bahasa Indonesia) ke bentuk dasarnya (batang)</p>
+
+<p>Stemming adalah proses mengubah kata berimbuhan menjadi kata dasar. Contoh:</p>
+
+<p><code class="highlighter-rouge">menahan =&gt; tahan</code>
+<code class="highlighter-rouge">berbalas-balasan =&gt; balas</code></p>
+
+<h5 id="contoh-kasus">Contoh kasus</h5>
+
+<p>Misalnya sebuah blog post berisi:</p>
+
+<p><code class="highlighter-rouge">Rakyat memenuhi halaman gedung untuk menyuarakan isi hatinya.</code></p>
+
+<p>Pencarian dengan <code class="highlighter-rouge">query</code> di bawah ini tidak akan menemukan post di atas</p>
+
+<p><code class="highlighter-rouge">SELECT * FROM posts WHERE content LIKE '%suara%'</code></p>
+
+<p>Proses stemming dapat membantu menemukan dokumen yang sedang dicari yaitu dengan menanggalkan imbuhan-imbuhan hingga hanya menyisakan kata dasar seperti berikut:</p>
+
+<p><code class="highlighter-rouge">rakyat penuh halaman gedung suara isi hati</code></p>
+
+<p>Lalu kata kunci pencarian juga dijadikan kata dasar:</p>
+
+<p><code class="highlighter-rouge">Bersuara =&gt; suara</code></p>
+
+<h4 id="penggunaan">Penggunaan</h4>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1"># import StemmerFactory class
+</span><span class="kn">from</span> <span class="nn">Sastrawi.Stemmer.StemmerFactory</span> <span class="kn">import</span> <span class="n">StemmerFactory</span>
+
+<span class="c1"># create stemmer
+</span><span class="n">factory</span> <span class="o">=</span> <span class="n">StemmerFactory</span><span class="p">()</span>
+<span class="n">stemmer</span> <span class="o">=</span> <span class="n">factory</span><span class="o">.</span><span class="n">create_stemmer</span><span class="p">()</span>
+
+<span class="c1"># stemming process
+</span><span class="n">sentence</span> <span class="o">=</span> <span class="s">'Perekonomian Indonesia sedang dalam pertumbuhan yang membanggakan'</span>
+<span class="n">output</span>   <span class="o">=</span> <span class="n">stemmer</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
+<span class="c1"># ekonomi indonesia sedang dalam tumbuh yang bangga
+</span>
+<span class="k">print</span><span class="p">(</span><span class="n">stemmer</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="s">'Mereka meniru-nirukannya'</span><span class="p">))</span>
+<span class="c1"># mereka tiru</span></code></pre></figure>
+
+<p>Untuk lebih lengkapnya silahkan lihat di <a href="https://github.com/har07/PySastrawi">Github</a></p>
+:ET

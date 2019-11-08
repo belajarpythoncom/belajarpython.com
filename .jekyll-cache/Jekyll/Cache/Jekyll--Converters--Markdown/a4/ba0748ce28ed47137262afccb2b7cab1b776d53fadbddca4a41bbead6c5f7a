@@ -1,0 +1,116 @@
+I"<hr />
+
+<p>Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi.</p>
+
+<p>Python sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain.</p>
+
+<p>Berikut adalah tipe data dari bahasa pemrograman Python :</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipe Data</th>
+      <th>Contoh</th>
+      <th>Penjelasan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Boolean</td>
+      <td><code class="highlighter-rouge">True</code> atau <code class="highlighter-rouge">False</code></td>
+      <td>Menyatakan benar <code class="highlighter-rouge">True</code> yang bernilai <code class="highlighter-rouge">1</code>, atau salah <code class="highlighter-rouge">False</code> yang bernilai <code class="highlighter-rouge">0</code></td>
+    </tr>
+    <tr>
+      <td>String</td>
+      <td><code class="highlighter-rouge">"Ayo belajar Python"</code></td>
+      <td>Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda <code class="highlighter-rouge">"</code> atau <code class="highlighter-rouge">'</code>)</td>
+    </tr>
+    <tr>
+      <td>Integer</td>
+      <td><code class="highlighter-rouge">25</code> atau <code class="highlighter-rouge">1209</code></td>
+      <td>Menyatakan bilangan bulat</td>
+    </tr>
+    <tr>
+      <td>Float</td>
+      <td><code class="highlighter-rouge">3.14</code> atau <code class="highlighter-rouge">0.99</code></td>
+      <td>Menyatakan bilangan yang mempunyai koma</td>
+    </tr>
+    <tr>
+      <td>Hexadecimal</td>
+      <td><code class="highlighter-rouge">9a</code> atau <code class="highlighter-rouge">1d3</code></td>
+      <td>Menyatakan bilangan dalam format heksa (bilangan berbasis 16)</td>
+    </tr>
+    <tr>
+      <td>Complex</td>
+      <td><code class="highlighter-rouge">1 + 5j  </code></td>
+      <td>Menyatakan pasangan angka real dan imajiner</td>
+    </tr>
+    <tr>
+      <td>List</td>
+      <td><code class="highlighter-rouge">['xyz', 786, 2.23]</code></td>
+      <td>Data untaian yang menyimpan berbagai tipe data dan isinya bisa diubah-ubah</td>
+    </tr>
+    <tr>
+      <td>Tuple</td>
+      <td><code class="highlighter-rouge">('xyz', 768, 2.23)</code></td>
+      <td>Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah</td>
+    </tr>
+    <tr>
+      <td>Dictionary</td>
+      <td><code class="highlighter-rouge">{'nama': 'adi','id':2}</code></td>
+      <td>Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Untuk mencoba berbagai macam tipe data, silahkan coba script Python dibawah ini.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#tipe data Boolean
+</span><span class="k">print</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="c1">#tipe data String
+</span><span class="k">print</span><span class="p">(</span><span class="s">"Ayo belajar Python"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Belajar Python Sangat Mudah'</span><span class="p">)</span>
+
+<span class="c1">#tipe data Integer
+</span><span class="k">print</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+
+<span class="c1">#tipe data Float
+</span><span class="k">print</span><span class="p">(</span><span class="mf">3.14</span><span class="p">)</span>
+
+<span class="c1">#tipe data Hexadecimal
+</span><span class="k">print</span><span class="p">(</span><span class="mi">9</span><span class="n">a</span><span class="p">)</span>
+
+<span class="c1">#tipe data Complex
+</span><span class="k">print</span><span class="p">(</span><span class="mf">5j</span><span class="p">)</span>
+
+<span class="c1">#tipe data List
+</span><span class="k">print</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
+<span class="k">print</span><span class="p">([</span><span class="s">"satu"</span><span class="p">,</span> <span class="s">"dua"</span><span class="p">,</span> <span class="s">"tiga"</span><span class="p">])</span>
+
+<span class="c1">#tipe data Tuple
+</span><span class="k">print</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="k">print</span><span class="p">((</span><span class="s">"satu"</span><span class="p">,</span> <span class="s">"dua"</span><span class="p">,</span> <span class="s">"tiga"</span><span class="p">))</span>
+
+<span class="c1">#tipe data Dictionary
+</span><span class="k">print</span><span class="p">({</span><span class="s">"nama"</span><span class="p">:</span><span class="s">"Budi"</span><span class="p">,</span> <span class="s">'umur'</span><span class="p">:</span><span class="mi">20</span><span class="p">})</span>
+<span class="c1">#tipe data Dictionary dimasukan ke dalam variabel biodata
+</span><span class="n">biodata</span> <span class="o">=</span> <span class="p">{</span><span class="s">"nama"</span><span class="p">:</span><span class="s">"Andi"</span><span class="p">,</span> <span class="s">'umur'</span><span class="p">:</span><span class="mi">21</span><span class="p">}</span> <span class="c1">#proses inisialisasi variabel biodata
+</span><span class="k">print</span><span class="p">(</span><span class="n">biodata</span><span class="p">)</span> <span class="c1">#proses pencetakan variabel biodata yang berisi tipe data Dictionary
+</span><span class="nb">type</span><span class="p">(</span><span class="n">biodata</span><span class="p">)</span> <span class="c1">#fungsi untuk mengecek jenis tipe data. akan tampil &lt;class 'dict'&gt; yang berarti dict adalah tipe data dictionary</span></code></pre></figure>
+
+<hr />
+
+<blockquote>
+  <p><a href="https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/tipe-data-python.md">Edit tutorial ini</a></p>
+</blockquote>
+
+<div class="row navigation-tutorial">
+    <div class="col-md-6 prev-tutorial">
+        <a href="/tutorial/komentar-python"><i class="fas fa-arrow-circle-left"></i>Komentar Python</a>
+    </div>
+    <div class="col-md-6 next-tutorial">
+        <a href="/tutorial/variabel-python" class="hoverable">Variabel Python<i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+</div>
+:ET

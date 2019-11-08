@@ -1,0 +1,35 @@
+I"ˆ<hr />
+<blockquote>
+  <p>Anda sedang membaca tutorial versi lama, klik <a href="/tutorial/fungsi-python">disini</a> untuk membaca versi terbaru tutorial ini.</p>
+</blockquote>
+
+<p>Fungsi adalah blok kode terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan sebuah tindakan/action. Fungsi memberikan modularitas yang lebih baik untuk aplikasi Anda dan tingkat penggunaan kode yang tinggi.</p>
+
+<h3 id="mendefinisikan-fungsi-python">Mendefinisikan Fungsi Python</h3>
+
+<p>Anda dapat menentukan fungsi untuk menyediakan fungsionalitas yang dibutuhkan. Berikut adalah aturan sederhana untuk mendefinisikan fungsi dengan Python.</p>
+
+<ul>
+  <li>Fungsi blok dimulai dengan def kata kunci diikuti oleh nama fungsi dan tanda kurung (()).</li>
+  <li>Setiap parameter masukan atau argumen harus ditempatkan di dalam tanda kurung ini. Anda juga dapat menentukan parameter di dalam tanda kurung ini.</li>
+  <li>Pernyataan pertama dari sebuah fungsi dapat berupa pernyataan opsional - string dokumentasi fungsi atau docstring.</li>
+  <li>Blok kode dalam setiap fungsi dimulai dengan titik dua (:) dan indentasi.</li>
+  <li>Pernyataan kembali [ekspresi] keluar dari sebuah fungsi, secara opsional menyampaikan kembali ekspresi ke pemanggil. Pernyataan pengembalian tanpa argumen sama dengan return None.</li>
+</ul>
+
+<p>Contoh fungsi</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">printme</span><span class="p">(</span> <span class="nb">str</span> <span class="p">):</span>
+   <span class="s">"This prints a passed string into this function"</span>
+   <span class="k">print</span> <span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+   <span class="k">return</span></code></pre></figure>
+
+<div class="row navigation-tutorial">
+    <div class="col-md-6 prev-tutorial">
+        <a href="/tutorial/tanggal-waktu-python"><i class="fas fa-arrow-circle-left"></i>Tanggal &amp; Waktu Python</a>
+    </div>
+    <div class="col-md-6 next-tutorial">
+        <a href="/tutorial/modul-python" class="hoverable">Modul Python<i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+</div>
+:ET
