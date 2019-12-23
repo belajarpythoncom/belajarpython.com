@@ -1,4 +1,4 @@
-I"}<hr />
+I"Û<hr />
 
 <p>Secara umum, pernyataan pada bahasa pemrograman akan dieksekusi secara berurutan. Pernyataan pertama dalam sebuah fungsi dijalankan pertama, diikuti oleh yang kedua, dan seterusnya. Tetapi akan ada situasi dimana Anda harus menulis banyak kode, dimana kode tersebut sangat banyak. Jika dilakukan secara manual maka Anda hanya akan membuang-buang tenaga dengan menulis beratus-ratus bahkan beribu-ribu kode. Untuk itu Anda perlu menggunakan pengulangan di dalam bahasa pemrograman Python.</p>
 
@@ -51,10 +51,10 @@
     <span class="k">while</span><span class="p">(</span><span class="n">j</span> <span class="o">&lt;=</span> <span class="p">(</span><span class="n">i</span><span class="o">/</span><span class="n">j</span><span class="p">)):</span>
         <span class="k">if</span> <span class="ow">not</span><span class="p">(</span><span class="n">i</span><span class="o">%</span><span class="n">j</span><span class="p">):</span> <span class="k">break</span>
         <span class="n">j</span> <span class="o">=</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">j</span> <span class="o">&gt;</span> <span class="n">i</span><span class="o">/</span><span class="n">j</span><span class="p">)</span> <span class="p">:</span> <span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="s">" is prime"</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">j</span> <span class="o">&gt;</span> <span class="n">i</span><span class="o">/</span><span class="n">j</span><span class="p">)</span> <span class="p">:</span> <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="s">" is prime"</span><span class="p">)</span>
     <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
 
-<span class="k">print</span> <span class="s">"Good bye!"</span></code></pre></figure>
+<span class="k">print</span><span class="p">(</span><span class="s">"Good bye!"</span><span class="p">)</span></code></pre></figure>
 
 <hr />
 <blockquote>
