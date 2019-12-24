@@ -4,6 +4,7 @@ title: Kontribusi di Belajarpython
 permalink: /contribute/
 ---
 
+# Kontribusi di Belajarpython
 
 Sebelumnya, terimakasih banyak karena telah meluangkan waktu Anda untuk ikut berkontribusi!
 
@@ -32,7 +33,7 @@ Proyek ini dan semua orang yang berpartisipasi di dalamnya diatur oleh [Code of 
 
 ## Apa yang harus saya ketahui sebelum saya mulai berkontribusi?
 
-Belajarpython adalah situs terbuka sederhana untuk mempelajari bahasa pemrograman python, untuk saat ini situs terdiri dari dua bagian dasar, yaitu **Tutorial** dan **Artikel**. Setiap konten dari masing-masing bagian tersebut bebas untuk dimodifikasi oleh semua orang. 
+Belajarpython adalah situs terbuka sederhana untuk mempelajari bahasa pemrograman python, untuk saat ini situs terdiri dari dua bagian dasar, yaitu **Tutorial** dan **Artikel**. Setiap konten dari masing-masing bagian tersebut bebas untuk dimodifikasi oleh semua orang.
 
 Konten artikel dan tutorial dapat diakses melalui menu navigasi di bagian kanan atas pada setiap halaman.
 
@@ -44,7 +45,7 @@ Pada bagian tutorial menjelaskan tentang bagaimana cara memulai belajar bahasa p
 ![edit-tutorial](/images/kontribusi-pengenalan-2.jpg)
 
 ### Artikel
-Pada bagian artikel, dibahas semua hal tentang tips trik, tutorial penggunaan python untuk membuat berbagai aplikasi, berita tentang python dan hal-hal menarik lainya tentang bahasa pemrograman python. Setiap artikel/posting dibuat oleh satu orang dan bisa diperbaiki (improve) oleh semua orang. 
+Pada bagian artikel, dibahas semua hal tentang tips trik, tutorial penggunaan python untuk membuat berbagai aplikasi, berita tentang python dan hal-hal menarik lainya tentang bahasa pemrograman python. Setiap artikel/posting dibuat oleh satu orang dan bisa diperbaiki (improve) oleh semua orang.
 
 ![edit-tutorial](/images/kontribusi-pengenalan-3.jpg)
 
@@ -71,12 +72,12 @@ Setiap tutorial yang ada di website belajarpython belum sepenuhnya mudah dipaham
 ![edit-tutorial](/images/edit-tutorial-step-5.jpg)
 
 ### Menulis Artikel
-Setiap orang bisa menulis artikel apapun yang berhubungan dengan bahasa pemrograman python. Setiap artikel yang Anda sumbangkan akan sangat berguna bagi orang lain yang ingin mempelajari bahasa pemrograman python. 
+Setiap orang bisa menulis artikel apapun yang berhubungan dengan bahasa pemrograman python. Setiap artikel yang Anda sumbangkan akan sangat berguna bagi orang lain yang ingin mempelajari bahasa pemrograman python.
 1. Masuk ke repositori Belajarpython di github, klik folder **_posts**,  klik tombol **Create new file** atau klik link ini [https://github.com/belajarpythoncom/belajarpython.com/new/master/_posts](https://github.com/belajarpythoncom/belajarpython.com/new/master/_posts)
 
 ![tulis-artikel](/images/tulis-artikel-step-1.jpg)
 
-2. Tuliskan nama file dengan format *tahun-bulan-tanggal-judul.md* 
+2. Tuliskan nama file dengan format *tahun-bulan-tanggal-judul.md*
 ![tulis-artikel](/images/tulis-artikel-step-2.jpg)
 
 3. Tulis artikel dengan template dibawah ini.
