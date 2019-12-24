@@ -5,6 +5,8 @@ permalink: /code-of-conduct/
 ---
 
 ---
+# Code of Conduct
+
 ## Perjanjian
 
 Demi kepentingan membina lingkungan yang terbuka dan ramah di Belajarpython, kami sebagai kontributor dan pengelola berjanji untuk membuat partisipasi dalam proyek kami dan komunitas kami yang bebas pelecehan untuk semua orang, tanpa memandang usia, ukuran tubuh, kecacatan, etnis, identitas dan ekspresi gender, tingkat pengalaman, kebangsaan, penampilan pribadi, ras, agama, atau identitas dan orientasi seksual.
