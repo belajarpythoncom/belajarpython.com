@@ -24,7 +24,7 @@ Dibawah ini adalah contoh penggunaan pengulangan While Loop.
 
 count = 0
 while (count < 9):
-    print 'The count is:', count
+    print ("The count is: ", count)
     count = count + 1
 
 print ("Good bye!")
@@ -44,7 +44,7 @@ for x in angka:
 #Contoh pengulangan for
 buah = ["nanas", "apel", "jeruk"]
 for makanan in buah:
-    print "Saya suka makan", makanan
+    print ("Saya suka makan", makanan)
 {% endhighlight %}
     
 ### Nested Loop
