@@ -55,7 +55,7 @@ class Employee:
 
 ### Membuat Instance Objects
 
-To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts Untuk membuat instances kelas, Anda memanggil class menggunakan nama class dan meneruskan argumen apa pun yang metode __init__ terima.
+Untuk membuat instances kelas, Anda memanggil class menggunakan nama class dan meneruskan argumen apa pun yang metode __init__ terima.
 
 
 {% highlight python %}
