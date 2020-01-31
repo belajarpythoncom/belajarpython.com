@@ -83,7 +83,7 @@ Python menyertakan method built-in sebagai berikut :
  | dict.fromkeys() | 	Buat Dictionary baru dengan kunci dari seq dan nilai yang disetel ke nilai. | 
  | dict.get(key, default=None)	 | For key, nilai pengembalian atau default jika tombol tidak ada dalam Dictionary | 
  | dict.has_key(key) | 	Mengembalikan true jika key dalam Dictionary, false sebaliknya | 
- | dict.items() | 	Mengembalikan daftari dari pasangan tuple dictionary (key, value) | 
+ | dict.items() | 	Mengembalikan daftar dari pasangan tuple dictionary (key, value) | 
  | dict.keys()	 | Mengembalikan daftar key dictionary | 
  | dict.setdefault(key, default=None) | 	Mirip dengan get (), tapi akan mengatur dict [key] = default jika kunci belum ada di dict |
  | dict.update(dict2) | 	Menambahkan pasangan kunci kata kunci dict2 ke dict | 
