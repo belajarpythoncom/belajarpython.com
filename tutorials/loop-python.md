@@ -21,6 +21,7 @@ Dibawah ini adalah contoh penggunaan pengulangan While Loop.
 
 {% highlight python %}
 #Contoh penggunaan While Loop
+#Catatan: Penentuan ruang lingkup di Python bisa menggunakan tab alih-alih menggunakan tanda kurung
 
 count = 0
 while (count < 9):
@@ -54,6 +55,7 @@ Dibawah ini adalah contoh penggunaan Nested Loop.
 
 {% highlight python %}
 #Contoh penggunaan Nested Loop
+#Catatan: Penggunaan modulo pada kondisional mengasumsikan nilai selain nol sebagai True(benar) dan nol sebagai False(salah)
 
 i = 2
 while(i < 100):
