@@ -32,13 +32,13 @@ Python memiliki dukungan built-in untuk SQLite. Pada bagian ini, kita akan mempe
 
 ### Apa itu PyMySQL ?
 
-PyMySQL adalah sebuah antarmuka untuk menghubungkan ke server database MySQL dari Python. Ini mengimplementasikan API Database Python v2.0 dan berisi perpustakaan klien MySQL murni-Python. Tujuan PyMySQL adalah penggantian drop-in untuk MySQLdb.
+PyMySQL adalah sebuah antarmuka untuk menghubungkan ke server database MySQL dari Python. Ini mengimplementasikan API Database Python v2.0 dan berisi perpustakaan klien MySQL murni-Python. Tujuan PyMySQL adalah penggantian drop-in untuk MySQLdb. Anda dapat melihat dokumentasi lengkap penggunaan PyMySQL di https://pymysql.readthedocs.io/en/latest/
 
 ### Cara Instal PyMySQL
 
 Sebelum melanjutka, pastikan Anda telah menginstal PyMySQL di komputer Anda. Cukup ketik berikut ini di skrip Python Anda dan jalankan.
 
-`import PyMySQL`
+`import pymysql.cursors`
 
 Jika menghasilkan hasil berikut, berarti modul MySQLdb tidak terpasang:
 
@@ -49,7 +49,7 @@ Jika menghasilkan hasil berikut, berarti modul MySQLdb tidak terpasang:
 
 Untuk menginstal modul PyMySQL silahkan gunakan command/perintah berikut di command prompt:
 
-`pip install PyMySQL`
+`python -m pip install PyMySQL`
 
 ### Database Connection
 
@@ -67,10 +67,10 @@ Berikut ini adalah contoh koneksi dengan database MySQL "TESTDB"
 
 
 {% highlight python %}
-import PyMySQL
+import pymysql.cursors
 
 # Open database connection
-db = PyMySQL.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -92,10 +92,10 @@ db.close()
 
 
 {% highlight python %}
-import PyMySQL
+import pymysql.cursors
 
 # Open database connection
-db = PyMySQL.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -124,10 +124,10 @@ Contoh berikut, mengeksekusi pernyataan SQL INSERT untuk membuat catatan di tabe
 
 
 {% highlight python %}
-import PyMySQL
+import pymysql.cursors
 
 # Open database connection
-db = PyMySQL.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -153,10 +153,10 @@ Contoh di atas bisa dituliskan sebagai berikut untuk membuat query SQL secara di
 
 
 {% highlight python %}
-import PyMySQL
+import pymysql.cursors
 
 # Open database connection
-db = PyMySQL.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -197,10 +197,10 @@ Prosedur berikut menanyakan semua catatan dari tabel EMPLOYEE yang memiliki gaji
 
 
 {% highlight python %}
-import PyMySQL
+import pymysql.cursors
 
 # Open database connection
-db = PyMySQL.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -238,10 +238,10 @@ Operasi UPDATE pada database apapun berarti mengupdate satu atau lebih catatan, 
 Prosedur berikut memperbarui semua catatan yang memiliki SEX sebagai 'M'. Di sini, kita meningkatkan UMUR semua laki-laki satu tahun.
 
 {% highlight python %}
-import PyMySQL
+import pymysql.cursors
 
 # Open database connection
-db = PyMySQL.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -267,10 +267,10 @@ db.close()
 Operasi DELETE diperlukan bila Anda ingin menghapus beberapa catatan dari database Anda. Berikut ini adalah prosedur untuk menghapus semua catatan dari EMPLOYEE dimana AGE lebih dari 20
 
 {% highlight python %}
-import PyMySQL
+import pymysql.cursors
 
 # Open database connection
-db = PyMySQL.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
