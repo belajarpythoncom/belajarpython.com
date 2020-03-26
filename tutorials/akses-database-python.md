@@ -32,7 +32,7 @@ Python memiliki dukungan built-in untuk SQLite. Pada bagian ini, kita akan mempe
 
 ### Apa itu PyMySQL ?
 
-PyMySQL adalah sebuah antarmuka untuk menghubungkan ke server database MySQL dari Python. Ini mengimplementasikan API Database Python v2.0 dan berisi perpustakaan klien MySQL murni-Python. Tujuan PyMySQL adalah penggantian drop-in untuk MySQLdb. Anda dapat melihat dokumentasi lengkap penggunaan PyMySQL di https://pymysql.readthedocs.io/en/latest/
+PyMySQL adalah sebuah antarmuka untuk menghubungkan ke server database MySQL dari Python. Ini mengimplementasikan API Database Python v2.0 dan berisi perpustakaan klien MySQL murni-Python. Tujuan PyMySQL adalah penggantian drop-in untuk MySQLdb. Anda dapat melihat dokumentasi lengkap penggunaan PyMySQL di [https://pymysql.readthedocs.io/en/latest/](https://pymysql.readthedocs.io/en/latest/).
 
 ### Cara Instal PyMySQL
 
@@ -107,7 +107,7 @@ cursor.execute("DROP TABLE IF EXISTS EMPLOYEE")
 sql = """CREATE TABLE EMPLOYEE (
    FIRST_NAME  CHAR(20) NOT NULL,
    LAST_NAME  CHAR(20),
-   AGE INT,  
+   AGE INT,
    SEX CHAR(1),
    INCOME FLOAT )"""
 
