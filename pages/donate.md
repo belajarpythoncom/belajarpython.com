@@ -7,7 +7,7 @@ permalink: /donate/
 ---
 Belajarpython adalah website referensi panduan bahasa pemrograman Python No.1 di Indonesia. Misi kami adalah menyediakan tutorial bahasa pemrograman python dalam bahasa Indonesia yang mudah diakses dan digunakan secara gratis oleh semua orang
 
-Iklan bukanlah sesuatu hal yang jahat, kami hanya tidak menginginkan pembaca terganggu dengan adanya iklan saat membaca tutorial. Tetapi walau bagaimanapun kami tetap membutuhkan biaya untuk merawat dan melakukan inovasi untuk kelangsungan website Belajarpython. 
+Iklan bukanlah sesuatu hal yang jahat, kami hanya tidak menginginkan pembaca terganggu dengan adanya iklan saat membaca tutorial. Tetapi walau bagaimanapun kami tetap membutuhkan biaya untuk merawat dan melakukan inovasi untuk kelangsungan website Belajarpython.
 
 Untuk itu setiap donasi dari Anda sangat berharga bagi kelangsungan website Belajarpython dan kelangsungan media pembelajaran gratis di Indonesia.
 
@@ -28,4 +28,4 @@ Untuk itu setiap donasi dari Anda sangat berharga bagi kelangsungan website Bela
 - Melakukan event/acara untuk memperkenalkan dan mengajarkan pemrograman Python di Indonesia
 - Untuk penambahan staf pengelola dan mempertahankan pengelola yang sudah ada di website Belajarpython
 
-> Purwanto - Founder Belajarpython 
+> [Purwanto](https://github.com/purwnt) - Author Belajarpython
