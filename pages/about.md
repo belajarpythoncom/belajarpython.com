@@ -27,13 +27,13 @@ Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh develope
 
 Belajarpython telah mengadopsi Kode Etik yang kami harapkan akan diikuti oleh peserta proyek terbuka ini. Mohon baca [full text](https://github.com/belajarpythoncom/belajarpython.com/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
-### [Panduan Kontribusi](https://belajarpython.com/contributing/how-to-contribute.html)
+### [Panduan Kontribusi](https://belajarpython.com/contribute)
 
-Baca [panduan kontribusi](https://belajarpython.org/contributing/how-to-contribute.html) dari kami untuk mempelajari tentang proses pengembangan konten disini.
+Baca [panduan kontribusi](https://belajarpython.org/contribute) dari kami untuk mempelajari tentang proses pengembangan konten disini.
 
 ### Good First Issues
 
-Untuk membantu Anda membuat kaki Anda basah dan membuat Anda terbiasa dengan proses kontribusi kami, kami memiliki daftar [good first issues](https://github.com/belajarpythoncom/belajarpythoncom.com/issues) yang mengandung bug yang memiliki lingkup yang relatif terbatas. Ini adalah tempat yang bagus untuk memulai.
+Untuk membantu Anda membuat kaki Anda basah dan membuat Anda terbiasa dengan proses kontribusi kami, kami memiliki daftar [good first issues](https://github.com/belajarpythoncom/belajarpython.com/issues) yang mengandung bug yang memiliki lingkup yang relatif terbatas. Ini adalah tempat yang bagus untuk memulai.
 
 ### License
 
