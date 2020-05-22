@@ -23,7 +23,7 @@ Belajarpython telah mengadopsi Kode Etik yang kami harapkan akan diikuti oleh pe
 
 ### [Panduan Kontribusi](https://belajarpython.com/contribute)
 
-Baca [panduan kontribusi](https://belajarpython.org/contribute) dari kami untuk mempelajari tentang proses pengembangan konten disini.
+Baca [panduan kontribusi](https://belajarpython.com/contribute) dari kami untuk mempelajari tentang proses pengembangan konten disini.
 
 ### Good First Issues
 
