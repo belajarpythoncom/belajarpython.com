@@ -22,6 +22,8 @@ Cara menginstal python sangat mudah, ikuti panduan dibawah ini. Dibawah adalah p
 
 Langkah ini akan menginstal Python di lokasi standar `/usr/local/bin` dan library di `/usr/local/lib/pythonXX` dimana `XX` adalah versi terbaru Python yang anda gunakan.
 
+> Untuk beberapa distro (distribution store) dari sistem operasi linux sudah terinstal Python di dalamnya. Jadi Anda tidak perlu menginstalnya lagi.
+
 
 ### Windows
 1. Buka browser, kunjungi [http://www.python.org/downloads/windows/](http://www.python.org/downloads/windows/)
