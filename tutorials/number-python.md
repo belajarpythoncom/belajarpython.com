@@ -53,7 +53,6 @@ Pada bahasa pemrograman Python terdapat fungsi untuk melakukan perhitungan matem
 | Cmp |	`cmp(x, y)` |	-1 if x < y, 0 if x == y, or 1 if x > y. Tidak berlaku lagi dengan Python 3. Sebaliknya gunakan return (x>y)-(x |
 | Eksponen |	`exp(x)` |	Nilai eksponen dari x: ex |
 | Fabs |	`fabs(x)` |	Nilai absolut dari x. |
-| Floor |	`floor(x)` |	The floor of x: the largest integer not greater than x. |
 | Floor |	`floor(x)` |	Nilai dasar dari x: internet terbesar tidak lebih besar dari x. |
 | Log |	`log(x)` |	Logaritma dari x, untuk x > 0. |
 | Log 10 |	`log10(x)` |	Basis 10 logaritma dari x, untuk x > 0. |
