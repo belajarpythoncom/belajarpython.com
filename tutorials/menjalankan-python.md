@@ -41,6 +41,7 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 
 {% highlight python %}
 print("Belajar Python")
+print("di belajarpython.com")
 {% endhighlight %}
 
 4. Simpan script lewat menu `File - Save`
