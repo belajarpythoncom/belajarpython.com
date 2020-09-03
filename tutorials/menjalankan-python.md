@@ -38,10 +38,12 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 1. Untuk menjalankan script yang disimpan dalam file, buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
 2. Klik menu `File - New File`
 3. Tulis script Python pada window yang muncul, contoh:
+
 {% highlight python %}
 print("Belajar Python")
 print("di belajarpython.com")
 {% endhighlight %}
+
 4. Simpan script lewat menu `File - Save`
 5. Jalankan program dengan klik menu `Run - Run Module`
 
