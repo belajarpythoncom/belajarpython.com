@@ -39,10 +39,10 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 2. Klik menu `File - New File`
 3. Tulis script Python pada window yang muncul, contoh:
 
-{% highlight python %}
-print("Belajar Python")
-print("di belajarpython.com")
-{% endhighlight %}
+    {% highlight python %}
+    print("Belajar Python")
+    print("di belajarpython.com")
+    {% endhighlight %}
 
 4. Simpan script lewat menu `File - Save`
 5. Jalankan program dengan klik menu `Run - Run Module`
