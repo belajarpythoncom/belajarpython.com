@@ -26,28 +26,28 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 8. Script Python Anda akan dieksekusi/dijalankan.
 
 ### Windows
-1. Buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
-2. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
+#### Menggunakan Shell
+    1. Buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
+    2. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
 
-    ![Python Shell Windows](/images/menjalankan-python-windows.png "Python Shell Windows")
+        ![Python Shell Windows](/images/menjalankan-python-windows.png "Python Shell Windows")
 
-3. Untuk keluar dari sheel Python ketik `exit()`
+    3. Untuk keluar dari sheel Python ketik `exit()`
 
-*atau*
+#### Menggunakan Script Editor
+    1. Untuk menjalankan script yang disimpan dalam file, buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
+    2. Klik menu `File - New File`
+    3. Tulis script Python pada window yang muncul, contoh:
 
-1. Untuk menjalankan script yang disimpan dalam file, buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
-2. Klik menu `File - New File`
-3. Tulis script Python pada window yang muncul, contoh:
+        {% highlight python %}
+        print("Belajar Python")
+        print("di belajarpython.com")
+        {% endhighlight %}
 
-{% highlight python %}
-print("Belajar Python")
-print("di belajarpython.com")
-{% endhighlight %}
+    4. Simpan script lewat menu `File - Save`
+    5. Jalankan program dengan klik menu `Run - Run Module`
 
-4. Simpan script lewat menu `File - Save`
-5. Jalankan program dengan klik menu `Run - Run Module`
-
-    ![Python Editor Windows](/images/menjalankan-python-windows-editor.png "Python Editor Windows")
+        ![Python Editor Windows](/images/menjalankan-python-windows-editor.png "Python Editor Windows")
 
 ### Mac OS
 1. Buka terminal.
