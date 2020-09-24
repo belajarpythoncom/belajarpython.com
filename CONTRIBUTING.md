@@ -8,9 +8,9 @@ permalink: /contribute/
 
 Sebelumnya, terimakasih banyak karena telah meluangkan waktu Anda untuk ikut berkontribusi!
 
-Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan :trollface: developer, :man: mahasiswa, :older_woman: pengajar, bahkan :baby: anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan :heart: kontribusinya disini.
+Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan :trollface: developer, :man: mahasiswa, :older_woman: pengajar, bahkan :baby: anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan :heart: kontribusinya di sini.
 
-Dibawah ini adalah panduan untuk berkontribusi di Belajarpython, dimana website-nya sendiri dikelola oleh [Developer Belajarpython](https://github.com/belajarpythoncom) di github. Yang akan disampaikan dibawah ini bukanlah peraturan, melainkan panduan (guidelines). Gunakan penilaian terbaik Anda, dan jangan ragu untuk mengajukan perubahan pada setiap dokumen dalam permintaan penarikan (pull request).
+Di bawah ini adalah panduan untuk berkontribusi di Belajarpython, di mana website-nya sendiri dikelola oleh [Developer Belajarpython](https://github.com/belajarpythoncom) di github. Yang akan disampaikan di bawah ini bukanlah peraturan, melainkan panduan (guidelines). Gunakan penilaian terbaik Anda, dan jangan ragu untuk mengajukan perubahan pada setiap dokumen dalam permintaan penarikan (pull request).
 
 #### Table Of Contents
 
@@ -53,7 +53,7 @@ Pada bagian artikel, dibahas semua hal tentang tips trik, tutorial penggunaan py
 
 Untuk mulai berkontribusi di belajarpython Anda harus menggunakan akun Github. Jika anda belum mempunyai akun Github, silahkan untuk membuatnya terlebih dahulu.
 
-### Meyempurnakan Tutorial
+### Menyempurnakan Tutorial
 Setiap tutorial yang ada di website belajarpython belum sepenuhnya mudah dipahami oleh setiap pembaca. Anda bisa menyempurnakan setiap tutorial.
 1. Klik link **Edit tutorial ini** yang berada di bagian bawah setiap tutorial.
 
@@ -80,17 +80,17 @@ Setiap orang bisa menulis artikel apapun yang berhubungan dengan bahasa pemrogra
 2. Tuliskan nama file dengan format *tahun-bulan-tanggal-judul.md*
 ![tulis-artikel](/images/tulis-artikel-step-2.jpg)
 
-3. Tulis artikel dengan template dibawah ini.
+3. Tulis artikel dengan template di bawah ini.
 ```
 ---
 layout: article
-title: Tulis judul artikel disini
+title: Tulis judul artikel di sini
 date:   2018-05-09 16:16:01 -0600
-categories: tulis kategori disini
+categories: tulis kategori di sini
 ---
 
 ---
-Tulis konten artikel disini...
+Tulis konten artikel di sini...
 
 ```
 4. Klik tombol **Propose new file**
