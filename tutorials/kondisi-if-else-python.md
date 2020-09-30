@@ -23,14 +23,14 @@ nilai = 9
 
 #jika kondisi benar/TRUE maka program akan mengeksekusi perintah dibawahnya
 if(nilai > 7):
-    print("Selamat Anda Lulus")
+    print("Sembilan Lebih Besar Dari Angka Tujuh") # Kondisi Benar, Dieksekusi
 
 #jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya
 if(nilai > 10):
-    print("Selamat Anda Lulus")
+    print("Sembilan Lebih Besar Dari Angka Sepuluh") # Kondisi Salah, Maka tidak tereksekusi
 {% endhighlight %}
 
-Dari contoh diatas, jika program dijalankan maka akan mencetak string `"Selamat Anda Lulus Ujian"` sebanyak 1 kali yaitu pada if pertama. Di if kedua statement bernilai salah, jadi perintah `print("Selamat Anda Lulus")` tidak akan dieksekusi.
+Dari contoh diatas, jika program dijalankan maka akan mencetak string `"Sembilan Lebih Besar Dari Angka Tujuh"` sebanyak 1 kali yaitu pada if pertama. Di if kedua statement bernilai salah, jadi perintah `print("Sembilan Lebih Besar Dari Angka Sepuluh")` tidak akan dieksekusi.
 
 
 ### Kondisi If Else
