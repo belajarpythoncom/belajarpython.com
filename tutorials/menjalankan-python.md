@@ -6,13 +6,13 @@ permalink: /tutorial/menjalankan-python
 
 ---
 
-Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan sheel, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
+Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan *shell*, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
 
 ### Linux
 1. Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>
-2. Ketik python maka Anda akan masuk ke sheel Python. 
+2. Ketik python maka Anda akan masuk ke Python shell. 
 3. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
-4. Untuk keluar dari sheel Python ketik `exit()`
+4. Untuk keluar dari Python shell ketik `exit()`
 
 *atau*
 
@@ -32,7 +32,7 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 
 ![Python Shell Windows](/images/menjalankan-python-windows.png "Python Shell Windows")
 
-3. Untuk keluar dari sheel Python ketik `exit()`
+3. Untuk keluar dari Python shell ketik `exit()`
 
 #### Menggunakan Script Editor
 1. Untuk menjalankan script yang disimpan dalam file, buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
@@ -51,9 +51,9 @@ print("di belajarpython.com")
 
 ### Mac OS
 1. Buka terminal.
-2. Ketik python maka Anda akan masuk ke sheel Python. 
+2. Ketik python maka Anda akan masuk ke Python shell. 
 3. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
-4. Untuk keluar dari sheel Python ketik `exit()`
+4. Untuk keluar dari Python shell ketik `exit()`
 
 *atau*
 
