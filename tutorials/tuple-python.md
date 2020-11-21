@@ -116,7 +116,7 @@ Python menyertakan fungsi built-in sebagai berikut
 | `len(tuple)` |		Memberikan total panjang tuple. |	
 | `max(tuple)` |		Mengembalikan item dari tuple dengan nilai maks. |	
 | `min(tuple)` |		Mengembalikan item dari tuple dengan nilai min. |	
-| `tuple(seq)` |		Mengubah tuple menjadi tuple. |	
+| `tuple(seq)` |		Mengubah seq menjadi tuple. |	
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/tuple-python.md)
 
