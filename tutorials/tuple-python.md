@@ -70,12 +70,15 @@ Untuk secara eksplisit menghapus keseluruhan tuple, cukup gunakan del statement.
 
 
 {% highlight python %}
-tup = ('fisika', 'kimia', 1993, 2017);
+tup = ('fisika', 'kimia', 1993, 2017)
+print(tup)
 
-print (tup)
-del tup;
-print "Setelah menghapus tuple : "
-print tup
+# hapus tuple dengan statement del
+del tup
+
+# lalu buat kembali tuple yang baru dengan elemen yang diinginkan
+tup = ('Bahasa', 'Literasi', 2020)
+print("Setelah menghapus tuple :", tup)
 {% endhighlight %}
 
 
