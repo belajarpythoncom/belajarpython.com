@@ -59,9 +59,9 @@ Untuk membuat instances kelas, Anda memanggil class menggunakan nama class dan m
 
 
 {% highlight python %}
-This would create first object of Employee class
+#Ini akan membuat object pertama dari class Employee
 emp1 = Employee("Zara", 2000)
-This would create second object of Employee class
+#Ini akan membuat object kedua dari class Employee
 emp2 = Employee("Manni", 5000)
 {% endhighlight %}
 
@@ -94,9 +94,9 @@ class Employee:
       print ("Name : ", self.name,  ", Salary: ", self.salary)
 
 
-#This would create first object of Employee class"
+#Ini akan membuat object pertama dari class Employee
 emp1 = Employee("Zara", 2000)
-#This would create second object of Employee class"
+#Ini akan membuat object kedua dari class Employee
 emp2 = Employee("Manni", 5000)
 emp1.displayEmployee()
 emp2.displayEmployee()
