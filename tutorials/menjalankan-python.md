@@ -22,7 +22,7 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 4. Jalankan file dengan menggunakan Terminal.
 5. Buka terminal.
 6. Masuk ke direktori dimana file Python Anda disimpan (contoh: `cd /Users/admin/Desktop/`).
-7. Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: `python cetak.py`).
+7. Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: `python3 cetak.py`).
 8. Script Python Anda akan dieksekusi/dijalankan.
 
 ### Windows
