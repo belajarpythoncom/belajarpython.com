@@ -9,9 +9,9 @@ permalink: /tutorial/menjalankan-python
 Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan *shell*, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
 
 ### Linux
-1. Buka terminal
+1. Buka terminal.
 2. Ketik python maka Anda akan masuk ke Python shell. 
-3. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
+3. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`, jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
 4. Untuk keluar dari Python shell ketik `exit()`
 
 *atau*
@@ -20,7 +20,7 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 2. Buat file baru, dan ketikan script python Anda, contoh: `print("Selamat datang di Python")`.
 3. Save As dengan ekstensi `.py` (contoh: `cetak.py`).
 4. Jalankan file dengan menggunakan Terminal.
-5. Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>.
+5. Buka terminal.
 6. Masuk ke direktori dimana file Python Anda disimpan (contoh: `cd /Users/admin/Desktop/`).
 7. Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: `python cetak.py`).
 8. Script Python Anda akan dieksekusi/dijalankan.
