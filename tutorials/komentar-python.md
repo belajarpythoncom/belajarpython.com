@@ -8,7 +8,7 @@ permalink: /tutorial/komentar-python
 
 Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau tidak dijalankan mesin. Komentar hanya digunakan untuk menandai atau memberikan keterangan tertulis pada script.
 
-Komentar biasa digunakan untuk membiarkan orang lain memahami apa yang dilakukan script. atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.
+Komentar biasa digunakan untuk memudahkan orang lain memahami apa yang dilakukan script atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.
 
 Untuk menggunakan komentar anda cukup menulis tanda pagar `#`, diikuti dengan komentar Anda.
 
@@ -29,6 +29,8 @@ dengan menggunakan kutip dua 3 kali dan
 ditutup dengan kutip dua 3 kali juga
 """
 
+"Ini juga komentar"
+
 print("Hello World") #ini juga komentar
 
 #print("Welcome")
@@ -36,13 +38,19 @@ print("Hello World") #ini juga komentar
 # komentar bisa berisi spesial karakter !@#$%^&*(),./;'[]\
 
 #mencetak nama
-print("Budi")
+print("Budi")       # Ini juga komentar
 
 #mencetak angka/integer
 print(123)
 {% endhighlight %}
 
 Saat anda menjalankan script diatas, Anda akan melihat output berupa `Hello World`, `Budi` dan `123`, karena tulisan/komentar yang ditulis tidak dieksekusi.
+
+Tetapi direkomendasikan untuk menggunakan komentar dengan menggunakan `#` kemudian diikuti satu spasi ` `.
+
+{% highlight python %}
+# Ini adalah komentar
+{% endhighlight %}
 
 ---
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/komentar-python.md)
