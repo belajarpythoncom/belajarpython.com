@@ -61,7 +61,7 @@ print("di belajarpython.com")
 2. Buat file baru, dan ketikan script python Anda, contoh: `print("Selamat datang di Python")`.
 3. Save As dengan ekstensi `.py` (contoh: `cetak.py`).
 4. Jalankan file dengan menggunakan Terminal.
-5. Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>
+5. Buka terminal.
 6. Masuk ke direktori dimana file Python Anda disimpan (contoh: `cd /Users/admin/Desktop/`).
 7. Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: `python cetak.py`).
 8. Script Python Anda akan dieksekusi/dijalankan.
