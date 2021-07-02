@@ -8,7 +8,7 @@ permalink: /tutorial/instalasi-python
 
 Sebelum Anda menggunakan Python, Anda harus menginstalnya terlebih dahulu di sistem operasi komputer Anda. Saat ini Python memiliki 2 versi yang berbeda, yaitu Python versi **3.4.3** dan Python versi **2.7.10**. Disini kita akan belajar bahasa pemrograman Python menggunakan versi terbaru **3.4.3**.
 
-Cara menginstal python sangat mudah, ikuti panduan dibawah ini. Dibawah adalah panduan cara instal python di platform Linux, Windows dan Mac OS.
+Cara menginstal python sangat mudah, ikuti panduan dibawah ini. Dibawah adalah panduan cara instal python di platform Linux, Windows, Mac OS dan Android.
 
 
 ### Linux
