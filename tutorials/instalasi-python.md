@@ -37,6 +37,11 @@ Langkah ini akan menginstal Python di lokasi standar `/usr/local/bin` dan librar
 3. Buka file yang baru saja di download
 4. Ikuti langkah instalasi sampai selesai
 
+### Android
+1. Buka Playstore, cari QPython 3L.
+2. Install QPython 2L.
+3. Buka aplikasi ketika selesai install.
+
 ---
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/instalasi-python.md)
 
