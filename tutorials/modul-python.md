@@ -14,9 +14,8 @@ Berikut adalah contoh modul sederhana pada Python :
 
 
 {% highlight python %}
-def print_func( par ):
-   print "Halo : ", par
-   return
+def print_func(par):
+   print ("Halo :", par)
 {% endhighlight %}
 
 ### Import Statement
