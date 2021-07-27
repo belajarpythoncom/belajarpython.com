@@ -2,6 +2,7 @@
 layout: tutorial
 title: Menjalankan Python
 permalink: /tutorial/menjalankan-python
+comments: true
 ---
 
 ---

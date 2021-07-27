@@ -2,6 +2,7 @@
 layout: tutorial
 title: Operator Python
 permalink: /tutorial/operator-python
+comments: true
 ---
 
 ---

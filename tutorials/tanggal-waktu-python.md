@@ -2,6 +2,7 @@
 layout: tutorial
 title: Tanggal & Waktu Python
 permalink: /tutorial/tanggal-waktu-python
+comments: true
 ---
 
 ---

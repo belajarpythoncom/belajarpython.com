@@ -2,6 +2,7 @@
 layout: tutorial
 title: Exception Python
 permalink: /tutorial/exception-python
+comments: true
 ---
 
 ---

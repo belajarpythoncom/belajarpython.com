@@ -2,6 +2,7 @@
 layout: tutorial
 title: Object & Class Python
 permalink: /tutorial/object-class-python
+comments: true
 ---
 
 ---

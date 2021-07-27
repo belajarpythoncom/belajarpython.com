@@ -2,6 +2,7 @@
 layout: tutorial
 title: Kondisi Python
 permalink: /tutorial/kondisi-if-else-python
+comments: true
 ---
 
 ---

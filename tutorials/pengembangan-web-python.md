@@ -2,6 +2,7 @@
 layout: tutorial
 title: Pengembangan Web Python
 permalink: /tutorial/pengembangan-web-python
+comments: true
 ---
 
 ---

@@ -2,6 +2,7 @@
 layout: tutorial
 title: Tuple Python
 permalink: /tutorial/tuple-python
+comments: true
 ---
 
 ---

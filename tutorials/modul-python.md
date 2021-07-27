@@ -2,6 +2,7 @@
 layout: tutorial
 title: Modul Python
 permalink: /tutorial/modul-python
+comments: true
 ---
 
 ---

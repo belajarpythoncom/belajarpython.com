@@ -2,6 +2,7 @@
 layout: tutorial
 title: Variabel Python
 permalink: /tutorial/variabel-python
+comments: true
 ---
 
 ---

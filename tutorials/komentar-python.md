@@ -2,6 +2,7 @@
 layout: tutorial
 title: Komentar Python
 permalink: /tutorial/komentar-python
+comments: true
 ---
 
 ---

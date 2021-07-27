@@ -2,6 +2,7 @@
 layout: tutorial
 title: Instalasi Python
 permalink: /tutorial/instalasi-python
+comments: true
 ---
 
 ---
