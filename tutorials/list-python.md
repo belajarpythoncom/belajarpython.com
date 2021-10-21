@@ -60,7 +60,7 @@ print ("Nilai baru ada pada index 2 : ", list[2])
 
 ### Hapus Nilai Dalam List Python
 
-Untuk menghapus nilai di dalam list python, Anda dapat menggunakan salah satu pernyataan del jika Anda tahu persis elemen yang Anda hapus. Anda dapat menggunakan metode remove() jika Anda tidak tahu persis item mana yang akan dihapus. Sebagai contoh :
+Untuk menghapus nilai di dalam list python, Anda dapat menggunakan salah satu pernyataan `del` jika Anda tahu persis elemen yang Anda hapus. Anda dapat menggunakan metode remove() jika Anda tidak tahu persis item mana yang akan dihapus. Sebagai contoh :
 
 {% highlight python %}
 #Contoh cara menghapus nilai pada list python
@@ -88,18 +88,20 @@ Sebenarnya, list merespons semua operasi urutan umum yang kami gunakan pada Stri
 
 ### Indexing, Slicing dan Matrix Pada List Python
 
-Karena list adalah urutan, pengindeksan dan pengiris bekerja dengan cara yang sama untuk list seperti yang mereka lakukan untuk String.
+Karena list adalah urutan, pengindeksan dan pengirisan (slicing) bekerja dengan cara yang sama untuk list seperti yang mereka lakukan untuk String.
 
 Dengan asumsi input berikut :
 
-`L = ['C++'', 'Java', 'Python']`
+`L = ['C++'', 'Java', 'Python', 'Pascal']`
 
  | Python Expression | 	Hasil | 	Penjelasan | 
  | --- | --- | --- | 
  | `L[2]`	 | `'Python'` | 	Offset mulai dari nol | 
  | `L[-2]` | 	`'Java'` | 	Negatif: hitung dari kanan | 
- | `[1:]`	 | `['Java', 'Python']` | 	Slicing mengambil bagian | 
+ | `[1:]`	 | `['Java', 'Python', 'Pascal']` | 	slice list mulai elemen index 1 (urutan ke-2) sampai akhir | 
+ | `[1:3]`	 | `['Java', 'Python']` | 	slice list mulai elemen index 1 (urutan ke-2) sampai batas index-3 (sebelum 'Pascal') | 
  
+
 ### Method dan Fungsi Build-in Pada List Python
 
 Python menyertakan fungsi built-in sebagai berikut :
@@ -112,12 +114,23 @@ Python menyertakan fungsi built-in sebagai berikut :
 | min(list)	 | Mengembalikan item dari list dengan nilai min. | 
 | list(seq)	 | Mengubah tuple menjadi list. | 
 
-Python menyertakan methods built-in sebagai berikut
+Contoh penggunaan:
+{% highlight python %}
+daftar = [39, 48, 29, 58, 99, 32, 28] 
+
+print("Jumlah data", len(daftar)) # Jumlah data 7
+print("Nilai Max", max(daftar))   # Nilai Max 99
+print("Nilai Min", min(daftar))   # Nilai Min 28
+print("Sum Total", sum(daftar))   # Sum Total 333
+print("Nilai Rata-rata", sum(daftar)/len(daftar)) # Nilai Rata-rata 47.57
+{% endhighlight %}
+
+Python menyertakan methods built-in sebagai berikut :
 
  | Python Methods | 	Penjelasan | 
  | --- | --- | 
  | list.append(obj)	 | Menambahkan objek obj ke list | 
- | list.count(obj) | 	Jumlah pengembalian berapa kali obj terjadi dalam list | 
+ | list.count(obj) | 	Jumlah pengembalian berapa kali obj terjadi dalam list. | 
  | list.extend(seq) | 	Tambahkan isi seq ke list | 
  | list.index(obj) | 	Mengembalikan indeks terendah dalam list yang muncul obj | 
  | list.insert(index, obj)	 | Sisipkan objek obj ke dalam list di indeks offset | 
@@ -126,7 +139,25 @@ Python menyertakan methods built-in sebagai berikut
  | list.reverse() | 	Membalik list objek di tempat | 
  | list.sort([func])	 | Urutkan objek list, gunakan compare func jika diberikan | 
 
+{% highlight python %}
+daftar = ["Budi", "Ayu", "Andi"]
 
+print(daftar) # ['Budi', 'Ayu', 'Andi']
+
+daftar.append("Dani") # menambahkan data baru di akhir
+print(daftar) # ['Budi', 'Ayu', 'Andi', 'Dani']
+
+print(daftar.index("Ayu")) # 1: index untuk data "Ayu"
+
+daftar.insert(1,"Yuda") # menyisipkan data "Yuda" pada index 1
+print(daftar) # ['Budi', 'Yuda', 'Ayu', 'Andi', 'Dani']
+
+daftar.sort() # mengurutkan data
+print(daftar) # ['Andi', 'Ayu', 'Budi', 'Dani', 'Yuda']
+
+print(daftar.pop()) # Yuda: mengambil data terakhir sekaligus menghapusnya dari list
+print(daftar) # ['Andi', 'Ayu', 'Budi', 'Dani']
+{% endhighlight %}
 
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/list-python.md)
