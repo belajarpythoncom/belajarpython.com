@@ -38,7 +38,7 @@ untuk meng-konversi x menjadi long integer.
 - `float(x)`
 untuk meng-konversi x menjadi floating point number.
 - `complex(x)`
-untuk meng-konversi x menjadi complex number dengna real part x dan imaginary part zero.
+untuk meng-konversi x menjadi complex number dengan real part x dan imaginary part zero.
 - `complex(x, y)`
 untuk meng-konversi x dan y menjadi complex number dengan real part x dan imaginary part y. x dan numeric expressions y. 
 
