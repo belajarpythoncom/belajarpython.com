@@ -117,6 +117,7 @@ Python menyertakan methods built-in sebagai berikut
  | Python Methods | 	Penjelasan | 
  | --- | --- | 
  | list.append(obj)	 | Menambahkan objek obj ke list | 
+ | list.clear()    | Menghilangkan semua isi yang ada pada list |
  | list.count(obj) | 	Jumlah pengembalian berapa kali obj terjadi dalam list | 
  | list.extend(seq) | 	Tambahkan isi seq ke list | 
  | list.index(obj) | 	Mengembalikan indeks terendah dalam list yang muncul obj | 
