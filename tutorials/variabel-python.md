@@ -31,10 +31,10 @@ print(nama)
 #nilai dan tipe data dalam variabel  dapat diubah
 umur = 20               #nilai awal
 print(umur)             #mencetak nilai umur
-type(umur)              #mengecek tipe data umur
+print(type(umur))       #mengecek tipe data umur
 umur = "dua puluh satu" #nilai setelah diubah
 print(umur)             #mencetak nilai umur
-type(umur)              #mengecek tipe data umur
+print(type(umur))       #mengecek tipe data umur
 
 namaDepan = "Budi"
 namaBelakang = "Susanto"
