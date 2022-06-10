@@ -19,7 +19,8 @@ Dibawah ini adalah contoh penggunanaya.
 import time;  # Digunakan untuk meng-import modul time
 
 ticks = time.time()
-print "Berjalan sejak 12:00am, January 1, 1970:", ticks
+print "Berjalan sejak 12:00am, January 1, 1970:", ticks #python 2
+print ("Berjalan sejak 12:00am, January 1, 1970:", ticks) #untuk python 3 gunakan tanda kurung, print()
 {% endhighlight %}
 
 ### Apa itu TimeTuple Python?
@@ -61,7 +62,7 @@ Untuk menerjemahkan waktu instan dari satu detik sejak nilai floating-point ke w
 import time;
 
 localtime = time.localtime(time.time())
-print "Waktu lokal saat ini :", localtime
+print "Waktu lokal saat ini :", localtime #python 2
 {% endhighlight %}
 
 ### Mendapatkan Waktu yang berformat
@@ -73,7 +74,7 @@ Anda dapat memformat kapan saja sesuai kebutuhan Anda, namun metode sederhana un
 import time;
 
 localtime = time.asctime( time.localtime(time.time()) )
-print "Waktu lokal saat ini :", localtime
+print "Waktu lokal saat ini :", localtime #python 2
 {% endhighlight %}
 
 ### Mendapatkan kalender dalam sebulan
@@ -84,7 +85,7 @@ Modul kalender memberikan berbagai macam metode untuk dimainkan dengan kalender 
 import calendar
 
 cal = calendar.month(2008, 1)
-print "Dibawah ini adalah kalender:"
+print "Dibawah ini adalah kalender:" #python 2
 print cal
 {% endhighlight %}
 
