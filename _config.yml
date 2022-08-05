@@ -37,6 +37,30 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-118615030-1
 
+
+defaults:
+  -
+    scope:
+      path: 'tutorials'
+      type: tutorial
+    values:
+      layout: tutorial
+      permalink: /tutorial/:title/
+  -
+    scope:
+      path: 'pages'
+      type: pages
+    values:
+      layout: page
+
+collections:
+  tutorial:
+    output: true
+    sort_by: order
+    permalink: /tutorial/:title/
+  page:
+    output: true
+    sort_by: order
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
