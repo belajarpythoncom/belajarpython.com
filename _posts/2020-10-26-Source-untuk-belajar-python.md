@@ -2,10 +2,9 @@
 layout: article
 title: Source untuk belajar python
 date: 2020-10-26 06:28:20
-categories: artikel
+category: info berita 
 ---
 
----
 Python menjadi salah satu bahasa pemrograman yang paling diminati saat ini. seperti dilansir dari situs [The Redmonk](https://redmonk.com/sogrady/2020/07/27/language-rankings-6-20/) python menduduki peringkat kedua setelah javascript. Karena banyaknya pengguna bahasa python, mungkin ini yang membuat developer python lebih semangat untuk meningkatkan performa bahasa python. Supaya tidak ketinggalan tren python mau tidak mau ya kita harus terus belajar, maka dari itu di artikel ini saya ingin mencoba berbagi beberapa referensi sumber yang saya gunakan untuk belajar bahasa python. Ps: kalian bisa menambahkan sumber lain yang kalian punya ke artikel ini.
 ![Redmon rank](https://github.com/nardiyansah/belajarpython.com/blob/nardiyansah-article-1/images/redmonk%20rank.png)
 
