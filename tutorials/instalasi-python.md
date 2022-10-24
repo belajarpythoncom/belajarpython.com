@@ -27,7 +27,7 @@ Langkah ini akan menginstal Python di lokasi standar `/usr/local/bin` dan librar
 
 ### Windows
 1. Buka browser, kunjungi [http://www.python.org/downloads/windows/](http://www.python.org/downloads/windows/)
-2. ATAU, klik direct link [https://www.python.org/ftp/python/3.8.1/python-3.8.1.exe](https://www.python.org/ftp/python/3.8.1/python-3.8.1.exe)
+2. ATAU, klik direct link [https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe)
 3. Buka (klik 2x) file installer python yang baru saja di download
 4. Ikuti langkah instalasi sampai selesai
 
