@@ -9,7 +9,7 @@ comments: true
 
 Sebelum Anda menggunakan Python, Anda harus menginstalnya terlebih dahulu di sistem operasi komputer Anda. Saat ini Python memiliki 2 versi yang berbeda, yaitu Python versi **3.4.3** dan Python versi **2.7.10**. Disini kita akan belajar bahasa pemrograman Python menggunakan versi terbaru **3.4.3**.
 
-Cara menginstal python sangat mudah, ikuti panduan dibawah ini. Dibawah adalah panduan cara instal python di platform Linux, Windows dan Mac OS.
+Cara menginstal python sangat mudah, ikuti panduan dibawah ini. Dibawah adalah panduan cara instal python di platform Linux, Windows, Mac OS dan Android.
 
 
 ### Linux
@@ -37,6 +37,11 @@ Langkah ini akan menginstal Python di lokasi standar `/usr/local/bin` dan librar
 2. Download versi terbaru Python untuk Macintosh
 3. Buka file yang baru saja di download
 4. Ikuti langkah instalasi sampai selesai
+
+### Android
+1. Buka Playstore, cari QPython 3L.
+2. Install QPython 2L.
+3. Buka aplikasi ketika selesai install.
 
 ---
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/instalasi-python.md)
