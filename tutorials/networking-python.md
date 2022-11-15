@@ -2,6 +2,7 @@
 layout: tutorial
 title: Networking Python
 permalink: /tutorial/networking-python
+comments: true
 ---
 
 ---

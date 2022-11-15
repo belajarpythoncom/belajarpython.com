@@ -2,6 +2,7 @@
 layout: tutorial
 title: Loop Python
 permalink: /tutorial/loop-python
+comments: true
 ---
 
 ---

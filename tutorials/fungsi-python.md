@@ -2,6 +2,7 @@
 layout: tutorial
 title: Fungsi Python
 permalink: /tutorial/fungsi-python
+comments: true
 ---
 
 ---

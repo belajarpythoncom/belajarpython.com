@@ -19,7 +19,7 @@ Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh develope
 
 ### [Code of Conduct](https://belajarpython.com/docs/codeofconduct)
 
-Belajarpython telah mengadopsi Kode Etik yang kami harapkan akan diikuti oleh peserta proyek terbuka ini. Mohon baca [full text](https://github.com/belajarpythoncom/belajarpython.com/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+Belajarpython telah mengadopsi Kode Etik yang kami harapkan akan diikuti oleh peserta proyek terbuka ini. Mohon baca [full text](https://github.com/belajarpythoncom/belajarpython.com/blob/master/CODE_OF_CONDUCT.md) sehingga anda dapat mengerti aksi apa yang yang bisa dan tidak bisa ditoleransi.
 
 ### [Panduan Kontribusi](https://belajarpython.com/contribute)
 

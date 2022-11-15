@@ -2,6 +2,7 @@
 layout: tutorial
 title: Hello World Python
 permalink: /tutorial/hello-world-python
+comments: true
 ---
 
 ---

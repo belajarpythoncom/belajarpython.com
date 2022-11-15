@@ -2,6 +2,7 @@
 layout: tutorial
 title: String Python
 permalink: /tutorial/string-python
+comments: true
 ---
 
 ---

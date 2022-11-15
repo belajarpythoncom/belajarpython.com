@@ -2,6 +2,7 @@
 layout: tutorial
 title: Pendahuluan Python
 permalink: /tutorial/apa-itu-python
+comments: true
 ---
 
 ---

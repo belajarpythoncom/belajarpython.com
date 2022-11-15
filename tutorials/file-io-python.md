@@ -2,6 +2,7 @@
 layout: tutorial
 title: File I/O Python
 permalink: /tutorial/file-io-python
+comments: true
 ---
 
 ---

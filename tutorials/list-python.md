@@ -2,6 +2,7 @@
 layout: tutorial
 title: List Python
 permalink: /tutorial/list-python
+comments: true
 ---
 
 ---

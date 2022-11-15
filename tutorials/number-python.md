@@ -2,6 +2,7 @@
 layout: tutorial
 title: Number Python
 permalink: /tutorial/number-python
+comments: true
 ---
 
 ---

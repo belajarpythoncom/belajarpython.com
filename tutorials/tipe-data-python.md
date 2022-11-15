@@ -2,6 +2,7 @@
 layout: tutorial
 title: Tipe Data Python
 permalink: /tutorial/tipe-data-python
+comments: true
 ---
 
 ---

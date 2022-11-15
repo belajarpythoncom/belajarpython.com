@@ -2,6 +2,7 @@
 layout: tutorial
 title: Dictionary Python
 permalink: /tutorial/dictionary-python
+comments: true
 ---
 
 ---
