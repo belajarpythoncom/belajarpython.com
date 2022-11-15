@@ -1,9 +1,9 @@
 ---
 layout: article
 title: 5 Tren Teratas Tentang Python Minggu ini di Github
+category: info
 ---
 
----
 Github adalah tempat berbagi proyek open source yang bisa digunakan secara bebas oleh semua orang. Terdapat proyek open source python disana. 
 
 Berikut adalah project python teratas minggu ini (18 September 2018). 

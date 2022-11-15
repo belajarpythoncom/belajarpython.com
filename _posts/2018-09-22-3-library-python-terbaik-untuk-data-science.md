@@ -1,9 +1,9 @@
 ---
 layout: article
 title: 3 Library Python Terbaik Untuk Data Science
+category: info tutorial
 ---
 
----
 Banyaknya kelebihan pada pemrograman pythno seperti efisiensei, keterbacaan kode dan kecepatan telah membuat python menjadi bahasa pemrograman yang banyak digunakan oleh para data scientist. Pyton menjadi pilihan untuk pada data scientist dan machine learning engineer untuk mengembangkan model dan berbagai aplikasi terkait data science.
 
 Karena penggunaannya yang luas, Python memiliki banyak library yang memudahkan para ilmuwan data / data scientist untuk menyelesaikan tugas-tugas rumit tanpa banyak gangguan pengkodean. Berikut adalah 3 library Python yang paling banyak digunakan untuk data science.

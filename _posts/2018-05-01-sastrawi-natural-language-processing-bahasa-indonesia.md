@@ -2,6 +2,8 @@
 layout: article
 comments: true
 title: Sastrawi, Natural Language Processing Mudah Dengan Python
+category: tutorial
+image: /images/sastrawi.jpg
 ---
 
 ---

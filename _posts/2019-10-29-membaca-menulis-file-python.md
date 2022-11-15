@@ -1,9 +1,9 @@
 ---
 layout: article
 title: Membaca dan Menulis File dengan Python
+category: tutorial
 ---
 
----
 Saat Anda ingin menyimpan data, Anda bisa menggunakan [variabel](https://belajarpython.com/tutorial/variabel-python). Tapi "masa hidup" variabel hanyalah selama program tersebut berjalan — data variabel dihapus saat program berhenti.
 
 Bagaimana jika Anda ingin menyimpan sesuatu selama jangka yang lebih panjang, sehingga bahkan setelah Anda mematikan komputer Anda, datanya tidak terhapus? Sehingga Anda bisa mengakses lagi datanya lain hari?
