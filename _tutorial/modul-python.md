@@ -10,11 +10,10 @@ Secara sederhana modul adalah file yang terdiri dari kode Python. Modul dapat me
 
 Berikut adalah contoh modul sederhana pada Python :
 
-
 {% highlight python %}
 def print_func( par ):
-   print "Halo : ", par
-   return
+print "Halo : ", par
+return
 {% endhighlight %}
 
 ### Import Statement
@@ -24,15 +23,17 @@ Anda dapat menggunakan file sumber Python apapun sebagai modul dengan mengekseku
 Ketika interpreter menemukan sebuah pernyataan import, ia mengimpor modul jika modul tersebut ada di jalur pencarian. Jalur pencarian adalah daftar direktori yang ditafsirkan juru bahasa sebelum mengimpor modul. Misalnya, untuk mengimpor modul hello.py, Anda perlu meletakkan perintah berikut di bagian atas script.
 
 {% highlight python %}
+
 # Import module support
+
 import support
 
 # Anda bisa memanggil fungsi defined sebagai berikut
+
 support.print_func("Andy")
 {% endhighlight %}
 
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/modul-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/modul-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

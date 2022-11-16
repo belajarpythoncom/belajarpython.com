@@ -14,6 +14,7 @@ Dibawah ini adalah contoh penggunaan komentar pada Python
 
 {% highlight python %}
 #Ini adalah komentar
+
 # Tulisan ini tidak akan dieksekusi
 
 #komentar dengan tanda pagar hanya bisa digunakan
@@ -23,7 +24,7 @@ Dibawah ini adalah contoh penggunaan komentar pada Python
 
 """
 Penulisan Komentar lebih dari satu baris yaitu
-dengan menggunakan kutip dua 3 kali dan 
+dengan menggunakan kutip dua 3 kali dan
 ditutup dengan kutip dua 3 kali juga
 """
 
@@ -31,7 +32,7 @@ print("Hello World") #ini juga komentar
 
 #print("Welcome")
 
-# komentar bisa berisi spesial karakter !@#$%^&*(),./;'[]\
+# komentar bisa berisi spesial karakter !@#$%^&\*(),./;'[]\
 
 #mencetak nama
 print("Budi")
@@ -43,7 +44,8 @@ print(123)
 Saat anda menjalankan script diatas, Anda akan melihat output berupa `Hello World`, `Budi` dan `123`, karena tulisan/komentar yang ditulis tidak dieksekusi.
 
 ---
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/komentar-python.md)
+
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/komentar-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

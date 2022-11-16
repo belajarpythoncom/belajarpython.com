@@ -12,7 +12,6 @@ Nilai kamus bisa berupa tipe apa pun, namun key harus berupa tipe data yang tida
 
 Untuk mengakses elemen Dictionary, Anda dapat menggunakan tanda kurung siku yang sudah dikenal bersama dengan key untuk mendapatkan nilainya. Berikut adalah contoh sederhananya :
 
-
 {% highlight python %}
 #Contoh cara membuat Dictionary pada Python
 
@@ -24,8 +23,6 @@ print ("dict['Age']: ", dict['Age'])
 ### Update Nilai Dalam Dictionary Python
 
 Anda dapat memperbarui Dictionary dengan menambahkan entri baru atau pasangan nilai kunci, memodifikasi entri yang ada, atau menghapus entri yang ada seperti ditunjukkan pada contoh sederhana yang diberikan di bawah ini.
-
-
 
 {% highlight python %}
 #Update dictionary python
@@ -44,15 +41,14 @@ Anda dapat menghapus elemen Dictionary individual atau menghapus keseluruhan isi
 
 Untuk menghapus seluruh Dictionary secara eksplisit, cukup gunakan del statement. Berikut adalah contoh sederhana :
 
-
 {% highlight python %}
 #Contoh cara menghapus pada Dictionary Python
 
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 
 del dict['Name'] # hapus entri dengan key 'Name'
-dict.clear()     # hapus semua entri di dict
-del dict         # hapus dictionary yang sudah ada
+dict.clear() # hapus semua entri di dict
+del dict # hapus dictionary yang sudah ada
 
 print ("dict['Age']: ", dict['Age'])
 print ("dict['School']: ", dict['School'])
@@ -62,33 +58,31 @@ print ("dict['School']: ", dict['School'])
 
 Python menyertakan fungsi built-in sebagai berikut :
 
-| Fungsi Python | 	Penjelasan | 
-| --- | --- |
-| cmp(dict1, dict2)	 | Membandingkan unsur keduanya. | 
-| len(dict)	 | Memberikan panjang total Dictionary. Ini sama dengan jumlah item dalam Dictionary. | 
-| str(dict) | 	Menghasilkan representasi string yang dapat dicetak dari Dictionary | 
-| type(variable)	 | Mengembalikan tipe variabel yang lulus. Jika variabel yang dilewatkan adalah Dictionary, maka akan mengembalikan tipe Dictionary. | 
-
+| Fungsi Python     | Penjelasan                                                                                                                        |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| cmp(dict1, dict2) | Membandingkan unsur keduanya.                                                                                                     |
+| len(dict)         | Memberikan panjang total Dictionary. Ini sama dengan jumlah item dalam Dictionary.                                                |
+| str(dict)         | Menghasilkan representasi string yang dapat dicetak dari Dictionary                                                               |
+| type(variable)    | Mengembalikan tipe variabel yang lulus. Jika variabel yang dilewatkan adalah Dictionary, maka akan mengembalikan tipe Dictionary. |
 
 ### Method Build-in Pada Dictionary Python
 
 Python menyertakan method built-in sebagai berikut :
 
- | Method Python | 	Penjelasan | 
- | --- | --- |
- | dict.clear() | 	Menghapus semua elemen Dictionary | 
- | dict.copy()	 | Mengembalikan salinan Dictionary | 
- | dict.fromkeys() | 	Buat Dictionary baru dengan kunci dari seq dan nilai yang disetel ke nilai. | 
- | dict.get(key, default=None)	 | For key, nilai pengembalian atau default jika tombol tidak ada dalam Dictionary | 
- | dict.has_key(key) | 	Mengembalikan true jika key dalam Dictionary, false sebaliknya | 
- | dict.items() | 	Mengembalikan daftar dari pasangan tuple dictionary (key, value) | 
- | dict.keys()	 | Mengembalikan daftar key dictionary | 
- | dict.setdefault(key, default=None) | 	Mirip dengan get (), tapi akan mengatur dict [key] = default jika kunci belum ada di dict |
- | dict.update(dict2) | 	Menambahkan pasangan kunci kata kunci dict2 ke dict | 
- | dict.values() | 	Mengembalikan daftar nilai dictionary | 
+| Method Python                      | Penjelasan                                                                                |
+| ---------------------------------- | ----------------------------------------------------------------------------------------- |
+| dict.clear()                       | Menghapus semua elemen Dictionary                                                         |
+| dict.copy()                        | Mengembalikan salinan Dictionary                                                          |
+| dict.fromkeys()                    | Buat Dictionary baru dengan kunci dari seq dan nilai yang disetel ke nilai.               |
+| dict.get(key, default=None)        | For key, nilai pengembalian atau default jika tombol tidak ada dalam Dictionary           |
+| dict.has_key(key)                  | Mengembalikan true jika key dalam Dictionary, false sebaliknya                            |
+| dict.items()                       | Mengembalikan daftar dari pasangan tuple dictionary (key, value)                          |
+| dict.keys()                        | Mengembalikan daftar key dictionary                                                       |
+| dict.setdefault(key, default=None) | Mirip dengan get (), tapi akan mengatur dict [key] = default jika kunci belum ada di dict |
+| dict.update(dict2)                 | Menambahkan pasangan kunci kata kunci dict2 ke dict                                       |
+| dict.values()                      | Mengembalikan daftar nilai dictionary                                                     |
 
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/dictionary-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/dictionary-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
