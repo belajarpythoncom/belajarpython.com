@@ -20,14 +20,12 @@ Contoh fungsi
 
 {% highlight python %}
 def printme( str ):
-   "This prints a passed string into this function"
-   print (str)
-   return
+"This prints a passed string into this function"
+print (str)
+return
 {% endhighlight %}
 
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/fungsi-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/fungsi-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

@@ -4,15 +4,16 @@ title: Menjalankan Python
 order: 3
 ---
 
-Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan *shell*, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
+Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan _shell_, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
 
 ### Linux
+
 1. Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>
-2. Ketik python maka Anda akan masuk ke Python shell. 
+2. Ketik python maka Anda akan masuk ke Python shell.
 3. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
 4. Untuk keluar dari Python shell ketik `exit()`
 
-*atau*
+_atau_
 
 1. Gunakan teks editor, misalnya gedit.
 2. Buat file baru, dan ketikan script python Anda, contoh: `print("Selamat datang di Python")`.
@@ -24,15 +25,18 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 8. Script Python Anda akan dieksekusi/dijalankan.
 
 ### Windows
+
 #### Menggunakan Shell
+
 1. Buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
 2. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
 
-![Python Shell Windows](/images/menjalankan-python-windows.png "Python Shell Windows")
+![Python Shell Windows](/images/menjalankan-python-windows.png 'Python Shell Windows')
 
 3. Untuk keluar dari Python shell ketik `exit()`
 
 #### Menggunakan Script Editor
+
 1. Untuk menjalankan script yang disimpan dalam file, buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.
 2. Klik menu `File - New File`
 3. Tulis script Python pada window yang muncul, contoh:
@@ -45,15 +49,16 @@ print("di belajarpython.com")
 4. Simpan script lewat menu `File - Save`
 5. Jalankan program dengan klik menu `Run - Run Module`
 
-![Python Editor Windows](/images/menjalankan-python-windows-editor.png "Python Editor Windows")
+![Python Editor Windows](/images/menjalankan-python-windows-editor.png 'Python Editor Windows')
 
 ### Mac OS
+
 1. Buka terminal.
-2. Ketik python maka Anda akan masuk ke Python shell. 
+2. Ketik python maka Anda akan masuk ke Python shell.
 3. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
 4. Untuk keluar dari Python shell ketik `exit()`
 
-*atau*
+_atau_
 
 1. Gunakan teks editor.
 2. Buat file baru, dan ketikan script python Anda, contoh: `print("Selamat datang di Python")`.
@@ -65,7 +70,8 @@ print("di belajarpython.com")
 8. Script Python Anda akan dieksekusi/dijalankan.
 
 ---
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/menjalankan-python.md)
+
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/menjalankan-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

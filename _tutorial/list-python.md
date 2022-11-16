@@ -27,7 +27,6 @@ Untuk mengakses nilai dalam list python, gunakan tanda kurung siku untuk mengiri
 
 Berikut adalah contoh cara mengakses nilai di dalam list python :
 
-
 {% highlight python %}
 #Cara mengakses nilai di dalam list Python
 
@@ -46,7 +45,6 @@ Setelah Anda mengeksekusi kode diatas, hasilnya akan seperti dibawah ini :
 ### Update Nilai Dalam List Python
 
 Anda dapat memperbarui satu atau beberapa nilai di dalam list dengan memberikan potongan di sisi kiri operator penugasan, dan Anda dapat menambahkan nilai ke dalam list dengan metode append (). Sebagai contoh :
-
 
 {% highlight python %}
 list = ['fisika', 'kimia', 1993, 2017]
@@ -72,17 +70,17 @@ print ("Setelah dihapus nilai pada index 2 : ", list)
 
 ### Operasi Dasar Pada List Python
 
-List Python merespons operator + dan * seperti string; Itu artinya penggabungan dan pengulangan di sini juga berlaku, kecuali hasilnya adalah list baru, bukan sebuah String.
+List Python merespons operator + dan \* seperti string; Itu artinya penggabungan dan pengulangan di sini juga berlaku, kecuali hasilnya adalah list baru, bukan sebuah String.
 
 Sebenarnya, list merespons semua operasi urutan umum yang kami gunakan pada String di bab sebelumnya. Dibawah ini adalah tabel daftar operasi dasar pada list python.
 
-| Python Expression	| Hasil		| Penjelasan	| 
-| --- | --- | --- |
-| `len([1, 2, 3, 4])`		| `4`	| Length	| 
-| `[1, 2, 3] + [4, 5, 6]`	| 	`[1, 2, 3, 4, 5, 6]`	| 	Concatenation	| 
-| `['Halo!'] * 4`		| `['Halo!', 'Halo!', 'Halo!', 'Halo!']`	| 	Repetition	| 
-| `2 in [1, 2, 3]`	| `	True`	| 	Membership	| 
-| `for x in [1,2,3] : print (x,end = ' ')`	| 	`1 2 3`		| Iteration	| 
+| Python Expression                        | Hasil                                  | Penjelasan    |
+| ---------------------------------------- | -------------------------------------- | ------------- |
+| `len([1, 2, 3, 4])`                      | `4`                                    | Length        |
+| `[1, 2, 3] + [4, 5, 6]`                  | `[1, 2, 3, 4, 5, 6]`                   | Concatenation |
+| `['Halo!'] * 4`                          | `['Halo!', 'Halo!', 'Halo!', 'Halo!']` | Repetition    |
+| `2 in [1, 2, 3]`                         | ` True`                                | Membership    |
+| `for x in [1,2,3] : print (x,end = ' ')` | `1 2 3`                                | Iteration     |
 
 ### Indexing, Slicing dan Matrix Pada List Python
 
@@ -92,42 +90,39 @@ Dengan asumsi input berikut :
 
 `L = ['C++'', 'Java', 'Python']`
 
- | Python Expression | 	Hasil | 	Penjelasan | 
- | --- | --- | --- | 
- | `L[2]`	 | `'Python'` | 	Offset mulai dari nol | 
- | `L[-2]` | 	`'Java'` | 	Negatif: hitung dari kanan | 
- | `[1:]`	 | `['Java', 'Python']` | 	Slicing mengambil bagian | 
- 
+| Python Expression | Hasil                | Penjelasan                 |
+| ----------------- | -------------------- | -------------------------- |
+| `L[2]`            | `'Python'`           | Offset mulai dari nol      |
+| `L[-2]`           | `'Java'`             | Negatif: hitung dari kanan |
+| `[1:]`            | `['Java', 'Python']` | Slicing mengambil bagian   |
+
 ### Method dan Fungsi Build-in Pada List Python
 
 Python menyertakan fungsi built-in sebagai berikut :
 
-| Python Function | 	Penjelasan | 
-| --- | --- |
-| cmp(list1, list2)	# |  Tidak lagi tersedia dengan Python 3 | 
-| len(list)	 | Memberikan total panjang list. | 
-| max(list)	 | Mengembalikan item dari list dengan nilai maks. | 
-| min(list)	 | Mengembalikan item dari list dengan nilai min. | 
-| list(seq)	 | Mengubah tuple menjadi list. | 
+| Python Function     | Penjelasan                                      |
+| ------------------- | ----------------------------------------------- |
+| cmp(list1, list2) # | Tidak lagi tersedia dengan Python 3             |
+| len(list)           | Memberikan total panjang list.                  |
+| max(list)           | Mengembalikan item dari list dengan nilai maks. |
+| min(list)           | Mengembalikan item dari list dengan nilai min.  |
+| list(seq)           | Mengubah tuple menjadi list.                    |
 
 Python menyertakan methods built-in sebagai berikut
 
- | Python Methods | 	Penjelasan | 
- | --- | --- | 
- | list.append(obj)	 | Menambahkan objek obj ke list | 
- | list.count(obj) | 	Jumlah pengembalian berapa kali obj terjadi dalam list | 
- | list.extend(seq) | 	Tambahkan isi seq ke list | 
- | list.index(obj) | 	Mengembalikan indeks terendah dalam list yang muncul obj | 
- | list.insert(index, obj)	 | Sisipkan objek obj ke dalam list di indeks offset | 
- | list.pop(obj = list[-1])	 | Menghapus dan mengembalikan objek atau obj terakhir dari list | 
- | list.remove(obj) | 	Removes object obj from list | 
- | list.reverse() | 	Membalik list objek di tempat | 
- | list.sort([func])	 | Urutkan objek list, gunakan compare func jika diberikan | 
+| Python Methods           | Penjelasan                                                    |
+| ------------------------ | ------------------------------------------------------------- |
+| list.append(obj)         | Menambahkan objek obj ke list                                 |
+| list.count(obj)          | Jumlah pengembalian berapa kali obj terjadi dalam list        |
+| list.extend(seq)         | Tambahkan isi seq ke list                                     |
+| list.index(obj)          | Mengembalikan indeks terendah dalam list yang muncul obj      |
+| list.insert(index, obj)  | Sisipkan objek obj ke dalam list di indeks offset             |
+| list.pop(obj = list[-1]) | Menghapus dan mengembalikan objek atau obj terakhir dari list |
+| list.remove(obj)         | Removes object obj from list                                  |
+| list.reverse()           | Membalik list objek di tempat                                 |
+| list.sort([func])        | Urutkan objek list, gunakan compare func jika diberikan       |
 
-
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/list-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/list-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

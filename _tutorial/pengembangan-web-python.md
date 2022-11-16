@@ -3,8 +3,8 @@ layout: tutorial
 title: Pengembangan Web Python
 order: 24
 ---
-Pengembangan web adalah istilah umum untuk membuat konsep, membuat, menyebarkan, dan mengoperasikan aplikasi website dan antarmuka pemrograman aplikasi untuk Website.
 
+Pengembangan web adalah istilah umum untuk membuat konsep, membuat, menyebarkan, dan mengoperasikan aplikasi website dan antarmuka pemrograman aplikasi untuk Website.
 
 ### Penggunaan Python dalam Pengembangan Web
 
@@ -18,7 +18,7 @@ Untuk membuat website dengan menggunakan Python sebagai bahasa pemrogramanya, ca
 
 Framework pengembangan web pada python yang paling populer dan mudah dipelajari ada Django dan Flask
 
-#### Flask 
+#### Flask
 
 Flask adalah sebuah microframework web python yang mudah untuk dipelajari, mudah diinstal dan pengembangan yang sangat simpel.
 
@@ -41,24 +41,23 @@ Hello World Web App dengan Flask
 
 {% highlight python %}
 from flask import Flask
-app = Flask(__name__)
- 
+app = Flask(**name**)
+
 @app.route("/")
 def hello():
-    return "Hello World!"
- 
-if __name__ == "__main__":
-    app.run()
+return "Hello World!"
+
+if **name** == "**main**":
+app.run()
 {% endhighlight %}
 
-Jalankan server dengan perintah: 
+Jalankan server dengan perintah:
 `python hello.py`
 
 Buka [http://localhost:5000/](http://localhost:5000/) dibrowser anda dan akan muncul `Hello World!`
 
-
-
 #### Django
+
 Django adalah kerangka kerja Python Web tingkat tinggi yang menangani banyak kerumitan pengembangan Web, sehingga Anda dapat fokus untuk menulis aplikasi tanpa perlu menemukan kembali roda.
 
 Kelebihan Framework Django dibanding yang lain adalah pada segi skalabilitas. Framework ini cocok untuk pengembangan aplikasi besar.
@@ -71,26 +70,26 @@ Setelah terinstal, buat direktori /django-hello/ untuk aplikasi Anda. Dalam dire
 {% highlight python %}
 #!/usr/bin/env python
 import sys
-from django.conf import settings 
+from django.conf import settings
 from django.conf.urls import patterns
 from django.http import HttpResponse
 from django.core.management import execute_from_command_line
- 
+
 settings.configure(
-    DEBUG=True,
-    SECRET_KEY='asecretkey',
-    ROOT_URLCONF=sys.modules[__name__],
+DEBUG=True,
+SECRET_KEY='asecretkey',
+ROOT_URLCONF=sys.modules[__name__],
 )
- 
+
 def index(request):
-    return HttpResponse('Hello, World')
- 
+return HttpResponse('Hello, World')
+
 urlpatterns = patterns('',
-    (r'^hello/$', index),
+(r'^hello/$', index),
 )
- 
-if __name__ == "__main__":
-    execute_from_command_line(sys.argv)
+
+if **name** == "**main**":
+execute_from_command_line(sys.argv)
 {% endhighlight %}
 
 Jalankan server dengan perintah :
@@ -98,9 +97,7 @@ Jalankan server dengan perintah :
 
 Server HTTP Django akan mulai dan jika Anda membuka [http://127.0.0.1:8000/hello/](http://127.0.0.1:8000/hello/)
 
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/pengembangan-web-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/pengembangan-web-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

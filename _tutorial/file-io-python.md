@@ -24,27 +24,22 @@ Dengan Python 3, fungsi raw_input() tidak digunakan lagi. Selain itu, input() be
 
 Fungsi input([prompt]) setara dengan raw_input, kecuali mengasumsikan bahwa input adalah ekspresi Python yang valid dan mengembalikan hasil yang dievaluasi ke Anda.
 
-
 {% highlight python %}
->>> x = input("something:")
-something:10
 
->>> x
-'10'
+> > > x = input("something:")
+> > > something:10
 
->>> x = input("something:")
-something:'10' #entered data treated as string with or without ''
+> > > x
+> > > '10'
 
->>> x
-"'10'"
-{% endhighlight %}
+> > > x = input("something:")
+> > > something:'10' #entered data treated as string with or without ''
 
+> > > x
+> > > "'10'"
+> > > {% endhighlight %}
 
-
-
-
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/file-io-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/file-io-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">

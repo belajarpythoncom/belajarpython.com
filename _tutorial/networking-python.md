@@ -24,48 +24,47 @@ Untuk membuat soket, Anda harus menggunakan fungsi socket.socket () yang tersedi
 
 ### Server Socket Method
 
- | Method  | Penjelasan |
- | --- | --- |
- | s.bind() |   This method binds address (hostname, port number pair) to socket. | 
- | s.listen()  | This method sets up and start TCP listener. | 
- | s.accept()  | This passively accept TCP client connection, waiting until connection arrives (blocking). | 
+| Method     | Penjelasan                                                                                |
+| ---------- | ----------------------------------------------------------------------------------------- |
+| s.bind()   | This method binds address (hostname, port number pair) to socket.                         |
+| s.listen() | This method sets up and start TCP listener.                                               |
+| s.accept() | This passively accept TCP client connection, waiting until connection arrives (blocking). |
 
 ### Client Socket Method
 
- | Method  | Penjelasan |
- | --- | --- |
- |s.connect() | This method actively initiates TCP server connection.|
- 
-## General Method Socket 
+| Method      | Penjelasan                                            |
+| ----------- | ----------------------------------------------------- |
+| s.connect() | This method actively initiates TCP server connection. |
 
- | Method  | Penjelasan |
- | --- | --- |
-| s.recv() |  This method receives TCP message | 
-| s.send() |  This method transmits TCP message | 
-| s.recvfrom()  | This method receives UDP message | 
-| s.sendto()  | This method transmits UDP message | 
-| s.close()  | This method closes socket | 
-| socket.gethostname()  | Returns the hostname. | 
+## General Method Socket
+
+| Method               | Penjelasan                        |
+| -------------------- | --------------------------------- |
+| s.recv()             | This method receives TCP message  |
+| s.send()             | This method transmits TCP message |
+| s.recvfrom()         | This method receives UDP message  |
+| s.sendto()           | This method transmits UDP message |
+| s.close()            | This method closes socket         |
+| socket.gethostname() | Returns the hostname.             |
 
 {% highlight python %}
-#!/usr/bin/python           # This is server.py file
+#!/usr/bin/python # This is server.py file
 
-import socket               # Import socket module
+import socket # Import socket module
 
-s = socket.socket()         # Create a socket object
+s = socket.socket() # Create a socket object
 host = socket.gethostname() # Get local machine name
-port = 12345                # Reserve a port for your service.
-s.bind((host, port))        # Bind to the port
+port = 12345 # Reserve a port for your service.
+s.bind((host, port)) # Bind to the port
 
-s.listen(5)                 # Now wait for client connection.
+s.listen(5) # Now wait for client connection.
 while True:
-   c, addr = s.accept()     # Establish connection with client.
-   print 'Got connection from', addr
-   c.send('Thank you for connecting')
-   c.close()                # Close the connection
+c, addr = s.accept() # Establish connection with client.
+print 'Got connection from', addr
+c.send('Thank you for connecting')
+c.close() # Close the connection
 {% endhighlight %}
-   
-   
+
 ### Server Sederhana
 
 Untuk menulis server Internet, kami menggunakan fungsi soket yang tersedia di modul soket untuk membuat objek soket. Objek soket kemudian digunakan untuk memanggil fungsi lain untuk menyiapkan server soket.
@@ -83,27 +82,29 @@ Socket.connect (hosname, port) membuka koneksi TCP ke hostname pada port. Setela
 Kode berikut adalah klien yang sangat sederhana yang terhubung ke host dan port yang diberikan, membaca data yang tersedia dari soket, dan kemudian keluar
 
 {% highlight python %}
-#!/usr/bin/python           # This is client.py file
+#!/usr/bin/python # This is client.py file
 
-import socket               # Import socket module
+import socket # Import socket module
 
-s = socket.socket()         # Create a socket object
+s = socket.socket() # Create a socket object
 host = socket.gethostname() # Get local machine name
-port = 12345                # Reserve a port for your service.
+port = 12345 # Reserve a port for your service.
 
 s.connect((host, port))
 print s.recv(1024)
-s.close                     # Close the socket when done
+s.close # Close the socket when done
 {% endhighlight %}
 
 Sekarang jalankan server.py ini di latar belakang dan kemudian jalankan di atas client.py untuk melihat hasilnya.
 
 ##### Jalankan server.
+
 `python server.py &`
 
 Setelah server berjalan lanjutkan
 
 ##### Jalankan client:
+
 `python client.py`
 
 Hasilnya akan seperti ini :
@@ -114,18 +115,18 @@ Hasilnya akan seperti ini :
 
 Berikut tabel daftar beberapa modul penting dalam pemrograman Jaringan / Internet Python.
 
- | Protocol	 | Common function | 	Port No	 | Python module | 
- | --- | --- | --- | --- |
- | HTTP | 	Web pages | 	80 | 	httplib, urllib, xmlrpclib | 
- | NNTP	 | Usenet news	 | 119 | 	nntplib | 
- | FTP	 | Transfer file | 	20 | 	ftplib, urllib | 
- | SMTP	 | Mengirim email | 	25 | 	smtplib | 
- | POP3	 | Fetching email | 	110 | 	poplib | 
- | IMAP4 | 	Fetching email | 	143	 | imaplib | 
- | Telnet | 	Command lines | 	23 | 	telnetlib | 
- | Gopher | 	Document transfers | 	70	 | gopherlib, urllib | 
+| Protocol | Common function    | Port No | Python module              |
+| -------- | ------------------ | ------- | -------------------------- |
+| HTTP     | Web pages          | 80      | httplib, urllib, xmlrpclib |
+| NNTP     | Usenet news        | 119     | nntplib                    |
+| FTP      | Transfer file      | 20      | ftplib, urllib             |
+| SMTP     | Mengirim email     | 25      | smtplib                    |
+| POP3     | Fetching email     | 110     | poplib                     |
+| IMAP4    | Fetching email     | 143     | imaplib                    |
+| Telnet   | Command lines      | 23      | telnetlib                  |
+| Gopher   | Document transfers | 70      | gopherlib, urllib          |
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/networking-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/networking-python.md)
 
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
