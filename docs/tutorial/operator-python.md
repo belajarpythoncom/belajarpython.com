@@ -111,7 +111,7 @@ Operator penugasan digunakan untuk memberikan atau memodifikasi nilai ke dalam s
 Dari semua operator diatas, masing-masing mempunyai urutan prioritas yang nantinya prioritas pertama akan dilakukan paling pertama, begitu seterusnya sampai dengan prioritas terakhir.
 
 | Operator                          | Keterangan               |
-| --------------------------------- | ------------------------ | 
+| --------------------------------- | ------------------------ |
 | `**`                              | Aritmatika               |
 | `~, +, -`                         | Bitwise                  |
 | `*, /, %, //`                     | Aritmatika               |
@@ -128,8 +128,7 @@ Dari semua operator diatas, masing-masing mempunyai urutan prioritas yang nantin
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/operator-python.md)
-
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/operator-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">

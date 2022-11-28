@@ -85,12 +85,12 @@ Tupel merespons operator + dan \* sama seperti String; Mereka berarti penggabung
 
 Sebenarnya, Tuple merespons semua operasi urutan umum yang kami gunakan pada String di bab sebelumnya. Dibawah ini adalah tabel daftar operasi dasar pada Tuple python
 
-| Python Expression                       | Hasil                                | Penjelasan    |
-| --------------------------------------- | ------------------------------------ | ------------- |
+| Python Expression                         | Hasil                                  | Penjelasan    |
+| ----------------------------------------- | -------------------------------------- | ------------- |
 | `len((1, 2, 3))`                          | `3`                                    | Length        |
 | `(1, 2, 3) + (4, 5, 6) `                  | `(1, 2, 3, 4, 5, 6)`                   | Concatenation |
-| `('Halo!',) \* 4`                    | `('Halo!', 'Halo!', 'Halo!', 'Halo!')` | Repetition    |
-| `3 in (1, 2, 3)`                       | `True`                                 | Membership    |
+| `('Halo!',) \* 4`                         | `('Halo!', 'Halo!', 'Halo!', 'Halo!')` | Repetition    |
+| `3 in (1, 2, 3)`                          | `True`                                 | Membership    |
 | `for x in (1,2,3) : print (x, end = ' ')` | `1 2 3`                                | Iteration     |
 
 ### Indexing, Slicing dan Matrix Pada Tuple Python
@@ -118,8 +118,8 @@ Python menyertakan fungsi built-in sebagai berikut
 | `tuple(seq)`          | Mengubah seq menjadi tuple.                      |
 
 ---
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/tuple-python.md)
 
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/tuple-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">

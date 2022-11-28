@@ -58,32 +58,33 @@ print ("dict['School']: ", dict['School'])
 
 Python menyertakan fungsi built-in sebagai berikut :
 
-| Fungsi Python     | Penjelasan                                                                                                                        |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-|` cmp(dict1, dict2)` | Membandingkan unsur keduanya.                                                                                                     |
-| `len(dict)`         | Memberikan panjang total Dictionary. Ini sama dengan jumlah item dalam Dictionary.                                                |
-| `str(dict)  `       | Menghasilkan representasi string yang dapat dicetak dari Dictionary                                                               |
-| `type(variable)`    | Mengembalikan tipe variabel yang lulus. Jika variabel yang dilewatkan adalah Dictionary, maka akan mengembalikan tipe Dictionary. |
+| Fungsi Python        | Penjelasan                                                                                                                        |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| ` cmp(dict1, dict2)` | Membandingkan unsur keduanya.                                                                                                     |
+| `len(dict)`          | Memberikan panjang total Dictionary. Ini sama dengan jumlah item dalam Dictionary.                                                |
+| `str(dict) `         | Menghasilkan representasi string yang dapat dicetak dari Dictionary                                                               |
+| `type(variable)`     | Mengembalikan tipe variabel yang lulus. Jika variabel yang dilewatkan adalah Dictionary, maka akan mengembalikan tipe Dictionary. |
 
 ### Method Build-in Pada Dictionary Python
 
 Python menyertakan method built-in sebagai berikut :
 
-| Method Python                      | Penjelasan                                                                                |
-| ---------------------------------- | ----------------------------------------------------------------------------------------- |
-|` dict.clear()                      ` | Menghapus semua elemen Dictionary                                                         |
-|` dict.copy()                       ` | Mengembalikan salinan Dictionary                                                          |
-|` dict.fromkeys()                   ` | Buat Dictionary baru dengan kunci dari seq dan nilai yang disetel ke nilai.               |
-|` dict.get(key, default=None)       ` | For key, nilai pengembalian atau default jika tombol tidak ada dalam Dictionary           |
-|` dict.has_key(key)                 ` | Mengembalikan true jika key dalam Dictionary, false sebaliknya                            |
-|` dict.items()                      ` | Mengembalikan daftar dari pasangan tuple dictionary (key, value)                          |
-|` dict.keys()                       ` | Mengembalikan daftar key dictionary                                                       |
-|` dict.setdefault(key, default=None)` | Mirip dengan get (), tapi akan mengatur dict [key] = default jika kunci belum ada di dict |
-|` dict.update(dict2)                ` | Menambahkan pasangan kunci kata kunci dict2 ke dict                                       |
-|` dict.values()                     ` | Mengembalikan daftar nilai dictionary                                                     |
+| Method Python                         | Penjelasan                                                                                |
+| ------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `dict.clear() `                       | Menghapus semua elemen Dictionary                                                         |
+| `dict.copy() `                        | Mengembalikan salinan Dictionary                                                          |
+| `dict.fromkeys() `                    | Buat Dictionary baru dengan kunci dari seq dan nilai yang disetel ke nilai.               |
+| `dict.get(key, default=None) `        | For key, nilai pengembalian atau default jika tombol tidak ada dalam Dictionary           |
+| `dict.has_key(key) `                  | Mengembalikan true jika key dalam Dictionary, false sebaliknya                            |
+| `dict.items() `                       | Mengembalikan daftar dari pasangan tuple dictionary (key, value)                          |
+| `dict.keys() `                        | Mengembalikan daftar key dictionary                                                       |
+| ` dict.setdefault(key, default=None)` | Mirip dengan get (), tapi akan mengatur dict [key] = default jika kunci belum ada di dict |
+| `dict.update(dict2) `                 | Menambahkan pasangan kunci kata kunci dict2 ke dict                                       |
+| `dict.values() `                      | Mengembalikan daftar nilai dictionary                                                     |
 
 ---
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/dictionary-python.md)
+
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/dictionary-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">

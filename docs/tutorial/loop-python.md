@@ -45,8 +45,8 @@ print(x)
 #Contoh pengulangan for
 buah = ["nanas", "apel", "jeruk"]
 for makanan in buah:
-print ("Saya suka makan", makanan) 
-``` 
+print ("Saya suka makan", makanan)
+```
 
 ### Nested Loop
 
@@ -70,9 +70,9 @@ i = i + 1
 print("Good bye!")
 ```
 
----  
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/loop-python.md)
+---
 
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/loop-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">
@@ -92,4 +92,3 @@ print("Good bye!")
     </a>
   </div>
 </div>
-

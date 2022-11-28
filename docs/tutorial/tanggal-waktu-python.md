@@ -38,17 +38,17 @@ Banyak fungsi waktu Python menangani waktu sebagai tuple dari 9 nomor, seperti y
 
 Tuple di atas setara dengan struktur struct_time. Struktur ini memiliki atribut berikut
 
-| Index | Atribut  | Value                                     |
-| ----- | -------- | ----------------------------------------- |
-| 0     |` tm_year `| 2008                                      |
-| 1     |` tm_mon  `| 1 sampai 12                               |
-| 2     |` tm_mday `| 1 sampai 31                               |
-| 3     |` tm_hour `| 0 sampai 23                               |
-| 4     |` tm_min  `| 0 sampai 59                               |
-| 5     |` tm_sec  `| 0 sampai 61                               |
-| 6     |` tm_wday `| 0 sampai 6 (0 adalah Senin)               |
-| 7     |` tm_yday `| 1 sampai 366                              |
-| 8     |` tm_isdst`| -1, 0, 1, -1 means library determines DST |
+| Index | Atribut     | Value                                     |
+| ----- | ----------- | ----------------------------------------- |
+| 0     | `tm_year`   | 2008                                      |
+| 1     | `tm_mon `   | 1 sampai 12                               |
+| 2     | `tm_mday`   | 1 sampai 31                               |
+| 3     | `tm_hour`   | 0 sampai 23                               |
+| 4     | `tm_min `   | 0 sampai 59                               |
+| 5     | `tm_sec `   | 0 sampai 61                               |
+| 6     | `tm_wday`   | 0 sampai 6 (0 adalah Senin)               |
+| 7     | `tm_yday`   | 1 sampai 366                              |
+| 8     | ` tm_isdst` | -1, 0, 1, -1 means library determines DST |
 
 ### Mendapatkan Waktu Saat Ini
 
@@ -88,27 +88,27 @@ print cal
 
 Ada modul waktu populer yang tersedia dengan Python yang menyediakan fungsi untuk bekerja dengan waktu dan untuk mengkonversi antara representasi. Dibawah ini adalah tabel dari modul time pada python yang ada.
 
-| Fungsi Python                                 | Penjelasan                                                                                                                                                                                                                                                |
-| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fungsi Python                                   | Penjelasan                                                                                                                                                                                                                                                |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `time.altzone`                                  | Diimbangi zona waktu DST lokal, dalam detik di sebelah barat UTC, jika seseorang didefinisikan. Ini negatif jika zona waktu DST lokal berada di sebelah timur UTC (seperti di Eropa Barat, termasuk Inggris). Gunakan saja ini jika siang hari tidak nol. |
 | `time.asctime([tupletime])`                     | Menerima time-tupel dan mengembalikan string 24-karakter yang dapat dibaca seperti 'Tue Dec 11 18:07:14 2008'.                                                                                                                                            |
-| `time.clock()     `                             | Mengembalikan waktu CPU saat ini sebagai jumlah floating-point detik. Untuk mengukur biaya komputasi dari berbagai pendekatan, nilai time.clock lebih bermanfaat daripada time.time ().                                                                   |
-| `time.ctime([secs])  `                          | Seperti asctime (localtime (detik)) dan tanpa argumen seperti asctime ()                                                                                                                                                                                  |
+| `time.clock() `                                 | Mengembalikan waktu CPU saat ini sebagai jumlah floating-point detik. Untuk mengukur biaya komputasi dari berbagai pendekatan, nilai time.clock lebih bermanfaat daripada time.time ().                                                                   |
+| `time.ctime([secs]) `                           | Seperti asctime (localtime (detik)) dan tanpa argumen seperti asctime ()                                                                                                                                                                                  |
 | `time.gmtime([secs]) `                          | Menerima instan yang diungkapkan dalam hitungan detik sejak zaman dan mengembalikan waktu tuple t dengan waktu UTC. Catatan: t.tm_isdst selalu 0                                                                                                          |
 | `time.localtime([secs]) `                       | Menerima instan yang dinyatakan dalam hitungan detik sejak zaman dan mengembalikan waktu tuple t dengan waktu setempat (t.tm_isdst adalah 0 atau 1, tergantung pada apakah DST berlaku seketika oleh peraturan lokal).                                    |
-| `time.mktime(tupletime)  `                      | Menerima instan dinyatakan sebagai time-tuple di waktu setempat dan mengembalikan nilai floating-point dengan instan yang dinyatakan dalam hitungan detik sejak zaman.                                                                                    |
+| `time.mktime(tupletime) `                       | Menerima instan dinyatakan sebagai time-tuple di waktu setempat dan mengembalikan nilai floating-point dengan instan yang dinyatakan dalam hitungan detik sejak zaman.                                                                                    |
 | `time.sleep(secs) `                             | Menangguhkan panggilan untuk beberapa detik.                                                                                                                                                                                                              |
 | `time.strftime(fmt[,tupletime])`                | Menerima instan dinyatakan sebagai tupel waktu di waktu lokal dan mengembalikan sebuah string yang mewakili instan seperti yang ditentukan oleh string fmt.                                                                                               |
 | `time.strptime(str,fmt='%a %b %d %H:%M:%S %Y')` | Parses str sesuai dengan format string fmt dan mengembalikan format instant-tuple.                                                                                                                                                                        |
 | `time.time() `                                  | Mengembalikan waktu saat ini secara instan, jumlah detik mengambang beberapa detik sejak zaman itu.                                                                                                                                                       |
-|` time.tzset()  `                                | Mengatur ulang aturan konversi waktu yang digunakan oleh rutinitas perpustakaan. Variabel lingkungan TZ menentukan bagaimana hal ini dilakukan.                                                                                                           |
+| `time.tzset() `                                 | Mengatur ulang aturan konversi waktu yang digunakan oleh rutinitas perpustakaan. Variabel lingkungan TZ menentukan bagaimana hal ini dilakukan.                                                                                                           |
 
 Ada dua atribut penting yang tersedia dengan modul waktu:
 
-| Method Python | Penjelasan                                                                                                                                          |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-|` time.timezone` | Atribut time.timezone adalah offset dalam detik zona waktu lokal (tanpa DST) dari UTC (> 0 di Amerika; <= 0 di sebagian besar Eropa, Asia, Afrika). |
-| `time.tzname `  | Atribut time.tzname adalah sepasang string yang bergantung pada lokal, yang merupakan nama zona waktu lokal tanpa dan dengan DST.                   |
+| Method Python    | Penjelasan                                                                                                                                          |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ` time.timezone` | Atribut time.timezone adalah offset dalam detik zona waktu lokal (tanpa DST) dari UTC (> 0 di Amerika; <= 0 di sebagian besar Eropa, Asia, Afrika). |
+| `time.tzname `   | Atribut time.tzname adalah sepasang string yang bergantung pada lokal, yang merupakan nama zona waktu lokal tanpa dan dengan DST.                   |
 
 ### Modul calendar pada Python
 
@@ -118,24 +118,24 @@ Secara default, kalender mengambil hari Senin sebagai hari pertama dalam minggu 
 
 Berikut adalah daftar fungsi yang tersedia dengan modul kalender:
 
-| Fungsi Python                        | Penjelasan                                                                                                                                                                                                                                                            |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fungsi Python                          | Penjelasan                                                                                                                                                                                                                                                            |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `calendar.calendar(year,w=2,l=1,c=6)`  | Mengembalikan string multiline dengan kalender untuk tahun tahun yang diformat menjadi tiga kolom yang dipisahkan oleh ruang c. W adalah lebar karakter setiap tanggal; Setiap baris memiliki panjang 21 _ w + 18 + 2 _ c. L adalah jumlah baris untuk setiap minggu. |
 | `calendar.firstweekday( ) `            | Mengembalikan pengaturan saat ini untuk hari kerja yang dimulai setiap minggu. Secara default, saat kalender pertama kali diimpor, ini adalah 0, yang berarti Senin.                                                                                                  |
 | `calendar.isleap(year) `               | Pengembalian True jika tahun adalah tahun kabisat; Jika tidak, False                                                                                                                                                                                                  |
-| `calendar.leapdays(y1,y2)  `           | Mengembalikan jumlah lompatan hari dalam tahun-tahun dalam rentang (y1, y2).                                                                                                                                                                                          |
-| `calendar.month(year,month,w=2,l=1)  ` | Mengembalikan string multiline dengan kalender untuk bulan bulan tahun, satu baris per minggu ditambah dua baris header. W adalah lebar karakter setiap tanggal; Setiap baris memiliki panjang 7 \* w + 6. L adalah jumlah baris untuk setiap minggu.                 |
+| `calendar.leapdays(y1,y2) `            | Mengembalikan jumlah lompatan hari dalam tahun-tahun dalam rentang (y1, y2).                                                                                                                                                                                          |
+| `calendar.month(year,month,w=2,l=1) `  | Mengembalikan string multiline dengan kalender untuk bulan bulan tahun, satu baris per minggu ditambah dua baris header. W adalah lebar karakter setiap tanggal; Setiap baris memiliki panjang 7 \* w + 6. L adalah jumlah baris untuk setiap minggu.                 |
 | `calendar.monthcalendar(year,month)`   | Mengembalikan daftar daftar int. Setiap sublist menunjukkan seminggu. Hari di luar bulan bulan tahun diatur ke 0; Hari dalam bulan ditetapkan ke hari ke bulan, 1 dan ke atas.                                                                                        |
 | `calendar.monthrange(year,month)`      | Mengembalikan dua bilangan bulat. Yang pertama adalah kode hari kerja untuk hari pertama bulan bulan di tahun; Yang kedua adalah jumlah hari dalam sebulan. Kode hari kerja adalah 0 (Senin) sampai 6 (Minggu); Angka bulan adalah 1 sampai 12.                       |
-|` calendar.prcal(year,w=2,l=1,c=6) `    | Seperti kalender cetak.calendar (tahun, w, l, c).                                                                                                                                                                                                                     |
+| `calendar.prcal(year,w=2,l=1,c=6)`     | Seperti kalender cetak.calendar (tahun, w, l, c).                                                                                                                                                                                                                     |
 | `calendar.prmonth(year,month,w=2,l=1)` | Seperti kalender cetak. Bulan (tahun, bulan, w, l).                                                                                                                                                                                                                   |
 | `calendar.setfirstweekday(weekday)`    | Mengatur hari pertama setiap minggu sampai hari kerja kode hari kerja. Kode hari kerja adalah 0 (Senin) sampai 6 (Minggu).                                                                                                                                            |
 | `calendar.timegm(tupletime) `          | Kebalikan dari time.gmtime: menerima waktu instan dalam bentuk tupel waktu dan mengembalikan detik yang sama seperti jumlah floating-point dalam hitungan detik sejak zaman.                                                                                          |
-|` calendar.weekday(year,month,day) `    | Mengembalikan kode hari kerja untuk tanggal yang ditentukan. Kode hari kerja adalah 0 (Senin) sampai 6 (Minggu); Bulan adalah 1 (Januari) sampai 12 (Desember).                                                                                                       |
+| `calendar.weekday(year,month,day)`     | Mengembalikan kode hari kerja untuk tanggal yang ditentukan. Kode hari kerja adalah 0 (Senin) sampai 6 (Minggu); Bulan adalah 1 (Januari) sampai 12 (Desember).                                                                                                       |
 
 ---
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/tanggal-waktu-python.md)
 
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/tanggal-waktu-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">

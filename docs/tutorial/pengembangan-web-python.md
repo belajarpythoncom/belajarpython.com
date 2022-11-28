@@ -58,9 +58,9 @@ if **name** == "**main**":
 app.run()
 ```
 
->>>>>>>> pr/80:docs/tutorial/pengembangan-web-python.md
-Jalankan server dengan perintah:
-`python hello.py`
+> > > > > > > > pr/80:docs/tutorial/pengembangan-web-python.md
+> > > > > > > > Jalankan server dengan perintah:
+> > > > > > > > `python hello.py`
 
 Buka [http://localhost:5000/](http://localhost:5000/) dibrowser anda dan akan muncul `Hello World!`
 
@@ -102,16 +102,18 @@ execute_from_command_line(sys.argv)
 {% endhighlight %}
 ========
 ```
->>>>>>>> pr/80:docs/tutorial/pengembangan-web-python.md
+
+> > > > > > > > pr/80:docs/tutorial/pengembangan-web-python.md
 
 Jalankan server dengan perintah :
 `python hello.py runserver`
 
 Server HTTP Django akan mulai dan jika Anda membuka [http://127.0.0.1:8000/hello/](http://127.0.0.1:8000/hello/)
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/pengembangan-web-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pengembangan-web-python.md)
 
-<<<<<<<< HEAD:_tutorial/pengembangan-web-python.md
+<<<<<<<< HEAD:\_tutorial/pengembangan-web-python.md
+
 <div class="row navigation-tutorial">
     <div class="col-md-6 prev-tutorial">
         <a href="/tutorial/networking-python"><i class="fas fa-arrow-circle-left"></i>Networking Python</a>

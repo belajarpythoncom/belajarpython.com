@@ -21,7 +21,7 @@ Hanya dengan menuliskan kode print seperti yang diatas, anda sudah bisa mencetak
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/pengertian-python.md)
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pengertian-python.md)
 
 <div class="flex justify-center md:justify-end mt-8">
     <a href="/tutorial/instalasi-python"

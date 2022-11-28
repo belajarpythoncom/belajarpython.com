@@ -17,15 +17,15 @@ Python mendukung beberapa tipe data Number diantaranya :
 
 Berikut ini adalah beberapa contoh dari Tipe data Number pada Python :
 
-| Int    | Float      | Complex   |
-| ------ | ---------- | --------- |
-|`20    ` |`0.1        `| `3.14j     `|
-|`300   ` |`1.20       `| `35.j      `|
-|`-13   ` |`-41.2      `| `3.12e-12j `|
-|`020   ` |`32.23+e123 `| `.873j     `|
-|`-0103 ` |`-92.       `| `-.123+0J  `|
-|`-0x212` |`-32.52e10  `| `3e+123J   `|
-|`0x56  ` |`60.2-E13   `| `4.31e-4j  `|
+| Int      | Float         | Complex      |
+| -------- | ------------- | ------------ |
+| `20 `    | `0.1 `        | `3.14j `     |
+| `300 `   | `1.20 `       | `35.j `      |
+| `-13 `   | `-41.2 `      | `3.12e-12j ` |
+| `020 `   | `32.23+e123 ` | `.873j `     |
+| `-0103 ` | `-92. `       | `-.123+0J `  |
+| `-0x212` | `-32.52e10 `  | `3e+123J `   |
+| `0x56 `  | `60.2-E13 `   | `4.31e-4j `  |
 
 ### Konversi Tipe Data Number Python
 
@@ -105,8 +105,7 @@ Modul ini juga mendefinisikan dua konstanta matematika. Berikut adalah daftarnya
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/number-python.md)
-
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/number-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">

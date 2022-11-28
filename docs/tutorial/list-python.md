@@ -100,31 +100,31 @@ Dengan asumsi input berikut :
 
 Python menyertakan fungsi built-in sebagai berikut :
 
-| Python Function     | Penjelasan                                      |
-| ------------------- | ----------------------------------------------- |
-|`cmp(list1, list2) # `| Tidak lagi tersedia dengan Python 3             |
-|`len(list)           `| Memberikan total panjang list.                  |
-|`max(list)           `| Mengembalikan item dari list dengan nilai maks. |
-|`min(list)           `| Mengembalikan item dari list dengan nilai min.  |
-|`list(seq)           `| Mengubah tuple menjadi list.                    |
+| Python Function        | Penjelasan                                      |
+| ---------------------- | ----------------------------------------------- |
+| `cmp(list1, list2) # ` | Tidak lagi tersedia dengan Python 3             |
+| `len(list) `           | Memberikan total panjang list.                  |
+| `max(list) `           | Mengembalikan item dari list dengan nilai maks. |
+| `min(list) `           | Mengembalikan item dari list dengan nilai min.  |
+| `list(seq) `           | Mengubah tuple menjadi list.                    |
 
 Python menyertakan methods built-in sebagai berikut
 
-| Python Methods           | Penjelasan                                                    |
-| ------------------------ | ------------------------------------------------------------- |
-| `list.append(obj)        ` | Menambahkan objek obj ke list                                 |
-| `list.count(obj)         ` | Jumlah pengembalian berapa kali obj terjadi dalam list        |
-| `list.extend(seq)        ` | Tambahkan isi seq ke list                                     |
-| `list.index(obj)         ` | Mengembalikan indeks terendah dalam list yang muncul obj      |
+| Python Methods             | Penjelasan                                                    |
+| -------------------------- | ------------------------------------------------------------- |
+| `list.append(obj) `        | Menambahkan objek obj ke list                                 |
+| `list.count(obj) `         | Jumlah pengembalian berapa kali obj terjadi dalam list        |
+| `list.extend(seq) `        | Tambahkan isi seq ke list                                     |
+| `list.index(obj) `         | Mengembalikan indeks terendah dalam list yang muncul obj      |
 | `list.insert(index, obj) ` | Sisipkan objek obj ke dalam list di indeks offset             |
 | `list.pop(obj = list[-1])` | Menghapus dan mengembalikan objek atau obj terakhir dari list |
-| `list.remove(obj)        ` | Removes object obj from list                                  |
-| `list.reverse()          ` | Membalik list objek di tempat                                 |
-| `list.sort([func])       ` | Urutkan objek list, gunakan compare func jika diberikan       |
+| `list.remove(obj) `        | Removes object obj from list                                  |
+| `list.reverse() `          | Membalik list objek di tempat                                 |
+| `list.sort([func]) `       | Urutkan objek list, gunakan compare func jika diberikan       |
 
 ---
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/list-python.md)
 
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/list-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">

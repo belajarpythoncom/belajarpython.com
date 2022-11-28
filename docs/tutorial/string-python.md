@@ -48,21 +48,21 @@ Dibawah ini adalah tabel dari daftar karakter escape atau karakter non-printable
 
 | Notasi Backslash | Karakter Hexadecimal | Penjelasan                                                      |
 | ---------------- | -------------------- | --------------------------------------------------------------- |
-|` \a          `     | `0x07   `              | Bell atau alert                                                 |
-|` \b          `     | `0x08   `              | Backspace                                                       |
-|` \cx         `     |               | Control-x                                                       |
-|` \C-x        `     |               | Control-x                                                       |
-|` \e          `     | `0x1b   `              | Escape                                                          |
-|` \f          `     | `0x0c   `              | Formfeed                                                        |
-|` \M-\C-x     `     |                | Meta-Control-x                                                  |
-|` \n          `     | `0x0a   `              | Newline                                                         |
-|` \nnn        `     |                | Octal notation, dimana n berada di range 0.7                    |
-|` \r          `     | `0x0d   `              | Carriage return                                                 |
-|` \s          `     | `0x20   `              | Space                                                           |
-|` \t          `     | `0x09   `              | Tab                                                             |
-|` \v          `     | `0x0b   `              | Vertical tab                                                    |
-|` \x          `     |                | Character x                                                     |
-|` \xnn        `     |                | Notasi Hexadecimal, dimana n berada di range 0.9, a.f, atau A.F |
+| `\a `            | `0x07 `              | Bell atau alert                                                 |
+| `\b `            | `0x08 `              | Backspace                                                       |
+| `\cx `           |                      | Control-x                                                       |
+| `\C-x `          |                      | Control-x                                                       |
+| `\e `            | `0x1b `              | Escape                                                          |
+| `\f `            | `0x0c `              | Formfeed                                                        |
+| `\M-\C-x `       |                      | Meta-Control-x                                                  |
+| `\n `            | `0x0a `              | Newline                                                         |
+| `\nnn `          |                      | Octal notation, dimana n berada di range 0.7                    |
+| `\r `            | `0x0d `              | Carriage return                                                 |
+| `\s `            | `0x20 `              | Space                                                           |
+| `\t `            | `0x09 `              | Tab                                                             |
+| `\v `            | `0x0b `              | Vertical tab                                                    |
+| `\x `            |                      | Character x                                                     |
+| `\xnn `          |                      | Notasi Hexadecimal, dimana n berada di range 0.9, a.f, atau A.F |
 
 ### Operator Spesial String Python
 
@@ -70,16 +70,16 @@ Asumsikan variabel string adalah 'Belajar' dan variabel b adalah 'Python', lalu 
 
 Berikut adalah daftar operator spesial string pada Python :
 
-| Operator | Contoh Penjelasan                                           | Penjelasan |
-| -------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `+ `       | `a + b `                                                      | akan menghasilkan BelajarPython Concatenation - Menambahkan nilai pada kedua sisi operator                                                                                                                                                                                             |
-| `* `      | `a*2`                                                        | akan menghasilkan BelajarBelajar Pengulangan - Membuat string baru, menggabungkan beberapa salinan dari string yang sama                                                                                                                                                               |
-|` []`       | `a[1]`                                                        | akan menghasilkan e Slice - Memberikan karakter dari indeks yang diberikan                                                                                                                                                                                                             |
-| `[ : ]`    | `a[1:4]`                                                      | akan menghasilkan ela Range Slice - Memberikan karakter dari kisaran yang diberikan                                                                                                                                                                                                    |
-| `in`       | `B in a `                                                     | akan menghasilkan 1 Keanggotaan - Mengembalikan nilai true jika ada karakter dalam string yang diberikan                                                                                                                                                                               |
-|` not in`   |` Z not in a`                                                  | akan menghasilkan 1 Keanggotaan - Mengembalikan nilai true jika karakter tidak ada dalam string yang diberikan                                                                                                                                                                         |
-| `r/R `     | `print r'\n' prints \n dan print R'\n'prints \n Raw String -` | Menekan arti aktual karakter Escape. Sintaks untuk string mentah sama persis dengan string biasa kecuali operator string mentah, huruf "r", yang mendahului tanda petik. "R" bisa berupa huruf kecil (r) atau huruf besar (R) dan harus ditempatkan tepat sebelum tanda kutip pertama. |
-|` % `       |                                                             | Format - Melakukan format String                                                                                                                                                                                                                                                       |
+| Operator  | Contoh Penjelasan                                             | Penjelasan                                                                                                                                                                                                                                                                             |
+| --------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `+ `      | `a + b `                                                      | akan menghasilkan BelajarPython Concatenation - Menambahkan nilai pada kedua sisi operator                                                                                                                                                                                             |
+| `* `      | `a*2`                                                         | akan menghasilkan BelajarBelajar Pengulangan - Membuat string baru, menggabungkan beberapa salinan dari string yang sama                                                                                                                                                               |
+| ` []`     | `a[1]`                                                        | akan menghasilkan e Slice - Memberikan karakter dari indeks yang diberikan                                                                                                                                                                                                             |
+| `[ : ]`   | `a[1:4]`                                                      | akan menghasilkan ela Range Slice - Memberikan karakter dari kisaran yang diberikan                                                                                                                                                                                                    |
+| `in`      | `B in a `                                                     | akan menghasilkan 1 Keanggotaan - Mengembalikan nilai true jika ada karakter dalam string yang diberikan                                                                                                                                                                               |
+| ` not in` | ` Z not in a`                                                 | akan menghasilkan 1 Keanggotaan - Mengembalikan nilai true jika karakter tidak ada dalam string yang diberikan                                                                                                                                                                         |
+| `r/R `    | `print r'\n' prints \n dan print R'\n'prints \n Raw String -` | Menekan arti aktual karakter Escape. Sintaks untuk string mentah sama persis dengan string biasa kecuali operator string mentah, huruf "r", yang mendahului tanda petik. "R" bisa berupa huruf kecil (r) atau huruf besar (R) dan harus ditempatkan tepat sebelum tanda kutip pertama. |
+| `%`       |                                                               | Format - Melakukan format String                                                                                                                                                                                                                                                       |
 
 ### Operator Format String Python
 
@@ -90,19 +90,19 @@ Berikut adalah daftar lengkap simbol yang bisa digunakan bersamaan dengan % :
 
 | Operator | Penjelasan                                       |
 | -------- | ------------------------------------------------ |
-|` %c `      | character                                        |
-|` %s `      | Konversi string melalui str () sebelum memformat |
-|` %i `      | Dianggap sebagai bilangan bulat desimal          |
-|` %d `      | Dianggap sebagai bilangan bulat desimal          |
-|` %u `      | Unsigned decimal integer                         |
-|` %o `      | Bilangan bulat oktal                             |
-|` %x `      | Bilangan bulat heksadesimal (huruf kecil)        |
-|` %X `      | Bilangan bulat heksadesimal (huruf besar)        |
-|` %e `      | Notasi eksponensial (dengan huruf kecil 'e')     |
-|` %E `      | Notasi eksponensial (dengan huruf besar 'E')     |
-|` %f `      | Bilangan real floating point                     |
-|` %g `      | Yang lebih pendek dari% f dan% e                 |
-|` %G `      | Lebih pendek dari% f dan% E                      |
+| `%c`     | character                                        |
+| `%s`     | Konversi string melalui str () sebelum memformat |
+| `%i`     | Dianggap sebagai bilangan bulat desimal          |
+| `%d`     | Dianggap sebagai bilangan bulat desimal          |
+| `%u`     | Unsigned decimal integer                         |
+| `%o`     | Bilangan bulat oktal                             |
+| `%x`     | Bilangan bulat heksadesimal (huruf kecil)        |
+| `%X`     | Bilangan bulat heksadesimal (huruf besar)        |
+| `%e`     | Notasi eksponensial (dengan huruf kecil 'e')     |
+| `%E`     | Notasi eksponensial (dengan huruf besar 'E')     |
+| `%f`     | Bilangan real floating point                     |
+| `%g`     | Yang lebih pendek dari% f dan% e                 |
+| `%G`     | Lebih pendek dari% f dan% E                      |
 
 ### Triple Quote Python
 
@@ -173,8 +173,8 @@ Python menyertakan metode built-in berikut untuk memanipulasi string
 | `isdecimal()`                                  | Mengembalikan nilai true jika string unicode hanya berisi karakter desimal dan false sebaliknya.                                                                                           |
 
 ---
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/string-python.md)
 
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/string-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">
