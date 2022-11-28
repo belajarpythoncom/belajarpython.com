@@ -18,11 +18,7 @@ Untuk mulai membuat variabel di Python caranya sangat mudah, Anda cukup menulisk
 
 Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python
 
-<<<<<<<< HEAD:_tutorial/variabel-python.md
-{% highlight python %}
-========
 ```python
->>>>>>>> pr/80:docs/tutorial/variabel-python.md
 #proses memasukan data ke dalam variabel
 nama = "John Doe"
 #proses mencetak variabel
@@ -56,11 +52,6 @@ print(luas)
 ```
 
 ---
-<<<<<<<< HEAD:_tutorial/variabel-python.md
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/variabel-python.md)
-========
->>>>>>>> pr/80:docs/tutorial/variabel-python.md
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/variabel-python.md)
 
