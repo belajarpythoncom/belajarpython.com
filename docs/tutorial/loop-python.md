@@ -18,11 +18,7 @@ Pengulangan While Loop di dalam bahasa pemrograman Python dieksesusi statement b
 
 Dibawah ini adalah contoh penggunaan pengulangan While Loop.
 
-<<<<<<<< HEAD:_tutorial/loop-python.md
-{% highlight python %}
-========
 ```python
->>>>>>>> pr/80:docs/tutorial/loop-python.md
 #Contoh penggunaan While Loop
 #Catatan: Penentuan ruang lingkup di Python bisa menggunakan tab alih-alih menggunakan tanda kurung
 
@@ -49,12 +45,8 @@ print(x)
 #Contoh pengulangan for
 buah = ["nanas", "apel", "jeruk"]
 for makanan in buah:
-print ("Saya suka makan", makanan)
-<<<<<<<< HEAD:_tutorial/loop-python.md
-{% endhighlight %}
-========
-```
->>>>>>>> pr/80:docs/tutorial/loop-python.md
+print ("Saya suka makan", makanan) 
+``` 
 
 ### Nested Loop
 
@@ -78,13 +70,7 @@ i = i + 1
 print("Good bye!")
 ```
 
----
-<<<<<<<< HEAD:_tutorial/loop-python.md
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/loop-python.md)
-========
->>>>>>>> pr/80:docs/tutorial/loop-python.md
-
+---  
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/loop-python.md)
 
 
