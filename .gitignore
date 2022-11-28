@@ -1,5 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
-NOTE.md
-.jekyll-cache
+site/
+*.local
+.DS_Store
+node_modules
