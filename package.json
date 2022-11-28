@@ -1,0 +1,27 @@
+{
+  "name": "purwnt.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "tw:dev": "npx tailwindcss -i ./tailwind.css -o ./belajarpython_theme/css/base.css --watch",
+    "tw:build": "npx tailwindcss -i ./tailwind.css -o ./belajarpython_theme/css/base.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purwnt/purwnt.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purwnt/purwnt.github.io/issues"
+  },
+  "homepage": "https://github.com/purwnt/purwnt.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main blockquote { 
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  color: #e2b215;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+
+main hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+main p {
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+main .tutorial a{
+  color: #007BE4;
+}
+main .tutorial a:hover {
+  color: #e2b215;
+  text-decoration: underline;
+}
+main code {
+  margin-bottom: 15px;
+  background-color: #eee;
+  padding: 2.5px 3px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+}
+
+main h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+main h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+main h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+main h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 22px;
+}
+
+main h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 21px;
+}
+
+main h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+main ol {
+  list-style: number;
+  padding-left: 30px;
+  margin-bottom: 1.3rem;
+}
+
+main ul {
+  list-style: square;
+  padding-left: 30px;
+  margin-bottom: 1.3rem;
+}
+
+main table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main table  td, main table  th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+main table  tr:nth-child(even){background-color: #f2f2f2;}
+
+main table  tr:hover {background-color: #dfe6ed;}
+
+main table  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #c4d4e3;
+  color: black;
+}
+
+main kbd {
+  padding: 0.15rem 0.35rem;
+  font-size: 87.5%;
+  color: #fff;
+  margin: 0 2px 0 2px;
+  background-color: #212529;
+  border-radius: 0.2rem;
+}
