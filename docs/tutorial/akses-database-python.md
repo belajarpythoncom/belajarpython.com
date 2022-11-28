@@ -64,9 +64,10 @@ Sebelum terhubung ke database MySQL, pastikan beberapa hal dibawah ini :
 
 Berikut ini adalah contoh koneksi dengan database MySQL "TESTDB"
 
-<<<<<<<< HEAD:_tutorial/akses-database-python.md
+<<<<<<<< HEAD:\_tutorial/akses-database-python.md
 {% highlight python %}
 ========
+
 ```python
 >>>>>>>> pr/80:docs/tutorial/akses-database-python.md
 import pymysql.cursors
@@ -141,9 +142,10 @@ db.close()
 
 Contoh berikut, mengeksekusi pernyataan SQL INSERT untuk membuat catatan di tabel EMPLOYEE
 
-<<<<<<<< HEAD:_tutorial/akses-database-python.md
+<<<<<<<< HEAD:\_tutorial/akses-database-python.md
 {% highlight python %}
 ========
+
 ```python
 >>>>>>>> pr/80:docs/tutorial/akses-database-python.md
 import pymysql.cursors
@@ -183,9 +185,10 @@ db.close()
 
 Contoh di atas bisa dituliskan sebagai berikut untuk membuat query SQL secara dinamis
 
-<<<<<<<< HEAD:_tutorial/akses-database-python.md
+<<<<<<<< HEAD:\_tutorial/akses-database-python.md
 {% highlight python %}
 ========
+
 ```python
 >>>>>>>> pr/80:docs/tutorial/akses-database-python.md
 import pymysql.cursors
@@ -244,9 +247,10 @@ Rowcount - Ini adalah atribut read-only dan mengembalikan jumlah baris yang dipe
 
 Prosedur berikut menanyakan semua catatan dari tabel EMPLOYEE yang memiliki gaji lebih dari 1000
 
-<<<<<<<< HEAD:_tutorial/akses-database-python.md
+<<<<<<<< HEAD:\_tutorial/akses-database-python.md
 {% highlight python %}
 ========
+
 ```python
 >>>>>>>> pr/80:docs/tutorial/akses-database-python.md
 import pymysql.cursors
@@ -377,10 +381,8 @@ Selain itu masih ada beberapa operasi sebagai berikut :
 
 Jika Anda menginginkan dokumentasi yang lebih lengkap dari bahasa pemrograman python, silahkan buka dokumentasi resmi dari Python - [Dokumentasi Lengkap Python](https://docs.python.org/3/)
 
-<<<<<<<< HEAD:_tutorial/akses-database-python.md
-========
 ---
->>>>>>>> pr/80:docs/tutorial/akses-database-python.md
+
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/akses-database-python.md)
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">

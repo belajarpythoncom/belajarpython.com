@@ -26,16 +26,12 @@ if(nilai > 7):
 #jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya
 if(nilai > 10):
     print("Sembilan Lebih Besar Dari Angka Sepuluh") # Kondisi Salah, Maka tidak tereksekusi
-<<<<<<<< HEAD:_tutorial/kondisi-if-else-python.md
-{% endhighlight %}
-========
 ```
->>>>>>>> pr/80:docs/tutorial/kondisi-if-else-python.md
 
 Dari contoh diatas, jika program dijalankan maka akan mencetak string `"Sembilan Lebih Besar Dari Angka Tujuh"` sebanyak 1 kali yaitu pada if pertama. Di if kedua statement bernilai salah, jadi perintah `print("Sembilan Lebih Besar Dari Angka Sepuluh")` tidak akan dieksekusi.
 
-
 ### Kondisi If Else
+
 Pengambilan keputusan (kondisi if else) tidak hanya digunakan untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi, tetapi juga digunakan untuk menentukan tindakan apa yang akan diambil/dijalankan jika kondisi tidak sesuai.
 
 Pada python ada beberapa statement/kondisi diantaranya adalah if, else dan elif Kondisi if digunakan untuk mengeksekusi kode jika kondisi bernilai benar.
@@ -59,7 +55,7 @@ Pada contoh diatas, jika program dijalankan maka akan mencetak string `"Maaf And
 
 ### Kondisi Elif
 
-Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika dari "kondisi if". Dengan elif kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi. Hampir sama dengan kondisi "else", bedanya kondisi "elif" bisa banyak dan tidak hanya satu. 
+Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika dari "kondisi if". Dengan elif kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi. Hampir sama dengan kondisi "else", bedanya kondisi "elif" bisa banyak dan tidak hanya satu.
 
 Dibawah ini adalah contoh penggunaan kondisi elif pada Python
 
