@@ -1,0 +1,9 @@
+<div class="max-w-4xl mx-auto py-10 flex {{'' if page.url.split('/')[0] == 'tutorial' }}">
+  {% if page.url.split('/')[0] == 'tutorial' %}
+  {%- include "sidebar.html" %}
+  {% endif %}
+  <main class="w-12/12 pb-10 px-4 {{'md:w-9/12 tutorial' if page.url.split('/')[0] == 'tutorial' else 'md:w-12/12' }}">
+    <h1 class="text-primary-500 font-medium text-3xl mb-3">{{ page.title }}</h1>
+    {{ page.content }}
+  </main>
+</div>
