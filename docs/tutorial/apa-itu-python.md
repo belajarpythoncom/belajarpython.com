@@ -5,11 +5,12 @@ order: 1
 permalink: /tutorial/apa-itu-python/
 ---
 
-<<<<<<<< HEAD:_tutorial/pengertian-python.md
-![Logo Python](/images/logo-python.png 'Logo Python')
+<<<<<<<< HEAD:\_tutorial/pengertian-python.md
+![Logo Python](/img/logo-python.png 'Logo Python')
 ========
 ![Logo Python](/img/729px-Python_logo_and_wordmark.svg.png 'Logo Python')
->>>>>>>> pr/80:docs/tutorial/apa-itu-python.md
+
+> > > > > > > > pr/80:docs/tutorial/apa-itu-python.md
 
 [Python](https://www.python.org) adalah bahasa pemrograman interpretatif multiguna. Tidak seperti bahasa lain yang susah untuk dibaca dan dipahami, python lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Hal ini membuat Python sangat mudah dipelajari baik untuk pemula maupun untuk yang sudah menguasai bahasa pemrograman lain.
 
@@ -24,11 +25,12 @@ print("Python sangat simpel")
 Hanya dengan menuliskan kode print seperti yang diatas, anda sudah bisa mencetak apapun yang anda inginkan di dalam tanda kurung `()`. Dibagian akhir kode pun, anda tidak harus mengakhirnya dengan tanda semicolon `;`
 
 ---
-<<<<<<<< HEAD:_tutorial/pengertian-python.md
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/pengertian-python.md)
-========
->>>>>>>> pr/80:docs/tutorial/apa-itu-python.md
+<<<<<<<< HEAD:\_tutorial/pengertian-python.md
+
+> # [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/pengertian-python.md)
+>
+> > > > > > > > pr/80:docs/tutorial/apa-itu-python.md
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/_tutorial/pengertian-python.md)
 

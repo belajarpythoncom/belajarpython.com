@@ -1,17 +1,16 @@
 <div align="center">
-  <img src="https://belajarpython.com/images/logo-belajarpython-for-github.png"><br><br>
+  <img src="https://belajarpython.com/img/logo-belajarpython-for-github.png"><br><br>
 </div>
 
------------------
+---
 
-# [Belajarpython](https://www.belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/belajarpythoncom/belajarpython.com/blob/master/LICENSE)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpython.com/contribute)
+# [Belajarpython](https://www.belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/belajarpythoncom/belajarpython.com/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpython.com/contribute)
 
 Belajarpython adalah situs kolaboratif tutorial pemrograman Python bahasa Indonesia
 
-* **Ikuti Tutorial:** Mulai belajar bahasa pemrograman python dari tingkat dasar dengan tutorial yang dikhususkan untuk pemula agar lebih cepat mempelajari bahasa pemrograman python.
-* **Baca Artikel:** Baca artikel terbaru dan terpopuler tentang bahasa pemrograman python dengan beragam topik. Artikel dibuat oleh komunitas dan ditujukan untuk komunitas.
-* **Ajukan Pertanyaan:** Ajukan setiap pertanyaan yang anda temui tentang bahasa pemrograman python. Setiap orang di komunitas akan segera menyelesaikan setiap pertanyaan pengguna.
-
+- **Ikuti Tutorial:** Mulai belajar bahasa pemrograman python dari tingkat dasar dengan tutorial yang dikhususkan untuk pemula agar lebih cepat mempelajari bahasa pemrograman python.
+- **Baca Artikel:** Baca artikel terbaru dan terpopuler tentang bahasa pemrograman python dengan beragam topik. Artikel dibuat oleh komunitas dan ditujukan untuk komunitas.
+- **Ajukan Pertanyaan:** Ajukan setiap pertanyaan yang anda temui tentang bahasa pemrograman python. Setiap orang di komunitas akan segera menyelesaikan setiap pertanyaan pengguna.
 
 ## Kontribusi
 

@@ -3,11 +3,12 @@ layout: article
 comments: true
 title: Sastrawi, Natural Language Processing Mudah Dengan Python
 category: tutorial
-image: /images/sastrawi.jpg
+image: /img/sastrawi.jpg
 ---
 
 ---
-![Sastrawi NLP Bahasa Indonesia](/img/sastrawi.jpg "NLP Bahasa Indonesia")
+
+![Sastrawi NLP Bahasa Indonesia](/img/sastrawi.jpg 'NLP Bahasa Indonesia')
 
 Sastrawi adalah perpustakaan PHP sederhana yang memungkinkan Anda untuk mengurangi kata-kata yang terinfleksi dalam Bahasa Indonesia (Bahasa Indonesia) ke bentuk dasarnya (batang)
 
@@ -57,6 +58,6 @@ print(stemmer.stem('Mereka meniru-nirukannya'))
 
 Untuk lebih lengkapnya silahkan lihat di [Github](https://github.com/har07/PySastrawi)
 
-
 ---
-> *penulis: Purwanto [https://github.com/purwnt](https://github.com/purwnt)*
+
+> _penulis: Purwanto [https://github.com/purwnt](https://github.com/purwnt)_
