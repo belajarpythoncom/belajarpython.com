@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-main blockquote { 
+main blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 15px;
   color: #e2b215;
@@ -15,7 +15,7 @@ main hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 main p {
@@ -23,13 +23,26 @@ main p {
   margin-bottom: 1.3rem;
 }
 
-main .tutorial a{
+main .tutorial a {
   color: #007BE4;
 }
+
 main .tutorial a:hover {
   color: #e2b215;
   text-decoration: underline;
 }
+
+main pre {
+  width: 92vw;
+  overflow-x: scroll;
+}
+
+@media only screen and (min-width: 768px) {
+  main pre {
+    width: 100%;
+  }
+}
+
 main code {
   margin-bottom: 15px;
   background-color: #eee;
@@ -37,6 +50,7 @@ main code {
   font-size: 14px;
   border: 1px solid #e0e0e0;
   border-radius: 3px;
+  overflow-x: scroll;
 }
 
 main h1 {
@@ -91,16 +105,21 @@ main table {
   width: 100%;
 }
 
-main table  td, main table  th {
+main table td,
+main table th {
   border: 1px solid #ddd;
   padding: 10px;
 }
 
-main table  tr:nth-child(even){background-color: #f2f2f2;}
+main table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-main table  tr:hover {background-color: #dfe6ed;}
+main table tr:hover {
+  background-color: #dfe6ed;
+}
 
-main table  th {
+main table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
