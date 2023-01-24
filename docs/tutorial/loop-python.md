@@ -24,8 +24,8 @@ Dibawah ini adalah contoh penggunaan pengulangan While Loop.
 
 count = 0
 while (count < 9):
-print ("The count is: ", count)
-count = count + 1
+  print ("The count is: ", count)
+  count = count + 1
 
 print ("Good bye!")
 ```
@@ -40,12 +40,12 @@ Dibawah ini adalah contoh penggunaan pengulangan For Loop.
 #Contoh pengulangan for sederhana
 angka = [1,2,3,4,5]
 for x in angka:
-print(x)
+  print(x)
 
 #Contoh pengulangan for
 buah = ["nanas", "apel", "jeruk"]
 for makanan in buah:
-print ("Saya suka makan", makanan)
+  print ("Saya suka makan", makanan)
 ```
 
 ### Nested Loop
@@ -60,12 +60,12 @@ Dibawah ini adalah contoh penggunaan Nested Loop.
 
 i = 2
 while(i < 100):
-j = 2
+  j = 2
 while(j <= (i/j)):
-if not(i%j): break
-j = j + 1
-if (j > i/j) : print(i, " is prime")
-i = i + 1
+  if not(i%j): break
+  j = j + 1
+  if (j > i/j) : print(i, " is prime")
+    i = i + 1
 
 print("Good bye!")
 ```
