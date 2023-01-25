@@ -27,6 +27,11 @@ main .tutorial a {
   color: #007BE4;
 }
 
+main a {
+  color: #007BE4;
+  text-decoration: underline;
+}
+
 main .tutorial a:hover {
   color: #e2b215;
   text-decoration: underline;
