@@ -8,7 +8,7 @@ Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau
 
 Komentar biasa digunakan untuk membiarkan orang lain memahami apa yang dilakukan script. atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.
 
-Untuk menggunakan komentar anda cukup menulis tanda pagar `#`, diikuti dengan komentar Anda.
+Untuk menggunakan komentar anda cukup menulis tanda pagar `#` diikuti dengan komentar Anda atau dengan menggunakan string literal yang dibuka dan ditutup dengan """.
 
 Dibawah ini adalah contoh penggunaan komentar pada Python
 
