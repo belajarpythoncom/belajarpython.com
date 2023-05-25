@@ -51,7 +51,7 @@ print("Sisa hutang Anda adalah ", sisaHutang)
 #Perkalian
 panjang = 15
 lebar = 8
-luas = panjang \* lebar
+luas = panjang * lebar
 print(luas)
 
 #Pembagian
@@ -69,7 +69,7 @@ print("Sisa bagi dari bilangan ", bilangan1, " dan ", bilangan2, " adalah ", has
 #Pangkat
 bilangan3 = 8
 bilangan4 = 2
-hasilPangkat = bilangan3 \*\* bilangan4
+hasilPangkat = bilangan3 ** bilangan4
 print(hasilPangkat)
 
 #Pembagian Bulat
@@ -90,6 +90,30 @@ Operator perbandingan (comparison operators) digunakan untuk membandingkan suatu
 | Lebih kecil dari `<`              | `5 < 3`  | bernilai True Jika nilai operan kiri lebih kecil dari nilai operan kanan, maka kondisi menjadi benar.            |
 | Lebih besar atau sama dengan `>=` | `5 >= 3` | bernilai True Jika nilai operan kiri lebih besar dari nilai operan kanan, atau sama, maka kondisi menjadi benar. |
 | Lebih kecil atau sama dengan `<=` | `5 <= 3` | bernilai True Jika nilai operan kiri lebih kecil dari nilai operan kanan, atau sama, maka kondisi menjadi benar. |
+
+Dibawah ini adalah contoh penggunaan Operator Aritmatika dalam bahasa pemrograman Python
+
+```python
+# SAMA DENGAN
+print(1 == 1) # Hasilnya akan bernilai True karena satu sama dengan satu
+print(1 == 2) # Hasilnya akan bernilai False karena satu tidak sama dengan dua
+
+# TIDAK SAMA DENGAN
+print(2 != 2) # Hasilnya akan bernilai False karena dua seharusnya sama dengan dua
+print(2 != 3) # Hasilnya akan bernilai True karena dua tidak sama dengan tiga
+
+# LEBIH BESAR DARI
+print(5 > 3) # Hasilnya akan bernilai True karena lima lebih besar dari tiga
+
+# LEBIH KECIL DARI
+print(5 < 3) # Hasilnya akan bernilai False karena lima tidak lebih besar dari tiga
+
+# LEBIH BESAR DARI SAMA DENGAN
+print(5 >= 3) # Hasilnya akan bernilai True karena lima lebih besar dari sama dengan tiga
+
+# LEBIH KECIL DARI SAMA DENGAN
+print(5 <= 3) # Hasilnya akan bernilai False karena lima tidak lebih besar dari sama dengan tiga
+```
 
 ### Operator Penugasan <a name="operator-penugasan"></a>
 
