@@ -1,2 +1,1 @@
 mkdocs==1.4.2
-mkdocs-meta-descriptions-plugin==2.1.0

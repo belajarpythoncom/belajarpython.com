@@ -3,13 +3,13 @@ site_author: Purwanto
 theme:
     name: null
     custom_dir: 'belajarpython_theme/' 
-plugins:
-    - meta-descriptions:
-        export_csv: false
-        quiet: false
-        enable_checks: false
-        min_length: 50
-        max_length: 160
+# plugins:
+#     - meta-descriptions:
+#         export_csv: false
+#         quiet: false
+#         enable_checks: false
+#         min_length: 50
+#         max_length: 160
 # plugins:
 #     - categories
 
