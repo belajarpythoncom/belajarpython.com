@@ -8,7 +8,7 @@ Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. Ini 
 
 Variabel dapat menyimpan berbagai macam tipe data. Di dalam pemrograman Python, variabel mempunyai sifat yang dinamis, artinya variabel Python tidak perlu didekralasikan tipe data tertentu dan variabel Python dapat diubah saat program dijalankan.
 
-Penulisan variabel Python sendiri juga memiliki aturan tertentu, yaitu :
+Penulisan variabel Python sendiri juga memiliki aturan tertentu, yaitu:
 
 1. Karakter pertama harus berupa huruf atau garis bawah/underscore `_`
 2. Karakter selanjutnya dapat berupa huruf, garis bawah/underscore `_` atau angka
@@ -16,7 +16,7 @@ Penulisan variabel Python sendiri juga memiliki aturan tertentu, yaitu :
 
 Untuk mulai membuat variabel di Python caranya sangat mudah, Anda cukup menuliskan variabel lalu mengisinya dengan suatu nilai dengan cara menambahkan tanda sama dengan `=` diikuti dengan nilai yang ingin dimasukan.
 
-Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python
+Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python:
 
 ```python
 #proses memasukan data ke dalam variabel
@@ -42,12 +42,12 @@ print("Biodata\n", nama, "\n", umur, "\n", hobi)
 #contoh variabel lainya
 inivariabel = "Halo"
 ini_juga_variabel = "Hai"
-\_inivariabeljuga = "Hi"
+_inivariabeljuga = "Hi"
 inivariabel222 = "Bye"
 
 panjang = 10
 lebar = 5
-luas = panjang \* lebar
+luas = panjang * lebar
 print(luas)
 ```
 
