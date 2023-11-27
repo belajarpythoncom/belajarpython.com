@@ -41,10 +41,12 @@ Kondisi if else adalah kondisi dimana jika pernyataan benar `True` maka kode dal
 Dibawah ini adalah contoh penggunaan kondisi if else pada Python
 
 ```python
-#Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if, tetapi jika bernilai FALSE maka akan dieksekusi kode pada else
+# Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if,
+# tetapi jika bernilai FALSE maka akan dieksekusi kode pada else
 
 nilai = 3
-#Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi, tetapi jika FALSE kode pada else yang akan dieksekusi.
+# Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi,
+# tetapi jika FALSE kode pada else yang akan dieksekusi.
 if(nilai > 7):
     print("Selamat Anda Lulus")
 else:
