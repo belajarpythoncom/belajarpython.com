@@ -11,7 +11,7 @@ Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa mengguna
 1. Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>
 2. Ketik python maka Anda akan masuk ke Python shell.
 3. Tuliskan script Python Anda, contoh: `print("Selamat datang di Python")`. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.
-4. Untuk keluar dari Python shell ketik `exit()`
+4. Untuk keluar dari Python shell ketik `exit()` atau tekan <kbd>CTRL</kbd>+<kbd>D</kbd>
 
 _atau_
 
