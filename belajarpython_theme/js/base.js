@@ -154,6 +154,25 @@ $(document).ready(function() {
     });
 });
 
+// Scroll to the top
+// Get the button
+    let scrollToTopButton = document.getElementById("scrollToTop");
+
+    // Show button when user scrolls down
+    window.onscroll = function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopButton.style.display = "block";
+        } else {
+            scrollToTopButton.style.display = "none";
+        }
+    };
+
+    // Scroll to top when button is clicked
+    scrollToTopButton.onclick = function () {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    };
+
 $(window).on('resize', applyTopPadding);
 
 $('body').scrollspy({
