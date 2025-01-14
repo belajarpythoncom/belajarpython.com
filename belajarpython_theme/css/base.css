@@ -1373,4 +1373,14 @@ main kbd {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  // style button scrollToTop
+  #scrollToTop {
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#scrollToTop:hover {
+    background-color: #333;
+}
 }
