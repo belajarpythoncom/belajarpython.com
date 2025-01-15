@@ -1384,3 +1384,9 @@ main kbd {
     background-color: #333;
 }
 }
+
+// dark mode
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
