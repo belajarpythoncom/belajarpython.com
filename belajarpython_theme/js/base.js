@@ -154,6 +154,47 @@ $(document).ready(function() {
     });
 });
 
+// Scroll to the top
+// Get the button
+    let scrollToTopButton = document.getElementById("scrollToTop");
+
+    // Show button when user scrolls down
+    window.onscroll = function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopButton.style.display = "block";
+        } else {
+            scrollToTopButton.style.display = "none";
+        }
+    };
+
+    // Scroll to top when button is clicked
+    scrollToTopButton.onclick = function () {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    };
+
+    // dark mode
+    const darkModeButton = document.getElementById('toggleDarkMode');
+
+    // Cek apakah user sudah pernah memilih mode sebelumnya
+    if (localStorage.getItem('darkMode') === 'enabled') {
+        document.body.classList.add('dark-mode');
+        darkModeButton.textContent = '☀️ Light Mode';
+    }
+
+    // Tambahkan event listener untuk tombol
+    darkModeButton.addEventListener('click', () => {
+        if (document.body.classList.contains('dark-mode')) {
+            document.body.classList.remove('dark-mode');
+            localStorage.setItem('darkMode', 'disabled'); // Simpan preferensi user
+            darkModeButton.textContent = '🌙 Dark Mode';
+        } else {
+            document.body.classList.add('dark-mode');
+            localStorage.setItem('darkMode', 'enabled'); // Simpan preferensi user
+            darkModeButton.textContent = '☀️ Light Mode';
+        }
+    });
+
 $(window).on('resize', applyTopPadding);
 
 $('body').scrollspy({
